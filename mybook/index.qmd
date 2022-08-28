@@ -1,0 +1,50 @@
+# Course overview {.unnumbered}
+
+This book is a work-in-progress intended to support the course INFO5500 - Information in Society, which is a core course in the MI program offered at the School of Information Management, Dalhousie University. The course provides an introduction to the information field, and to the role that information plays in our individual and social lives and in society.
+
+## Learning outcomes
+
+Upon completion of this course, students should be able to:
+
+1.  Explain the general significance of information in contemporary society.
+2.  Provide an informed and critical perspective on information phenomena and processes.
+3.  Understand the nature and social roles of the information professions.
+4.  Identify contemporary issues and their relationship with information and the information
+    field.
+
+## Schedule
+
+| Week | Theme                                             |
+|:----:|---------------------------------------------------|
+|  1   | The field of information management               |
+|  2   | What is information?                              |
+|  3   | Informational issues in contemporary society      |
+|  4   | Information in our personal and social lives      |
+|  5   | Information at work                               |
+|  6   | Information and organizations                     |
+|  7   | The information economy                           |
+|  8   | The attention economy                             |
+|  9   | Information disorders                             |
+|  10  | Information and democracy                         |
+|  11  | Informational justice                             |
+|  12  | Big challenges for the information field: a panel |
+
+## Assignments
+
+| \#  | Assignment                                    | Value |   Due date   |
+|:---:|-----------------------------------------------|:-----:|:------------:|
+|  1  | Your engagement goal for the course           |  5%   | September 14 |
+|  2  | Analysis of an information setting            |  30%  | September 30 |
+|  3  | Essay topic and annotated bibliography        |  25%  |  October 28  |
+|  4  | Essay                                         |  35%  |  December 2  |
+|  5  | Self-assessment of engagement with the course |  5%   |  December 9  |
+
+## Other information and resources
+
+-   Use **APA style** for your references in all assignments.
+
+-   Use [Zotero](www.zotero.org) (or another reference manager of your choice) to store your references and to cite them in your work. (not mandatory, but highly recommended).
+
+-   You can use this Word template to write your assignments (not mandatory). Whether you use this template or not, use Word styles to format and structure your document.
+
+-   Have fun.
