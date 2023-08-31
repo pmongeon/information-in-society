@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.36">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,15 +11,21 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -33,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -84,11 +89,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ch2.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -96,104 +106,117 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Information in Society</a> 
         <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Overview</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The information field</span></a>
+  <a href="./ch1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The information field</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></a>
+  <a href="./ch2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Information issues</span></a>
+  <a href="./ch3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Information issues</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Humans in an information society</span></a>
+  <a href="./ch4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Humans in an information society</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Work in the information society</span></a>
+  <a href="./ch5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Work in the information society</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Information in organizations</span></a>
+  <a href="./ch6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Information in organizations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information economy</span></a>
+  <a href="./ch7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information economy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Attention economy</span></a>
+  <a href="./ch8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Attention economy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch9.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Misinformation, disinformation, and fake news</span></a>
+  <a href="./ch9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Misinformation, disinformation, and fake news</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch10.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">The public sphere and democracy</span></a>
+  <a href="./ch10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">The public sphere and democracy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch11.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and equity, diversity, and inclusion</span></a>
+  <a href="./ch11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and equity, diversity, and inclusion</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"> <span class="header-section-number">2.1</span> Learning objectives</a></li>
-  <li><a href="#what-is-information" id="toc-what-is-information" class="nav-link" data-scroll-target="#what-is-information"> <span class="header-section-number">2.2</span> <strong>What is information?</strong></a></li>
-  <li><a href="#situating-information-in-its-disciplinary-contexts" id="toc-situating-information-in-its-disciplinary-contexts" class="nav-link" data-scroll-target="#situating-information-in-its-disciplinary-contexts"> <span class="header-section-number">2.3</span> Situating information in its disciplinary contexts</a></li>
-  <li><a href="#a-definition-of-information-for-the-information-field" id="toc-a-definition-of-information-for-the-information-field" class="nav-link" data-scroll-target="#a-definition-of-information-for-the-information-field"> <span class="header-section-number">2.4</span> A definition of information for the information field?</a>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">2.1</span> Learning objectives</a></li>
+  <li><a href="#what-is-information" id="toc-what-is-information" class="nav-link" data-scroll-target="#what-is-information"><span class="header-section-number">2.2</span> <strong>What is information?</strong></a></li>
+  <li><a href="#situating-information-in-its-disciplinary-contexts" id="toc-situating-information-in-its-disciplinary-contexts" class="nav-link" data-scroll-target="#situating-information-in-its-disciplinary-contexts"><span class="header-section-number">2.3</span> Situating information in its disciplinary contexts</a></li>
+  <li><a href="#a-definition-of-information-for-the-information-field" id="toc-a-definition-of-information-for-the-information-field" class="nav-link" data-scroll-target="#a-definition-of-information-for-the-information-field"><span class="header-section-number">2.4</span> A definition of information for the information field?</a>
   <ul class="collapse">
-  <li><a href="#bates-fundamental-forms-of-information" id="toc-bates-fundamental-forms-of-information" class="nav-link" data-scroll-target="#bates-fundamental-forms-of-information"> <span class="header-section-number">2.4.1</span> Bates: fundamental forms of information</a></li>
-  <li><a href="#hjørland-information-as-a-subjectivesituation-construct" id="toc-hjørland-information-as-a-subjectivesituation-construct" class="nav-link" data-scroll-target="#hjørland-information-as-a-subjectivesituation-construct"> <span class="header-section-number">2.4.2</span> Hjørland: information as a subjective/situation construct?</a></li>
-  <li><a href="#buckland-information-as-thing-process-and-knowledge" id="toc-buckland-information-as-thing-process-and-knowledge" class="nav-link" data-scroll-target="#buckland-information-as-thing-process-and-knowledge"> <span class="header-section-number">2.4.3</span> <strong>Buckland: information as thing, process, and knowledge</strong></a></li>
+  <li><a href="#bates-fundamental-forms-of-information" id="toc-bates-fundamental-forms-of-information" class="nav-link" data-scroll-target="#bates-fundamental-forms-of-information"><span class="header-section-number">2.4.1</span> Bates: Fundamental forms of information</a></li>
+  <li><a href="#hjørland-information-as-a-subjectivesituation-construct" id="toc-hjørland-information-as-a-subjectivesituation-construct" class="nav-link" data-scroll-target="#hjørland-information-as-a-subjectivesituation-construct"><span class="header-section-number">2.4.2</span> Hjørland: Information as a subjective/situation construct?</a></li>
+  <li><a href="#buckland-information-as-thing-process-and-knowledge" id="toc-buckland-information-as-thing-process-and-knowledge" class="nav-link" data-scroll-target="#buckland-information-as-thing-process-and-knowledge"><span class="header-section-number">2.4.3</span> <strong>Buckland: information as thing, process, and knowledge</strong></a></li>
   </ul></li>
-  <li><a href="#the-data-information-knowledge-and-wisdom-pyramid" id="toc-the-data-information-knowledge-and-wisdom-pyramid" class="nav-link" data-scroll-target="#the-data-information-knowledge-and-wisdom-pyramid"> <span class="header-section-number">2.5</span> The data, information, knowledge, and wisdom pyramid</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"> <span class="header-section-number">2.6</span> Conclusion</a></li>
-  <li><a href="#additional-questions" id="toc-additional-questions" class="nav-link" data-scroll-target="#additional-questions"> <span class="header-section-number">2.7</span> Additional questions</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"> <span class="header-section-number">2.8</span> References</a></li>
+  <li><a href="#the-data-information-knowledge-and-wisdom-pyramid" id="toc-the-data-information-knowledge-and-wisdom-pyramid" class="nav-link" data-scroll-target="#the-data-information-knowledge-and-wisdom-pyramid"><span class="header-section-number">2.5</span> The data, information, knowledge, and wisdom pyramid</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">2.6</span> Conclusion</a></li>
+  <li><a href="#additional-questions" id="toc-additional-questions" class="nav-link" data-scroll-target="#additional-questions"><span class="header-section-number">2.7</span> Additional questions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">2.8</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -202,7 +225,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></h1>
 </div>
 
 
@@ -210,6 +233,7 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -218,72 +242,71 @@ div.csl-indent {
 
 <section id="learning-objectives" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">2.1</span> Learning objectives</h2>
-<p>So what is information anyways? If we are going to call ourselves information managers, information specialists, information professionals, or information scientists, it seems appropriate that we seek a clear understanding of what it is that we are experts of. The goal of this chapter is to explore the concept of information and its related concepts as they have been discussed within the field of library and information science. By the end of this chapter, you should be able to:</p>
+<p>So what is information anyway? If we call ourselves information managers, specialists, information professionals, or information scientists. In that case, it seems appropriate to seek a clear understanding of what we are experts in. This chapter aims to explore the concept of information and its related concepts as they have been discussed within the field of library and information science. By the end of this chapter, you should be able to:</p>
 <ul>
 <li>Recognize the challenges in defining the concept of information.</li>
 <li>Name and explain some of the concepts related to information.</li>
 <li>Situate these concepts in relationship with each other.</li>
 </ul>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Clarification
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The goal is not to for you to come out of this week with a final definition of information, but to TRY to define it and to position the concept in relation to other concepts so that you have at the very least an understanding of the various (sometimes conflicting) ways of thinking about information, and possibly a start of a conceptual framework that you will keep expanding as you progress in the MI program.</p>
+<p>The goal is not for you to come out of this week with a final definition of information but to TRY to define it and to position the concept in relation to other concepts so that you have, at the very least, an understanding of the various (sometimes conflicting) ways of thinking about information, and possibly a start of a conceptual framework that you will keep expanding as you progress in the MI program.</p>
 </div>
 </div>
 </section>
 <section id="what-is-information" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="what-is-information"><span class="header-section-number">2.2</span> <strong>What is information?</strong></h2>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Think of the word information, and write down the first 10 words (no more) that come to your mind.</p>
+<p>Think of the word information, and write down the first ten words (no more) that come to your mind.</p>
 <ul>
 <li><p>Was it difficult?</p></li>
 <li><p>In what way are your words related to one another beyond their common relationship to the word information</p></li>
 </ul>
 </div>
 </div>
-<p>Now that we brought the concept of information to our attention, let’s do what we were all taught (at least in my generation) to do when seeking to understand the meaning of a term, let us first turn to a dictionary to obtain a definition of the term “information”. Here are the definitions offered by the Merriam Webster Dictionary:</p>
+<p>Now that we have brought the concept of information to our attention, let us do what we were all taught (at least in my generation) to do when seeking to understand the meaning of a term and turn to a dictionary to obtain a definition of the term “information”. Here are the definitions offered by the Merriam-Webster Dictionary:</p>
 <ol type="1">
 <li>Knowledge obtained from investigation, study, or instruction</li>
 <li>Intelligence, News</li>
 <li>Facts, data</li>
 <li>The attribute inherent in and communicated by one of two or more alternative sequences or arrangements of something (such as nucleotides in DNA or binary digits in a computer program) that produce specific effects</li>
 <li>A signal or character (as in a communication system or computer) representing data</li>
-<li>Something (such as a message, experimental data, or a picture) which justifies change in a construct (such as a plan or theory) that represents physical or mental experience or another construct</li>
-<li>A quantitative measure of the content of information</li>
-<li>Specifically: a numerical quantity that measures the uncertainty in the outcome of an experiment to be performed</li>
+<li>Something (such as a message, experimental data, or a picture) that justifies a change in a construct (such as a plan or theory) that represents physical or mental experience or another construct</li>
+<li>A quantitative measure of the content of information. Specifically: a numerical quantity that measures the uncertainty in the outcome of an experiment to be performed</li>
 <li>The communication or reception of knowledge or intelligence</li>
 <li>The act of informing against a person</li>
 <li>A formal accusation of a crime made by a prosecuting officer as distinguished from an indictment presented by a grand jury</li>
 </ol>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Stop and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Think of the 10 words you came up with earlier.</p>
+<p>Think of the 10tenords you came up with earlier.</p>
 <ul>
-<li><p>To which of the 11 definitions above are your 10 words most strongly related?</p></li>
+<li><p>To which of the 11 definitions above are your ten words most strongly related?</p></li>
 <li><p>Which of the 11 definitions do you think are relevant to our field? Which do you think are not?</p></li>
 </ul>
 </div>
@@ -291,88 +314,103 @@ Stop and reflect
 </section>
 <section id="situating-information-in-its-disciplinary-contexts" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="situating-information-in-its-disciplinary-contexts"><span class="header-section-number">2.3</span> Situating information in its disciplinary contexts</h2>
-<p>One of the things that you may have noticed with the dictionary definitions is that some of them are unrelated to the information professions as you may now think of them after reading the previous chapter and attending the first class. Indeed, one of the main issues with the word “information” is that it is used in a wide variety of contexts or disciplines, and the meaning of the word often depends on that context or discipline. What then would be the specific understanding of information that is most useful for information management? The figure below is a network showing the links between disciplines represented by a large circle and the most frequent keywords containing the word “information” that research publications in these disciplines contain. Our field is represented by the orange circle labeled “LIS” (for Library and Information Science).</p>
+<p>One of the things that you may have noticed with the dictionary definitions is that some of them are unrelated to the information professions as you may now think of them. Indeed, one of the main issues with the word “information” is that it is used in a wide variety of contexts or disciplines, and the meaning of the word often depends on that context or discipline. What, then, would be the specific understanding of information that is most useful for information management? The figure below is a network showing the links between disciplines represented by a large circle and the most frequent keywords containing the word “information” that research publications in these disciplines contain. The orange circle represents our field labelled “LIS” (for Library and Information Science).</p>
 <p><img src="images/paste-E85F17EB.png" class="img-fluid"></p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Stop and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><p>What did you think of this map? Were you able to observe clear disciplinary differences in the use of the term “information”?</p></li>
-<li><p>Did the terms linked to the LIS field make sense to you based on what you know about the field? Were some of them surprising?</p></li>
+<li><p>What did you think of this map? Were you able to observe apparent disciplinary differences in the uses of the term “information”?</p></li>
+<li><p>Did the terms linked to the LIS field make sense to you based on your knowledge of the field? Were some of them surprising?</p></li>
 </ul>
 </div>
 </div>
 </section>
 <section id="a-definition-of-information-for-the-information-field" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="a-definition-of-information-for-the-information-field"><span class="header-section-number">2.4</span> A definition of information for the information field?</h2>
-<p>Whatever name the schools or programs that train information professionals are called (e.g., Information Management, Information Studies, Information Science), most have in common that one word: “information”. It is thus no surprise that at least a handful of scholars working in these schools or departments have sought to provide some conceptual clarity regarding that word that unites us all. What may be more surprising, however, is that several decades of scholarship and debates have not been successful at achieving a consensus on the definition of the word information. Still, these conceptual explorations have generated many attempts at such a definition leading us to explore more thoroughly a range of other concepts that are related to it and that have sometimes been used to determine what is (and what is not) information. They have also generated entertaining debates, such as the well-known discussion between Birger Hjørland and Marcia Bates on whether or not an understanding of information as an objective phenomenon is useful for the field. In the next section, we provide an overview of how three scholars of the information disciplines have proposed that we should think about the term information: Marcia Bates, Birger Hjørland, and Michael Buckland (who most of you were acquainted with in week 1 of the Organization of Information course).</p>
+<p>Whatever name the schools or programs that train information professionals are called (e.g., Information Management, Information Studies, Information Science), most have in common that one word: “information”. It is thus no surprise that at least a handful of scholars working in these schools or departments have sought to provide some conceptual clarity regarding that word that unites us all. What may be more surprising, however, is that several decades of scholarship and debates have not been successful at achieving a consensus on the definition of the word information. Still, these conceptual explorations have generated many attempts at such a definition l, leading us to explore more thoroughly a range of other concepts that are related to it and that have sometimes been used to determine what is (and what is not) information. They have also generated entertaining debates, such as the well-known discussion between Birger Hjørland and Marcia Bates on whether understanding information as an objective phenomenon is helpful for the field. In the next section, we provide an overview of how three scholars of the information disciplines have proposed that we should think about the term information: Marcia Bates, Birger Hjørland, and Michael Buckland.</p>
 <section id="bates-fundamental-forms-of-information" class="level3" data-number="2.4.1">
-<h3 data-number="2.4.1" class="anchored" data-anchor-id="bates-fundamental-forms-of-information"><span class="header-section-number">2.4.1</span> Bates: fundamental forms of information</h3>
-<p>Marcia Bates believed that all information is natural and exists in the material world of matter and energy and that “almost anything existing in the universe, that can come into human and other animals’ purview, can be experienced as information” <span class="citation" data-cites="bates2006">(<a href="#ref-bates2006" role="doc-biblioref">Bates 2006, 1033</a>)</span>. From there, she constructed a glossary of the different forms of information:</p>
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="bates-fundamental-forms-of-information"><span class="header-section-number">2.4.1</span> Bates: Fundamental forms of information</h3>
+<p>Marcia Bates believed that all information is natural and exists in the material world of matter and energy and that “almost anything existing in the universe that can come into human and other animals’ purview can be experienced as information” <span class="citation" data-cites="bates2006">(<a href="#ref-bates2006" role="doc-biblioref">Bates 2006, 1033</a>)</span>. From there, she constructed a glossary of the different forms of information:</p>
 <ul>
-<li><p><strong>Embedded information</strong>: Information left behind on earth by animals. Includes such things as human created tools, or paths through the woods.</p></li>
+<li><p><strong>Embedded information</strong>: Information left behind on earth by animals. Includes such things as human-created tools or paths through the woods.</p></li>
 <li><p><strong>Embodied</strong> <strong>information</strong>: The corporeal expression or manifestation of information previously in encoded form.</p></li>
-<li><p><strong>Encoded</strong> <strong>information</strong>: Natural information that is organized symbolically, linguistically, or is signal based.</p></li>
+<li><p><strong>Encoded</strong> <strong>information</strong>: Natural information organized symbolically, linguistically, or signal-based.</p></li>
 <li><p><strong>Enacted information</strong>: The pattern of organization of actions of an animal in, and interacting with, its environment, utilizing capabilities and experience from its neural stores.</p></li>
 <li><p><strong>Experienced information</strong>: The pattern of organization of subjective experience, the feeling of being in life, of an animal.</p></li>
 <li><p><strong>Exosomatic</strong> <strong>information</strong>: Information that is stored outside of the body.</p></li>
-<li><p><strong>Expressed</strong> <strong>information</strong>: The pattern of organization of communicatory scents, calls, gestures, and ultimately, human spoken language used to communicate among members of a species and between species.</p></li>
+<li><p><strong>Expressed</strong> <strong>information</strong>: The pattern of organization of communicatory scents, calls, gestures, and ultimately, the human spoken language used to communicate among species members and between species.</p></li>
 <li><p><strong>Genetic information</strong>: Information contained in the genotype</p></li>
 <li><p><strong>Genotype</strong>: The genetic constitution of a living thing.</p></li>
 <li><p><strong>Information 1</strong>: The pattern of organization of matter and energy</p></li>
-<li><p><strong>Information 2</strong>: Some pattern of organization of matter and energy given meaning by a living being.</p></li>
-<li><p><strong>Knowledge</strong>: Information that has been integrated with other contents of understanding and therefore given meaning.</p></li>
-<li><p><strong>Neural-cultural information</strong>: Information that has been created by, processed in, or disseminated from animal nervous systems, especially human nervous systems. (Neural information may also be used for lower animals and/or specifically for the nervous system structures that make memory and action possible in general in animals and humans.)</p></li>
+<li><p><strong>Information 2</strong>: Some pattern of organization of matter and energy to which a living being has given meaning.</p></li>
+<li><p><strong>Knowledge</strong>: Information that has been integrated with other contents of understanding and, therefore, given meaning.</p></li>
+<li><p><strong>Neural-cultural information</strong>: Information created by, processed in, or disseminated from animal nervous systems, especially human nervous systems. (Neural information may also be used for lower animals and/or specifically for the nervous system structures that make memory and action possible in general in animals and humans.)</p></li>
 <li><p><strong>Phenotype</strong>: The genetically and environmentally determined embodiment of a genotype.</p></li>
 <li><p><strong>Recorded</strong> <strong>information</strong>: Information that has been stored in a durable medium.</p></li>
 <li><p><strong>Represented information</strong>: Natural information that is encoded or embodied.</p></li>
 <li><p><strong>Trace</strong> <strong>information</strong>: The information that remains after a species is done with it. For example, a no-longer-used wasps’ nest.</p></li>
 </ul>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Suggested reading
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>If you want to read more about the fundamental forms of information and their relevance for the information field according to Marcia Bates, you can read the full article:</p>
+<p>If you want to read more about the fundamental forms of information and their relevance for the information field, according to Marcia Bates, you can read the full article:</p>
 <p>Bates, Marcia J. 2006. “Fundamental Forms of Information.” <em>Journal of the American Society for Information Science and Technology</em> 57 (8): 10331045. <a href="https://doi.org/10.1002/asi.20369" class="uri">https://doi.org/10.1002/asi.20369</a>.</p>
 </div>
 </div>
 </section>
 <section id="hjørland-information-as-a-subjectivesituation-construct" class="level3" data-number="2.4.2">
-<h3 data-number="2.4.2" class="anchored" data-anchor-id="hjørland-information-as-a-subjectivesituation-construct"><span class="header-section-number">2.4.2</span> Hjørland: information as a subjective/situation construct?</h3>
-<p>According to <span class="citation" data-cites="hjorland_information_2007">Hjørland (<a href="#ref-hjorland_information_2007" role="doc-biblioref">2007</a>)</span> There are two basic views of information:</p>
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="hjørland-information-as-a-subjectivesituation-construct"><span class="header-section-number">2.4.2</span> Hjørland: Information as a subjective/situation construct?</h3>
+<p>According to <span class="citation" data-cites="hjorland_information_2007">Hjørland (<a href="#ref-hjorland_information_2007" role="doc-biblioref">2007</a>)</span>, there are two basic views of information:</p>
 <ul>
-<li><p><strong>Objective information</strong>: information is any difference (in patterns of matter and energy, as in Bates’ concept of information 1)</p></li>
-<li><p><strong>Subjective/situational information</strong>: information is a difference that makes a difference</p></li>
+<li><p><strong>Objective information</strong>: information is any difference (in patterns of matter and energy, as in Bates’ concept of information 1).</p></li>
+<li><p><strong>Subjective/situational information</strong>: information is a difference that makes a difference.</p></li>
 </ul>
-<p>In his paper, @hjorland_information_2007 criticizes Bates’ fundamental form of information and argues that only subjective information is relevant to the field, and while Bates’ concept of information 2 is compatible with that view, the concept of information 1 is not and, according to <span class="citation" data-cites="hjorland_information_2007">Hjørland (<a href="#ref-hjorland_information_2007" role="doc-biblioref">2007</a>)</span>, should be ignored. Hjørland also argues that Bates’ definition of information 2 is too limited because it does not consider how computers process information, and because the 0s and 1s (the patterns of matter and energy) that computers process are not information in themselves because their interpretation depends on the computer program (what the programmer programmed the strings to represent).</p>
-<p>If no one is aware of an object than it cannot be information, it can become information once someone becomes aware of it. Under the situational definition of information, whether or not something is information depends on the circumstances surrounding the document, data, object or event. These things may be defined as information in certain situations but not in others. This idea becomes complicated when you think of how vast the range of information can be, determining if something is informative is very difficult. Think of an example of a tree, which can be informative in more than one way. It will represent other trees of its kind, but also the rings inside the trunk provide information about weather patterns. Anything can then be information given the right context. Hence, for Hjørland there is no point in ever considering information as an objective phenomenon without any context, since information is determined and defined by that context.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<p>In his paper, @hjorland_information_2007 criticizes Bates’ fundamental form of information and argues that only subjective information is relevant to the field. While Bates’ concept of information 2 is compatible with that view, the concept of information 1 is not and should be ignored. Hjørland also argues that Bates’ definition of information 2 is too limited because it specifies the need for a living being to interpret the signal and give it meaning, which excludes the idea of computers processing information.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
+Stop and reflect
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Do you agree with Hjørland and think computers can give meaning to the signal they process?</li>
+</ul>
+</div>
+</div>
+<p>For Hjørland, If no one is aware of an object, then it cannot be information; it can become information once someone (or a computer) becomes aware of it. Under the situational definition of information, whether or not something is information depends on the circumstances surrounding the document, data, object or event. These things may be defined as information in certain situations but not others. This idea becomes complicated when you think of how vast the range of information can be; determining if and how something can be informative is very difficult. Think of an example of a tree that can be informative in multiple ways. It will represent other trees of its kind, but the rings inside the trunk also provide information about weather patterns. Anything can then be information given the proper context. Hence, for Hjørland, there is no point in ever considering information as an objective phenomenon without any context since information is determined and defined by that context.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
 Suggested readings
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>If you want to read more about Hjørland’s view of information and his argument against Bates’ information 1 concept, you can read the full article:</p>
 <p>Hjørland, Birger. 2007. “Information: Objective or Subjective/Situational?” <em>Journal of the American Society for Information Science and Technology</em> 58 (10): 1448–56. <a href="https://doi.org/10.1002/asi.20620" class="uri">https://doi.org/10.1002/asi.20620</a>.</p>
-<p>This article was followed by a response from Bates followed by another response from Hjørland, if you’re curious to see how this little dispute unfolded.</p>
-<p>Bates, M. J. (2008). Hjørland’s critique of bates’ work on defining information. <em>Journal of the American Society for Information Science and Technology</em>, <em>59</em>(5), 842–844. <a href="https://doi.org/10.1002/asi.20796" class="uri">https://doi.org/10.1002/asi.20796</a></p>
+<p>This article was followed by a response from Bates, followed by another response from Hjørland if you are curious to see how this little dispute unfolded.</p>
+<p>Bates, M. J. (2008). Hjørland’s critique of Bates’ work on defining information. <em>Journal of the American Society for Information Science and Technology</em>, <em>59</em>(5), 842–844. <a href="https://doi.org/10.1002/asi.20796" class="uri">https://doi.org/10.1002/asi.20796</a></p>
 <p>Hjørland, B. (2009). The controversy over the concept of “information”: A rejoinder to Professor Bates. <em>Journal of the American Society for Information Science and Technology</em>, <em>60</em>(3), 643–643. <a href="https://doi.org/10.1002/asi.20972" class="uri">https://doi.org/10.1002/asi.20972</a></p>
 </div>
 </div>
@@ -380,28 +418,28 @@ Suggested readings
 <section id="buckland-information-as-thing-process-and-knowledge" class="level3" data-number="2.4.3">
 <h3 data-number="2.4.3" class="anchored" data-anchor-id="buckland-information-as-thing-process-and-knowledge"><span class="header-section-number">2.4.3</span> <strong>Buckland: information as thing, process, and knowledge</strong></h3>
 <p><span class="citation" data-cites="buckland1991">Buckland (<a href="#ref-buckland1991" role="doc-biblioref">1991</a>)</span> describes information in three ways; information-as-thing, information-as-process, and information-as-knowledge.</p>
-<p>Information can be thought of as a <strong>thing</strong> when it is used to describe an object such as data or documents. They are considered information because they are informative, they impart knowledge or communicate information. Pretty much everything around you can be informative, which is problematic for information professionals. Indeed, the information systems that we manage deal directly with information-as-thing and since we cannot deal with everything in the world, we need at some point to make decisions as to what kinds of information-as-thing we choose to engage with. The term document may be useful here. According to Briet (1951), a document is “any physical or symbolic sign, preserved or recorded, intended to represent, to reconstruct or to demonstrate a physical or conceptual phenomenon”. She is well known for her example of an antelope as a document. She discusses how an antelope that is living free in Africa would not be considered a document but once it is captured and put into a zoo it becomes an object of study. At that point it becomes a document as it is now physical evidence used by researchers. Information as a <strong>process</strong> occurs when someone is informed of something, changing what they know, and what is known is <strong>information-as-knowledge</strong> that exists in an intangible form in the mind of the knowing entity and cannot be observed or measured.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<p>Information can be considered a <strong>thing</strong> when it describes an object, such as data or documents. They are considered information because they are informative; they impart knowledge or communicate information. Everything around you can be informative, which is problematic for information professionals. Indeed, the information systems that we manage deal directly with information-as-thing and since we cannot deal with everything in the world, we need at some point to make decisions as to what kinds of information-as-thing we choose to engage with. The term document may be helpful here. According to Briet (1951), a document is “any physical or symbolic sign, preserved or recorded, intended to represent, reconstruct, or demonstrate a physical or conceptual phenomenon”. She is well known for her example of an antelope as a document. She discusses how an antelope that is living free in Africa would not be considered a document, but once it is captured and put into a zoo, it becomes an object of study. At that point, it has become a document as it is now physical evidence to be used by researchers. Information as a <strong>process</strong> occurs when someone is informed of something, changing what they know, and what is known is <strong>information-as-knowledge</strong> that exists in an intangible form in the mind of the knowing entity and cannot be observed or measured.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Stop and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>One branch of our field is called knowledge management. Since knowledge is information in an intangible form, how can it be managed?</li>
+<li>One branch of our field is called knowledge management. If knowledge is information in an intangible form that cannot be observed or measured, how can it be managed?</li>
 </ul>
 </div>
 </div>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Suggested reading
 </div>
 </div>
@@ -414,11 +452,11 @@ Suggested reading
 </section>
 <section id="the-data-information-knowledge-and-wisdom-pyramid" class="level2" data-number="2.5">
 <h2 data-number="2.5" class="anchored" data-anchor-id="the-data-information-knowledge-and-wisdom-pyramid"><span class="header-section-number">2.5</span> The data, information, knowledge, and wisdom pyramid</h2>
-<p>In our exploration of the concept of information, we came across many other terms such as document, knowledge, understanding, and data. One way to try to make sense of it all is by situating each of these terms in relation to each other. The data, information, knowledge and wisdom (DIKW) hierarchy or pyramid (pictured below) was not developed by scholars in the LIS field, but is useful to us as it offers a visual representation of the relationship between some of terms we encountered so far.</p>
+<p>In exploring the concept of information, we came across many other terms, such as document, knowledge, understanding, and data. One way to try to make sense of it all is by situating each of these terms in relation to each other. The data, information, knowledge and wisdom (DIKW) hierarchy or pyramid (pictured below) was not developed by scholars in the LIS field. Still, it can be helpful to us as it offers a visual representation of the relationship between some of the terms we encountered so far.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/ch2-dikw-pyramid.jpg" class="img-fluid figure-img" alt="Figure 2. The data, information, knowledge and wisdom (DIKW) pyramid"></p>
-<p></p><figcaption class="figure-caption">Figure 2. The data, information, knowledge and wisdom (DIKW) pyramid</figcaption><p></p>
+<p><img src="images/ch2-dikw-pyramid.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 2. The data, information, knowledge and wisdom (DIKW) pyramid</figcaption>
 </figure>
 </div>
 <p>Many authors agree that the first appearance of the hierarchy was in T.S. Elliot’s poem The Rock.</p>
@@ -426,14 +464,14 @@ Suggested reading
 <p>“Where is the wisdom that we have lost in knowledge?</p>
 <p>Where is the knowledge that we have lost in information?”</p>
 </blockquote>
-<p>The hierarchy is used to connect wisdom, knowledge, information and data to one another and to identify how entities at the higher levels are created from the entities at lower levels. According to the pyramid, data generates information, information generates knowledge and knowledge generates wisdom. However, just as defining information has proven quite challenging, there is no consensus on the definition of each level of the pyramid, no consensus regarding the number of layers that the pyramid should have, and no consensus regarding the hierarchical nature of the relationship between the concepts. <span class="citation" data-cites="rowley2007">(<a href="#ref-rowley2007" role="doc-biblioref">Rowley 2007</a>)</span>.</p>
-<p><span class="citation" data-cites="rowley2007">Rowley (<a href="#ref-rowley2007" role="doc-biblioref">2007</a>)</span> reviewed the literature on the pyramid and how each of the concepts were defined. She found that most definitions of data point to it being discrete objects, facts or observations, or recorded descriptions of things, events, activities, or transactions. According to Rowley’s review, researchers describe information in terms of data that has been formatted, processed, used, or given meaning. Knowledge, then, is often defined as information that has been processed in the mind of an individual,and may also include the requirement that this process has generated justified, true beliefs about the world <span class="citation" data-cites="rowley2007">(<a href="#ref-rowley2007" role="doc-biblioref">Rowley 2007</a>)</span>.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<p>The hierarchy is used to connect wisdom, knowledge, information and data to one another and identify how entities at the higher levels are created from those at lower levels. According to the pyramid, data generates information, information generates knowledge, and knowledge generates wisdom. However, just as defining information has proven quite challenging, there is no consensus on the definition of each level of the pyramid, no consensus regarding the number of layers the pyramid should have, and no consensus regarding the hierarchical nature of the relationship between the concepts. <span class="citation" data-cites="rowley2007">(<a href="#ref-rowley2007" role="doc-biblioref">Rowley 2007</a>)</span>.</p>
+<p><span class="citation" data-cites="rowley2007">Rowley (<a href="#ref-rowley2007" role="doc-biblioref">2007</a>)</span> reviewed the literature on the pyramid and how each concept was defined. She found that most definitions of data point to it being discrete objects, facts or observations, or recorded descriptions of things, events, activities, or transactions. According to Rowley’s review, researchers describe information as data that has been formatted, processed, used, or given meaning. Knowledge, then, is often defined as information that has been processed in an individual’s mind and may also include the requirement that this process has generated justified and true beliefs about the world <span class="citation" data-cites="rowley2007">(<a href="#ref-rowley2007" role="doc-biblioref">Rowley 2007</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Stop and reflect
 </div>
 </div>
@@ -442,22 +480,22 @@ Stop and reflect
 <li><p>If, according to the pyramid, information is processed data, and knowledge is processed information, then how would you define wisdom?</p></li>
 <li><p>Does good data necessarily lead to good information?</p></li>
 <li><p>In what ways do information professionals deal with each level of the pyramid?</p></li>
-<li><p>What levels of the pyramids are can be achieved by computers?</p></li>
+<li><p>What levels of the pyramids can be achieved by computers?</p></li>
 </ul>
 </div>
 </div>
 </section>
 <section id="conclusion" class="level2" data-number="2.6">
 <h2 data-number="2.6" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">2.6</span> Conclusion</h2>
-<p>In conclusion, let us all just remember that the purpose of the chapter was not to arrive at a final and universal understanding of information, but to initiate a reflection about information and related concepts, and how these may be relevant to our field. You may come out of this week with an increased sense of clarity or sense of confusion, but what matters most is that you are aware of the ideas behind the terminological mess, and that you reflect on how these ideas may be relevant to you as a future information professional.</p>
+<p>In conclusion, let us all just remember that the purpose of the chapter was not to arrive at a final and universal understanding of information but to initiate a reflection on information and related concepts and how these may be relevant to our field. You may come out of this week with an increased sense of clarity or confusion, but what matters most is that you are aware of the ideas behind the terminological mess and reflect on how these ideas may be relevant to you as a future information professional.</p>
 </section>
 <section id="additional-questions" class="level2" data-number="2.7">
 <h2 data-number="2.7" class="anchored" data-anchor-id="additional-questions"><span class="header-section-number">2.7</span> Additional questions</h2>
 <ol type="1">
 <li>Do you think that information exists in an objective form?</li>
 <li>Do you think that information exists in a subjective form?</li>
-<li>If two people read the same book, will they receive the same information?</li>
-<li>If you read the same book twice, do you receive the same information?</li>
+<li>Will two people receive the same information if they read the same book?</li>
+<li>Do you receive the same information if you read the same book twice?</li>
 <li>Does all information transfer require language?</li>
 </ol>
 </section>
@@ -465,17 +503,17 @@ Stop and reflect
 <h2 data-number="2.8" class="anchored" data-anchor-id="references"><span class="header-section-number">2.8</span> References</h2>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-bates2006" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bates2006" class="csl-entry" role="listitem">
 Bates, Marcia J. 2006. <span>“Fundamental Forms of Information.”</span> <em>Journal of the American Society for Information Science and Technology</em> 57 (8): 10331045. <a href="https://doi.org/10.1002/asi.20369">https://doi.org/10.1002/asi.20369</a>.
 </div>
-<div id="ref-buckland1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-buckland1991" class="csl-entry" role="listitem">
 Buckland, MK. 1991. <span>“Information as Thing.”</span> <em>JASIS</em>. <a href="http://skat.ihmc.us/rid=1KR7VC4CQ-SLX5RG-5T39/BUCKLAND(1991)-informationasthing.pdf">http://skat.ihmc.us/rid=1KR7VC4CQ-SLX5RG-5T39/BUCKLAND(1991)-informationasthing.pdf</a>.
 </div>
-<div id="ref-hjorland_information_2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hjorland_information_2007" class="csl-entry" role="listitem">
 Hjørland, Birger. 2007. <span>“Information: <span>Objective</span> or Subjective/Situational?”</span> <em>Journal of the American Society for Information Science and Technology</em> 58 (10): 1448–56. <a href="https://doi.org/10.1002/asi.20620">https://doi.org/10.1002/asi.20620</a>.
 </div>
-<div id="ref-rowley2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-rowley2007" class="csl-entry" role="listitem">
 Rowley, Jennifer. 2007. <span>“The Wisdom Hierarchy: Representations of the DIKW Hierarchy.”</span> <em>Journal of Information Science</em>, February. <a href="https://doi.org/10.1177/0165551506070706">https://doi.org/10.1177/0165551506070706</a>.
 </div>
 </div>
@@ -553,6 +591,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       }
     }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
   }
   const isFileUrl = () => { 
     return window.location.protocol === 'file:';
@@ -604,7 +652,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -612,9 +662,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -626,7 +690,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -654,31 +735,136 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
