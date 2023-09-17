@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.36">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,15 +11,21 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -33,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -84,11 +89,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information economy</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ch7.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information economy</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -96,105 +106,118 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Information in Society</a> 
         <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Overview</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The information field</span></a>
+  <a href="./ch1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The information field</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></a>
+  <a href="./ch2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Information issues</span></a>
+  <a href="./ch3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Information issues</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Humans in an information society</span></a>
+  <a href="./ch4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Humans in an information society</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Work in the information society</span></a>
+  <a href="./ch5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Work in the information society</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Information in organizations</span></a>
+  <a href="./ch6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Information in organizations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch7.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information economy</span></a>
+  <a href="./ch7.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information economy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Attention economy</span></a>
+  <a href="./ch8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Attention economy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch9.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Misinformation, disinformation, and fake news</span></a>
+  <a href="./ch9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Misinformation, disinformation, and fake news</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch10.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">The public sphere and democracy</span></a>
+  <a href="./ch10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">The public sphere and democracy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch11.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and equity, diversity, and inclusion</span></a>
+  <a href="./ch11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and equity, diversity, and inclusion</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"> <span class="header-section-number">7.1</span> Learning Objectives</a></li>
-  <li><a href="#information-in-a-capitalist-system" id="toc-information-in-a-capitalist-system" class="nav-link" data-scroll-target="#information-in-a-capitalist-system"> <span class="header-section-number">7.2</span> Information in a capitalist system</a>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">7.1</span> Learning Objectives</a></li>
+  <li><a href="#information-in-a-capitalist-system" id="toc-information-in-a-capitalist-system" class="nav-link" data-scroll-target="#information-in-a-capitalist-system"><span class="header-section-number">7.2</span> Information in a capitalist system</a>
   <ul class="collapse">
-  <li><a href="#market-principles-and-practices" id="toc-market-principles-and-practices" class="nav-link" data-scroll-target="#market-principles-and-practices"> <span class="header-section-number">7.2.1</span> Market principles and practices</a></li>
-  <li><a href="#the-commodification-of-information" id="toc-the-commodification-of-information" class="nav-link" data-scroll-target="#the-commodification-of-information"> <span class="header-section-number">7.2.2</span> The commodification of information</a></li>
-  <li><a href="#class-inequalities" id="toc-class-inequalities" class="nav-link" data-scroll-target="#class-inequalities"> <span class="header-section-number">7.2.3</span> Class inequalities</a></li>
+  <li><a href="#market-principles-and-practices" id="toc-market-principles-and-practices" class="nav-link" data-scroll-target="#market-principles-and-practices"><span class="header-section-number">7.2.1</span> Market principles and practices</a></li>
+  <li><a href="#the-commodification-of-information" id="toc-the-commodification-of-information" class="nav-link" data-scroll-target="#the-commodification-of-information"><span class="header-section-number">7.2.2</span> The commodification of information</a></li>
+  <li><a href="#class-inequalities" id="toc-class-inequalities" class="nav-link" data-scroll-target="#class-inequalities"><span class="header-section-number">7.2.3</span> Class inequalities</a></li>
   </ul></li>
-  <li><a href="#the-case-academic-publishing-industry" id="toc-the-case-academic-publishing-industry" class="nav-link" data-scroll-target="#the-case-academic-publishing-industry"> <span class="header-section-number">7.3</span> The case academic publishing industry</a></li>
-  <li><a href="#open-access" id="toc-open-access" class="nav-link" data-scroll-target="#open-access"> <span class="header-section-number">7.4</span> Open access</a></li>
-  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study"> <span class="header-section-number">7.5</span> Case study</a>
+  <li><a href="#the-case-academic-publishing-industry" id="toc-the-case-academic-publishing-industry" class="nav-link" data-scroll-target="#the-case-academic-publishing-industry"><span class="header-section-number">7.3</span> The case academic publishing industry</a></li>
+  <li><a href="#open-access" id="toc-open-access" class="nav-link" data-scroll-target="#open-access"><span class="header-section-number">7.4</span> Open access</a></li>
+  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study"><span class="header-section-number">7.5</span> Case study</a>
   <ul class="collapse">
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"> <span class="header-section-number">7.5.1</span> Discussion Questions</a></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">7.5.1</span> Discussion Questions</a></li>
   </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"> <span class="header-section-number">7.6</span> References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">7.6</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -203,7 +226,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information economy</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information economy</span></h1>
 </div>
 
 
@@ -211,6 +234,7 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -219,40 +243,40 @@ div.csl-indent {
 
 <section id="learning-objectives" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">7.1</span> Learning Objectives</h2>
-<p>The goal of this chapter is to get you to consider information as a commodity (something that can be bought, owned and sold) subject to market forces, and to reflect on the implications of this for libraries and information professionals and for society at large.</p>
+<p>This chapter aims to get you to consider information as a commodity (something that can be bought, owned and sold) subject to market forces and to reflect on the implications for libraries, information professionals and society at large.</p>
 </section>
 <section id="information-in-a-capitalist-system" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="information-in-a-capitalist-system"><span class="header-section-number">7.2</span> Information in a capitalist system</h2>
-<p>In this section, we summarize some of the key elements of Herbert Schiller’s views of the information society, as reported in <span class="citation" data-cites="webster_information_2014">Webster (<a href="#ref-webster_information_2014" role="doc-biblioref">2014</a>)</span>. Schiller’s perspective, influenced by his economics background and his work as a Professor of Communications, played a central role in the <strong>political economy</strong> approach to understanding information, which emphasized the importance of “looking behind information” at the structural features that shape the information produced:</p>
+<p>This section summarizes some of the key elements of Herbert Schiller’s views of the information society, as reported in <span class="citation" data-cites="webster_information_2014">Webster (<a href="#ref-webster_information_2014" role="doc-biblioref">2014</a>)</span>. Schiller’s perspective, influenced by his economics background and his work as a Professor of Communications, played a central role in the <strong>political economy</strong> approach to understanding information, which emphasized the importance of “looking behind information” at the structural features that shape the information produced:</p>
 <blockquote class="blockquote">
 <p><em>If one wants to understand why newspapers and television produce particular content, […] one ought not to start with an analysis of journalists, editors, or scriptwriters [or of the content itself]. Better far to ask: who owns the operation? What are the priorities of the business? Where does it make its money?</em> <span class="citation" data-cites="webster_information_2014">(<a href="#ref-webster_information_2014" role="doc-biblioref">Webster 2014, 152</a>)</span></p>
 </blockquote>
-<p>The political economy approach also emphasizes the importance of considering the capitalist system as a whole as well as the role of power, control, and interest and their significance for the information society. Some central points of Schiller’s theory are market principles and practices, corporate capitalism, the commodification of information, and class inequalities.</p>
+<p>The political economy approach also emphasizes the importance of considering the capitalist system as a whole, the role of power, control, and interest, and their significance for the information society. Some central points of Schiller’s theory are market principles and practices, corporate capitalism, the commodification of information, and class inequalities.</p>
 <section id="market-principles-and-practices" class="level3" data-number="7.2.1">
 <h3 data-number="7.2.1" class="anchored" data-anchor-id="market-principles-and-practices"><span class="header-section-number">7.2.1</span> Market principles and practices</h3>
-<p>According to Schiller, “the information environment is expressive of the interests and priorities of corporate capitalism” <span class="citation" data-cites="webster_information_2014">(<a href="#ref-webster_information_2014" role="doc-biblioref">Webster 2014, 167</a>)</span>. Since the main purpose of corporations is the generation of profits, which leads to information being produced and made available only if profits can be made. This determines what information will be produced, by who, for who, and under what conditions it will be made available. Moreover, under corporate capitalism, these decisions tend to be made by a limited number of large corporations that form powerful oligopolies.</p>
+<p>According to Schiller, “the information environment is expressive of the interests and priorities of corporate capitalism” <span class="citation" data-cites="webster_information_2014">(<a href="#ref-webster_information_2014" role="doc-biblioref">Webster 2014, 167</a>)</span>. The primary purpose of corporations is the generation of profits, which leads to information being produced and made available only if profits can be made. This determines what information will be produced, by whom, for whom, and under what conditions it will be available. Moreover, under corporate capitalism, these decisions tend to be made by a limited number of large corporations that form powerful oligopolies.</p>
 </section>
 <section id="the-commodification-of-information" class="level3" data-number="7.2.2">
 <h3 data-number="7.2.2" class="anchored" data-anchor-id="the-commodification-of-information"><span class="header-section-number">7.2.2</span> The commodification of information</h3>
-<p>According to Schiller and others, information is increasingly commodified so that it can operate in a market society. This means that information gets to be something that one can own, have a price, and be sold or licensed by a party to another <span class="citation" data-cites="webster_information_2014">(<a href="#ref-webster_information_2014" role="doc-biblioref">Webster 2014</a>)</span>. For information to exist as a commodity, there needs to be a legal framework that supports it, such as intellectual property law. In Canada, the Copyright Act protects the rights of content producers in Canada by granting them exclusive economic rights over their work <span class="citation" data-cites="al-sharieh_securing_2018">(<a href="#ref-al-sharieh_securing_2018" role="doc-biblioref">Al-Sharieh 2018</a>)</span>. However, the principle of fair dealing allows users to use copyrighted information without permission or payment of royalties. The “dealing” must only be for the following purposes; research, private study, criticism, review, news reporting, education, satire, or parody. Another exception is when a work is reproduced in alternative formats in order to increase accessibility for people with perceptual disabilities <span class="citation" data-cites="al-sharieh_securing_2018">(<a href="#ref-al-sharieh_securing_2018" role="doc-biblioref">Al-Sharieh 2018</a>)</span>. This highlights the need for a balance between the rights of the creator and the rights of the user (such as the right to participate in culture or the right to education).</p>
-<p>Schiller believed that information should be a public good, an idea that goes completely against the dominant model. The struggle between the public good and corporate interests is well illustrated in the realm of scholarly publishing, which we explore in more detail below.</p>
+<p>According to Schiller and others, information is increasingly commodified to operate in a market society. This means that information gets to be something one can own, have a price, and be sold or licensed by a party to another <span class="citation" data-cites="webster_information_2014">(<a href="#ref-webster_information_2014" role="doc-biblioref">Webster 2014</a>)</span>. For information to exist as a commodity, there needs to be a legal framework that supports it, such as intellectual property law. In Canada, the Copyright Act protects the rights of content producers by granting them exclusive economic rights over their work <span class="citation" data-cites="al-sharieh_securing_2018">(<a href="#ref-al-sharieh_securing_2018" role="doc-biblioref">Al-Sharieh 2018</a>)</span>. However, the principle of fair dealing allows users to use copyrighted information without permission or payment of royalties. The “dealing” must only be for the following purposes: research, private study, criticism, review, news reporting, education, satire, or parody. Another exception is when a work is reproduced in alternative formats to increase accessibility for people with perceptual disabilities <span class="citation" data-cites="al-sharieh_securing_2018">(<a href="#ref-al-sharieh_securing_2018" role="doc-biblioref">Al-Sharieh 2018</a>)</span>. This highlights the need for a balance between the rights of the creator and the rights of the user (such as the right to participate in culture or the right to education).</p>
+<p>Schiller believed that information should be a public good, an idea that goes entirely against the dominant model. The struggle between the public good and corporate interests is well illustrated in scholarly publishing, which we explore in more detail below.</p>
 </section>
 <section id="class-inequalities" class="level3" data-number="7.2.3">
 <h3 data-number="7.2.3" class="anchored" data-anchor-id="class-inequalities"><span class="header-section-number">7.2.3</span> Class inequalities</h3>
-<p>Class inequalities also shape the way that information is produced and distributed, as class can determine what information one has access to. This brings us back to the idea of the digital divide from chapter 3 on information issues. Schiller contends that the information society is one of “information stratification” where some (the minority) are information-rich, and others (the majority, or the “general public”) are information-poor. Furthermore, just like unregulated capitalism naturally leads to monopolies, the natural tendency of this system is to increase the gap between these two groups.</p>
-<p>When the ability to profit determines what information you will have access to, the information-poor are those who, by virtue of having the ability to pay, end up lumped together in what we call a “mass market” to which a “cheaper” kind of information can be sold without sacrificing profits.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<p>Class inequalities also shape how information is produced and distributed, as class can determine what information one has access to. This brings us back to the digital divide from Chapter 3 on information issues. Schiller contends that the information society is one of “information stratification” where some (the minority) are information-rich, and others (the majority, or the “general public”) are information-poor. Furthermore, just like unregulated capitalism naturally leads to monopolies, the natural tendency of this system is to increase the gap between these two groups.</p>
+<p>When the ability to profit determines what information you will have access to, the information-poor are those who, by having the ability to pay, end up lumped together in what we call a “mass market” to which a “cheaper” kind of information can be sold without sacrificing profits.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><p>What may be the effect of the dominance of market principles on the type of information that is produced, made available, and consumed by the public?</p></li>
+<li><p>What may be the effect of the dominance of market principles on the information produced, made available, and consumed by the public?</p></li>
 <li><p>How do you think we can determine the value of information?</p></li>
 <li><p>Do you think that information should be considered a public good? Why?</p></li>
 <li><p>Do you think that you are information-poor or information-rich?</p></li>
@@ -264,37 +288,37 @@ Pause and reflect
 </section>
 <section id="the-case-academic-publishing-industry" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="the-case-academic-publishing-industry"><span class="header-section-number">7.3</span> The case academic publishing industry</h2>
-<p>Academic publishing is an extremely profitable industry. Here’s how it works in a nutshell. Universities (funded mainly by students and taxpayers) pay the researchers’ salaries. The researchers ask for more public money to fund their research and hire research assistants, PhDs and postdocs to do research and write a manuscript to report the research and its results. They then submit the findings to a journal that is managed by a editorial board (all volunteers). One of these volunteers (although there are exceptions, as some editors-in-chiefs are paid) will recruit two or three additional volunteers to evaluate the submitted manuscript. After usually two rounds of reviews, the paper will be copy-edited, packaged, and sold back to the universities who already paid the salaries of all the people involved in the production and evaluation of the work.</p>
-<p>For a much more detailed and accurate depiction of the industry, consider the suggested reading below.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<p>Academic publishing is a highly profitable industry. Here’s how it works in a nutshell. Universities (funded mainly by students and taxpayers) pay the researchers’ salaries. The researchers ask for more public money to fund their research and hire research assistants, PhDs and postdocs to do research and write a manuscript to report the research and its results. They then submit the findings to a journal managed by an editorial board (all volunteers). One of these volunteers (although there are exceptions, as some editors-in-chief are paid) will recruit two or three additional volunteers to evaluate the submitted manuscript. After two rounds of reviews, the paper will be copy-edited, packaged, and sold back to the universities who already paid the salaries of all the people involved in producing and evaluating the work.</p>
+<p>Consider the suggested reading below for a much more detailed and accurate depiction of the industry.</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Suggested readings
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The following article is a very compelling account of the publishing industry and how it came to be.</p>
+<p>The following article is a compelling account of the publishing industry and its origins.</p>
 <p>Buranyi, S. (2017). Is the staggeringly profitable business of scientific publishing bad for science? <em>The Guardian</em>. <a href="https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science" class="uri">https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</a></p>
-<p>This one is a bibliometric account of how the digital era led to an increased concentration of the publishing market in the hand of a few publishers.</p>
+<p>This one is a bibliometric account of how the digital era led to an increased concentration of the publishing market in the hands of a few publishers.</p>
 <p>Larivière, V., Haustein, S., &amp; Mongeon, P. (2015). The Oligopoly of Academic Publishers in the Digital Era. <em>PLoS ONE</em>, <em>10</em>(6), e0127502. <a href="https://doi.org/10.1371/journal.pone.0127502" class="uri">https://doi.org/10.1371/journal.pone.0127502</a></p>
 </div>
 </div>
-<p>In principle published research article is unique: “each journal has the monopoly on the scientific content of papers it publishes: paper A published in journal Y is not an alternative to paper B published in journal Z” <span class="citation" data-cites="larivière2015">(<a href="#ref-larivière2015" role="doc-biblioref">Larivière, Haustein, and Mongeon 2015</a>)</span>. Furthermore, access to published research is crucial for researchers to stay up to date with the advances in their field and compete in a highly competitive research environment. This allows publishers to increase their prices without influencing demand much, leading to hyperinflation of journal subscription prices that deplete academic libraries budgets <span class="citation" data-cites="shu2017">(<a href="#ref-shu2017" role="doc-biblioref">Shu et al. 2017</a>)</span>.</p>
-<p>The digitization of academic publishing and journals created an opportunity to reduce the cost associated with the publication and storage of scholarly journals. The publishers introduced the journal bundles (the “Big Deal”), which indeed seemed like good deals until the continuous price increase of these bundles led libraries back to scare one.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<p>In principle, a published research article is unique: “each journal has the monopoly on the scientific content of papers it publishes: paper A published in journal Y is not an alternative to paper B published in journal Z” <span class="citation" data-cites="larivière2015">(<a href="#ref-larivière2015" role="doc-biblioref">Larivière, Haustein, and Mongeon 2015</a>)</span>. Furthermore, access to published research is crucial for researchers to stay current with the advances in their field and compete in a highly competitive research environment. This allows publishers to increase their prices without influencing demand, leading to hyperinflation of journal subscription prices that deplete academic libraries’ budgets <span class="citation" data-cites="shu2017">(<a href="#ref-shu2017" role="doc-biblioref">Shu et al. 2017</a>)</span>.</p>
+<p>The digitization of academic publishing and journals created an opportunity to reduce the cost associated with publishing and storing scholarly journals. The publishers introduced the journal bundles (the “Big Deal”), which indeed seemed like good deals until the continuous price increase of these bundles led libraries back to scare one.</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 The cost of access to scholarly journals in Canada
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The subscriptions fees paid by Canadian university libraries to some publishers are reported yearly and are openly available. The latest release of this data can be found in <span class="citation" data-cites="brin2021">Brin (<a href="#ref-brin2021" role="doc-biblioref">2021</a>)</span>. Here are the subscriptions reported for Dalhousie University for the 2019-2020 fiscal year:</p>
+<p>The subscription fees paid by Canadian university libraries to some publishers are reported yearly and are openly available. The latest release of this data can be found in <span class="citation" data-cites="brin2021">Brin (<a href="#ref-brin2021" role="doc-biblioref">2021</a>)</span>. Here are the subscriptions reported for Dalhousie University for the 2019-2020 fiscal year:</p>
 <table class="table">
 <colgroup>
 <col style="width: 75%">
@@ -363,19 +387,19 @@ The cost of access to scholarly journals in Canada
 </table>
 </div>
 </div>
-<p>The unsustainable financial situation has led several universities to cancel journal subscriptions. In 2016, the Canadian Research Knowledge Network (CRKN) launched the Journal Usage Project (JUP), a national evaluation of journal usage in universities to help libraries assess the state of their collection and either cancel the big deals or negotiate better prices with publishers. The results of this evaluation shed light on the concentration of journal use in Canadian universities, with almost two-thirds of the journals included in the Springer (now Springer-Nature) being considered important for none of the universities included in the study.</p>
+<p>The unsustainable financial situation has led several universities to cancel journal subscriptions. In 2016, the Canadian Research Knowledge Network (CRKN) launched the Journal Usage Project (JUP), a national evaluation of journal usage in universities to help libraries assess the state of their collection and either cancel the big deals or negotiate better prices with publishers. The results of this evaluation shed light on the concentration of journal use in Canadian universities, with almost two-thirds of the journals included in the Springer (now Springer-Nature) being considered essential for none of the universities included in the study.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/core_journals.jpg" class="img-fluid figure-img" width="666"></p>
-<p></p><figcaption class="figure-caption">Relative frequency distribution of journals by the number of universities where they are used significantly <span class="citation" data-cites="mongeon2021">(<a href="#ref-mongeon2021" role="doc-biblioref">Mongeon et al. 2021</a>)</span>.</figcaption><p></p>
+<figcaption class="figure-caption">Relative frequency distribution of journals by the number of universities where they are used significantly <span class="citation" data-cites="mongeon2021">(<a href="#ref-mongeon2021" role="doc-biblioref">Mongeon et al. 2021</a>)</span>.</figcaption>
 </figure>
 </div>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Suggested reading
 </div>
 </div>
@@ -387,13 +411,13 @@ Suggested reading
 </section>
 <section id="open-access" class="level2" data-number="7.4">
 <h2 data-number="7.4" class="anchored" data-anchor-id="open-access"><span class="header-section-number">7.4</span> Open access</h2>
-<p>Open Access is a movement aiming to make research output freely available on the internet by removing barriers to access such as subscription prices. Two main models of open access were initially proposed by the Budapest initiative (BOAI): the first one, self-archiving (also known as green open access), allows researchers to deposit their already published articles in open electronic archives also known as repositories. The second one, also known as gold open access, relies on a brand new type of journal that makes new scientific articles immediately available on its website, with no copyright restriction. These new journals would not charge for subscription or access fees. While the original BOAI declaration suggested that these new journals find alternative sources of revenue (such as grants or adds-on that could be sold as an extra), article processing charges (APCs), a publishing fee charged to authors, emerged as one of the main sources of funding for OA journals. While the open access movement may have seemed like a break away from the commodification of scientific knowledge, the pay to publish model turned out to be, once again, an extremely lucrative business for publishers. <span class="citation" data-cites="butler2022">Butler et al. (<a href="#ref-butler2022" role="doc-biblioref">2022</a>)</span> estimated that the five largest publishers generated $1.06 billion in revenues from APCs during the 2015-2018 period.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<p>Open Access is a movement aiming to make research output freely available online by removing barriers to access, such as subscription prices. The Budapest Initiative (BOAI) initially proposed two main open-access models. The first one, self-archiving (also known as green open access), allows researchers to deposit their already published articles in open electronic archives, also known as repositories. The second one, also known as gold open access, relies on a brand new type of journal that makes new scientific articles immediately available on its website, with no copyright restriction. These new journals would not charge for subscription or access fees. While the original BOAI declaration suggested that these new journals find alternative sources of revenue (such as grants or adds-on that could be sold as an extra), article processing charges (APCs), a publishing fee charged to authors, emerged as one of the primary sources of funding for OA journals. While the open access movement may have seemed like a break away from the commodification of scientific knowledge, the pay-to-publish model turned out to be, once again, an extremely lucrative business for publishers. <span class="citation" data-cites="butler2022">Butler et al. (<a href="#ref-butler2022" role="doc-biblioref">2022</a>)</span> estimated that the five largest publishers generated $1.06 billion in revenues from APCs during 2015-2018.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Pause and reflect
 </div>
 </div>
@@ -406,29 +430,29 @@ Pause and reflect
 </section>
 <section id="case-study" class="level2" data-number="7.5">
 <h2 data-number="7.5" class="anchored" data-anchor-id="case-study"><span class="header-section-number">7.5</span> Case study</h2>
-<p><em>The gang have all moved on from their entry level jobs and are starting towards the careers they hoped for while in school. Dante has become a public librarian at Saskatoon Public Library, Jude is working at the Nova Scotia Archives, Tracy is a knowledge management corporate consultant in the arts and entertainment sector in Montreal, and Wren has been given a promotion at the tech start-up she works for.</em></p>
-<p><em>Dante and Jude are both attending a library and archives conference in Lake Como, Italy. The conference party, which takes place on a small, private boat, features many prominent professionals in the field of Information Management.</em></p>
-<p><em>The air is warm as the two disembark the boat at the end of the night discussing the conversations. One speaker that resonated with both of them was Mallory Jensen, an Academic librarian from New York State. She spoke about her work negotiating with publishers to unbundle the academic journals her library purchases so that libraries can save money and only buy the journals their library desires.</em></p>
-<p><strong>Jude</strong>: I don’t have to deal with the issues surrounding big academic publishers because I work in archives, but Mallory really is passionate about what she does, and she shed light on how this is an issue with repercussions for all areas of the library. Budget has a huge influence on how resources are distributed in library settings!</p>
+<p><em>The gang have all moved on from their entry-level jobs and are starting towards the careers they hoped for while in school. Dante has become a public librarian at Saskatoon Public Library, Jude is working at the Nova Scotia Archives, Tracy is a knowledge management corporate consultant in Montreal’s arts and entertainment sector, and Wren has been promoted at the tech start-up she works for.</em></p>
+<p><em>Dante and Jude attend a library and archives conference in Lake Como, Italy. The conference party, which takes place on a small, private boat, features many prominent professionals in Information Management.</em></p>
+<p><em>The air is warm as the two disembark the boat at the end of the night, discussing the conversations. One speaker that resonated with both was Mallory Jensen, an Academic librarian from New York State. She spoke about her work negotiating with publishers to unbundle the academic journals her library purchases so that libraries can save money and only buy the journals their library desires.</em></p>
+<p><strong>Jude</strong>: I don’t have to deal with the issues surrounding big academic publishers because I work in archives, but Mallory is passionate about what she does. She shed light on how this is an issue with repercussions for all areas of the library. The budget significantly influences how resources are distributed in library settings!</p>
 <p><strong>Dante</strong>: You nailed it, Jude. I have met a few academic librarians through these types of conferences who are also frustrated by this issue. It is already so expensive for universities to purchase these journals. It just seems insane to force them to buy ones they don’t even want.</p>
-<p><strong>Jude</strong>: It really is! And then on top of that, its ludicrous that universities are having to buy back the research that they’ve already paid their professors to do.</p>
-<p><strong>Dante</strong>: If only there were a way around it, like if the research could just be found online some way so students and staff could just download and read it for free.</p>
-<p><strong>Jude</strong>: Arrrrghhhh, I know we just got off a boat, but Dante, you’re talking about piracy! Do you really think that’s a fair solution? How can you guarantee that the authors are being properly compensated if their work is being illegally downloaded?</p>
-<p><strong>Dante</strong>: I guess I never thought about it that way. When there’s a new book that I really want to read with a long holds list at our library I usually just go online and try to find a free copy to download. I figure I would be reading it for free through the library anyways, so what difference does it make?</p>
+<p><strong>Jude</strong>: It really is! And then, on top of that, it’s ludicrous that universities have to buy back the research they’ve already paid their professors to do.</p>
+<p><strong>Dante</strong>: If only there were a way around it, like if the research could be found online, students and staff could just download and read it for free.</p>
+<p><strong>Jude</strong>: Arrrrghhhh, I know we just got off a boat, but Dante, you’re talking about piracy! Do you think that’s a fair solution? How can you guarantee that the authors are appropriately compensated if their work is illegally downloaded?</p>
+<p><strong>Dante</strong>: I guess I never thought about it that way. When there’s a new book I want to read with a long holds list at our library, I usually just go online and try to find a free copy to download. I figure I would be reading it for free through the library anyway, so what difference does it make?</p>
 <p><strong>Jude</strong>: The difference is that downloading it online is immoral! That is someone’s intellectual property. Waiting for a copy from the library or purchasing it at a bookshop is the right thing to do. You could also buy a copy online.</p>
-<p><strong>Dante</strong>: But why would I buy a digital copy when it’s so easily accessible for free? How can people really be successful selling information online when there’s so much available?</p>
-<p><strong>Jude</strong>: What about open-access journals? There has been a big movement towards them. They offer freely accessible content in the spirit of democratizing knowledge, but usually charge publication fees in order to make the work they host publicly available. This remedies the problem of the end-user paying abominable subscription fees, though, they carry their own set of issues. But at least we are moving in the right direction!</p>
-<p><strong>Dante</strong>: You’re probably right! Speaking of open access, why don’t we just go grab an aperitif at that cute little restaurant across the street, it has a beautiful, uncovered patio and it’s such a warm evening!</p>
-<p><strong>Jude</strong>: That’s a great idea, oh look! There’s Mallory sitting with a couple more of the conference speakers, let’s see if she can offer some more insight!</p>
+<p><strong>Dante</strong>: But why would I buy a digital copy when it’s so easily accessible for free? How can people be successful selling information online when there’s so much available?</p>
+<p><strong>Jude</strong>: What about open-access journals? There has been a significant movement towards them. They offer freely accessible content to democratize knowledge but usually charge publication fees to make the work they host publicly available. This remedies the problem of the end-user paying abominable subscription fees, though they carry their own issues. But at least we are moving in the right direction!</p>
+<p><strong>Dante</strong>: You’re probably right! Speaking of open access, why don’t we just grab an aperitif at that cute little restaurant across the street? It has a beautiful, uncovered patio, and it’s such a warm evening!</p>
+<p><strong>Jude</strong>: That’s a great idea, oh look! Mallory is sitting with a couple more conference speakers; let’s see if she can offer more insight!</p>
 <section id="discussion-questions" class="level3" data-number="7.5.1">
 <h3 data-number="7.5.1" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">7.5.1</span> Discussion Questions</h3>
 <ul>
-<li><p>Do you agree with Dante or Jude? Do you think that it’s fair for someone to be able to download a pdf of a book for free online when others are purchasing it legally? Why?</p></li>
-<li><p>What is your opinion on the oligopoly that controls all the academic journals that libraries purchase?</p></li>
+<li><p>Do you agree with Dante or Jude? Do you think that it’s fair for someone to be able to download a PDF of a book for free online when others are purchasing it legally? Why?</p></li>
+<li><p>What is your opinion on the oligopoly controlling all the academic journals libraries purchase?</p></li>
 <li><p>Do you think that these journal bundles should be unbundled? Why?</p></li>
 <li><p>How do we determine value differently on an individual versus collective basis?</p></li>
-<li><p>Are you able to find your institution’s policy on Open-Access? How can institutional repositories and libraries help facilitate open-access publishing among their faculty and students?</p></li>
-<li><p>Find 1-2 open access journals online and try to determine how they generate revenue. What are your thoughts on the open access movement?</p></li>
+<li><p>Are you able to find your institution’s policy on Open-Access? How can institutional repositories and libraries help facilitate open-access publishing among faculty and students?</p></li>
+<li><p>Find 1-2 open-access journals online and try to determine how they generate revenue. What are your thoughts on the open-access movement?</p></li>
 </ul>
 </section>
 </section>
@@ -436,26 +460,26 @@ Pause and reflect
 <h2 data-number="7.6" class="anchored" data-anchor-id="references"><span class="header-section-number">7.6</span> References</h2>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-al-sharieh_securing_2018" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-al-sharieh_securing_2018" class="csl-entry" role="listitem">
 Al-Sharieh, Saleh. 2018. <span>“Securing the <span>Future</span> of <span>Copyright</span> <span>Users</span>’ <span>Rights</span> in <span>Canada</span>.”</span> <em>Windsor Yearbook of Access to Justice</em> 35 (May): 11–39. <a href="https://doi.org/10.22329/wyaj.v35i0.5109">https://doi.org/10.22329/wyaj.v35i0.5109</a>.
 </div>
-<div id="ref-brin2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-brin2021" class="csl-entry" role="listitem">
 Brin, Lise. 2021. <span>“Expenditures of CARL Member Libraries for Scholarly Resource Subscriptions Licensed Through CRKN for 2019 - 2020 / Dépenses Des Bibliothèques Membres de l’ABRC Pour Les Abonnements Aux Ressources Savantes Sous Licence Du RCDR Pour l’année 2019 - 2020.”</span> Federated Research Data Repository / dépôt fédéré de données de recherche. <a href="https://doi.org/10.20383/102.0324">https://doi.org/10.20383/102.0324</a>.
 </div>
-<div id="ref-butler2022" class="csl-entry" role="doc-biblioentry">
+<div id="ref-butler2022" class="csl-entry" role="listitem">
 Butler, Leigh-Ann, Lisa Matthias, Marc-André Simard, Philippe Mongeon, and Stefanie Haustein. 2022. <span>“The Oligopoly’s Shift to Open Access. How For-Profit Publishers Benefit from Article Processing Charges.”</span> <a href="https://doi.org/10.5281/zenodo.7057144">https://doi.org/10.5281/zenodo.7057144</a>.
 </div>
-<div id="ref-larivière2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-larivière2015" class="csl-entry" role="listitem">
 Larivière, Vincent, Stefanie Haustein, and Philippe Mongeon. 2015. <span>“The Oligopoly of Academic Publishers in the Digital Era.”</span> Edited by Wolfgang Glanzel. <em>PLOS ONE</em> 10 (6): e0127502. <a href="https://doi.org/10.1371/journal.pone.0127502">https://doi.org/10.1371/journal.pone.0127502</a>.
 </div>
-<div id="ref-mongeon2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mongeon2021" class="csl-entry" role="listitem">
 Mongeon, Philippe, Kyle Siler, Antoine Archambault, Cassidy Sugimoto, and Vincent Larivière. 2021. <span>“Collection Development in the Era of Big Deals.”</span> <em>College &amp; Research Libraries</em> 82 (2): 219. <a href="https://doi.org/10.5860/crl.82.2.219">https://doi.org/10.5860/crl.82.2.219</a>.
 </div>
-<div id="ref-shu2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-shu2017" class="csl-entry" role="listitem">
 Shu, Fei, Philippe Mongeon, Stefanie Haustein, Kyle Siler, Juan Pablo Alperin, and Vincent Larivière. 2017. <span>“Is It Such a Big Deal? On the Cost of Journal Use in the Digital Era.”</span> <em>College and Research Libraries</em>.
 </div>
-<div id="ref-webster_information_2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-webster_information_2014" class="csl-entry" role="listitem">
 Webster, Frank. 2014. <span>“Information and the Market System: <span>Herbert</span> <span>Schiller</span>.”</span> In <em>Theories of the Information Society</em>, Fourth edition, 149–95. International Library of Sociology. Abingdon, Oxon: Routledge.
 </div>
 </div>
@@ -533,6 +557,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       }
     }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
   }
   const isFileUrl = () => { 
     return window.location.protocol === 'file:';
@@ -584,7 +618,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -592,9 +628,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -606,7 +656,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -634,31 +701,136 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
