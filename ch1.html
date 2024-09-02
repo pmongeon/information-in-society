@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -68,7 +69,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -77,8 +84,10 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -91,13 +100,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ch1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The information field</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ch1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The information field</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -106,7 +115,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Information in Society</a> 
@@ -197,7 +206,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -242,7 +251,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <section id="learning-objectives" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">1.1</span> Learning objectives</h2>
@@ -250,21 +261,21 @@ div.csl-indent {
 </section>
 <section id="what-is-the-information-field" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="what-is-the-information-field"><span class="header-section-number">1.2</span> What is the information field?</h2>
-<p>The Master of Information, like other similar programs offered in Canada and the United States, is often associated with libraries and librarianship (and rightfully so) because of its accreditation by the American Library Association (ALA). ALA-accredited degrees are generally a requirement for a range of positions in libraries of all kinds and other related organizations. Accordingly, most students reading this chapter will likely be interested in pursuing a career in librarianship. Many of you, however, are in this program with completely different careers in mind, and you may be surprised by the emphasis on libraries. Perhaps some of you have no prior thoughts about the program or the field as you are taking this course as an elective or simply because you ended up here randomly. Those of you in the Master of Information Management program, which is <strong>not</strong> ALA-accredited, are likely mid-career professionals working in a wide range of sectors. Whatever group you find yourself in, now that you are here, you might be surprised by the breadth of the discipline and the many professional pathways it can lead you on. Maybe you joined the program to be a children’s services librarian and will come out of it as an aspiring data scientist…who knows?</p>
+<p>The Master of Information, like other similar programs offered in Canada and the United States, is often associated with libraries and librarianship (and rightfully so) because of its accreditation by the American Library Association (ALA). ALA-accredited degrees are generally a requirement for a range of positions in libraries of all kinds and other related organizations. Accordingly, most students reading this chapter will likely be interested in pursuing a career in librarianship. Many of you, however, are in this program with completely different careers in mind, and you may be surprised by the emphasis on libraries. Perhaps some of you have no prior thoughts about the program or the field as you are taking this course as an elective or simply because you ended up here randomly. Those of you in the Master of Information Management program, which is <strong>not</strong> ALA-accredited, are likely mid-career professionals working in a wide range of sectors. Whatever group you find yourself in, now that you are here, you might be surprised by the breadth of the discipline and the many professional pathways it can lead you on. Maybe you joined the program to be a children services librarian and will come out of it as an aspiring data scientist…who knows?</p>
 <p>So, what is the information field? <span class="citation" data-cites="bates2015">Bates (<a href="#ref-bates2015" role="doc-biblioref">2015</a>)</span> referred to our discipline as a meta-discipline that spans the entire spectrum of traditional research disciplines, from the Arts and Humanities to Natural Sciences. While it is not comprehensive, this figure from <span class="citation" data-cites="bates2015">Bates (<a href="#ref-bates2015" role="doc-biblioref">2015</a>)</span> was an attempt to illustrate the breadth of the discipline by situating many of the sub-disciplines across that spectrum.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/ch1-fig1.jpg" class="img-fluid figure-img" width="653"></p>
-<figcaption class="figure-caption">Figure 1.1. The information sub-fields <span class="citation" data-cites="bates2015">(<a href="#ref-bates2015" role="doc-biblioref">Bates, 2015</a>)</span></figcaption>
+<figcaption>Figure 1.1. The information sub-fields <span class="citation" data-cites="bates2015">(<a href="#ref-bates2015" role="doc-biblioref">Bates, 2015</a>)</span></figcaption>
 </figure>
 </div>
 </section>
 <section id="core-competencies" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="core-competencies"><span class="header-section-number">1.3</span> Core competencies</h2>
-<p>Regardless of your professional path or the sector in which you find employment. There are a set of competencies that are core to our field. These are visible through the core competencies lists that you will find on the website of most schools offering ALA-accredited programs. Here are the MI competencies published on the program’s website:</p>
+<p>Regardless of your professional path or the sector in which you find employment. There are a set of competencies that are core to our field. These are visible through the core competencies lists that you will find on the website of most academic units offering ALA-accredited programs. Here are the MI competencies published on the program’s website:</p>
 <ol type="1">
 <li><p><strong>Adaptation</strong>: Information managers anticipate and adapt to trends in information management, support organizational change, and promote a learning culture within the organization.</p></li>
-<li><p><strong>Collaboration</strong>: Information managers work effectively in teams, cultivate a collaborative culture within the organization, and build relationships with stakeholders.&nbsp;</p></li>
+<li><p><strong>Collaboration</strong>: Information managers work effectively in teams, cultivate a collaborative culture within the organization, and build relationships with stakeholders.</p></li>
 <li><p><strong>Commitment to equity, diversity, inclusion, accessibility, and decolonization</strong>: Information managers practice and critique the principles of equity, diversity, inclusion, accessibility, and decolonization for participating in an inclusive and socially just society.</p></li>
 <li><p><strong>Communication:</strong> Information managers communicate effectively, listen actively, and are receptive to feedback and suggestions.</p></li>
 <li><p><strong>Digital and technological literacy</strong>: Information managers safely, responsibly, creatively, and effectively use technologies. They assess the organization’s or users’ IT requirements and develop and implement IT strategies that support the organization’s mission.</p></li>
@@ -326,7 +337,7 @@ Things to think about
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/ch1-fig3.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 1.2 Employment sectors (San Jose State University, 2022)</figcaption>
+<figcaption>Figure 1.2 Employment sectors (San Jose State University, 2022)</figcaption>
 </figure>
 </div>
 <p>In the rest of the chapter, we look more closely at some areas where you might work as an information professional. For each, we provide some information on the typical jobs and the specific skills that may be valuable, as well as other information resources such as the websites of professional associations. We also introduce some information professionals interviewed by Janine McGregor, a second-year MI student, during the summer of 2022.</p>
@@ -346,9 +357,9 @@ Meet a professionals
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Dyan Bader<br>
+<p><strong>Dyan Bader<br>
 Manager<br>
-Systems &amp; Collections Access Nova Scotia Provincial Library</p>
+Systems &amp; Collections Access Nova Scotia Provincial Library</strong></p>
 <p>As the manager of systems and collections access for the Nova Scotia Provincial Library, Dyan works with all the public libraries outside Halifax, which are grouped into eight regional libraries. Her team manages the back-end systems these libraries use daily, including the integrated library system, their discovery layer, and their digital lending platform. Each regional library region made their own decisions related to the integrated library system. Still, during the last five years, Dyan and her team worked with the eight regional libraries to integrate these into a single system called “Same Page.” The new system launched in April 2022 expands access to almost 1,000,000 resources for patrons throughout Nova Scotia. With the new system, Dyan’s team must work with the different regions to ensure consensus on all decisions that impact the system. These large projects require a lot of planning and coordination to ensure that the best decisions are made since they directly affect libraries across the province. Most of Dyan’s time is spent in meetings and writing documents.</p>
 <p>The Nova Scotia Provincial Library is part of the provincial government and supports regional libraries in several ways, either as a leader, a partner, or a service provider. This brings a lot of variety to Dyan’s work since her projects and tasks are driven by these different roles.</p>
 <p>Specific skills would benefit those looking to work in a similar role. Project management is huge, as well as problem-solving, facilitation and time management. Leadership is something that you will learn along the way.</p>
@@ -366,9 +377,9 @@ Meet a professional
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Jeff Mercer<br>
+<p><strong>Jeff Mercer<br>
 Deputy Chief Librarian<br>
-South Shore Public Libraries<br>
+South Shore Public Libraries</strong><br>
 <br>
 As the deputy chief librarian of a small system of libraries, Jeff is responsible for many different things. He is in charge of PR, promotions, community outreach, and volunteer services. He oversees all programming at each branch, IT, and systems support or development. Jeff also oversees policy and procedure review and revision and has some input on collections development. In terms of staffing, Jeff deals with hiring, performance evaluation, goal setting, training, and occasionally scheduling.</p>
 <p>This position has two main sides: the public side and the staff side. Jeff’s job is to say yes as much as possible to patron’s requests when working with the public. Jeff must also help his staff to be successful in their positions.</p>
@@ -406,9 +417,9 @@ Meet a professional
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Sharon Murray<br>
+<p><strong>Sharon Murray<br>
 Archives Advisor<br>
-Council of Nova Scotia Archives</p>
+Council of Nova Scotia Archives</strong></p>
 <p>Although Sharon does not hold an MI degree, her job is very relevant to people within the program, and her knowledge of the profession is vast. Before working in her current position, Sharon worked directly in the archives, digitizing items for improved access. She systematically processed the photographic records at the archives she worked in and created databases to store them in. She was also required to label, re-shelve and store items. She created web exhibits and research guides for improved public access. Her path to archives was not a straight one. She initially picked up archives work as a side job to improve her research. After returning to Nova Scotia, she picked up more substantial work in the archives. She began to pivot as she felt that the archives were a very fulfilling fit for her skills, experiences and interests. She found it eye-opening to see how much impact archival records can have on the public when true, meaningful access is provided. While in this role, she digitized several thousand photographs. She and her colleagues had a lot of discussions about storage and access.</p>
 <p>Sharon’s current role with the Council of Nova Scotia Archives differs significantly. The CNSA is the professional association for archives and archivists in Nova Scotia. The organization’s purpose is to provide support, education and advocacy for those in the profession. In Nova Scotia, there are around 75 archives that are members, which range vastly in size and resources from small volunteer-run archives to larger ones with multiple permanent paid staff. The CNSA offers courses, workshops and training opportunities to help members develop the essential knowledge and skills to manage their archives. Sharon teaches most courses, with 50% of her role offering advisory services. Due to this, she must keep on top of the current discussions and needs within the profession to ensure that the knowledge she is conveying is current.</p>
 <p>Sharon describes the two most essential skills in the archives profession as a background in Equity Diversity and Inclusion (EDI) and digital preservation and access knowledge. The profession is currently at a turning point in which they acknowledge their role in silencing the stories and voices of Indigenous peoples in Canada. Archivists want to ensure that they are doing the right thing in the future by endeavouring to preserve records, stories and information about all people. The second turning point she described was the digital turn. Archives are heading into brave new territory where it isn’t paper-based records but digital content that must be preserved. A lot more digital-born content will require digital infrastructure to be built. It is also essential for archivists to have relational skills, meaning a desire to build relationships and connect communities. Archive work is becoming more service-oriented.</p>
@@ -442,7 +453,7 @@ Did you know?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The School of Information Management offers a course on legal librarianship (INFO&nbsp;6320 Legal Literature and Librarianship), part of the Librarianship <a href="https://www.dal.ca/faculty/management/school-of-information-management/current-students-site/certificates.html#librarianship">Certificate</a>.</p>
+<p>One of the MI electives is a course on legal librarianship (INFO6320 Legal Literature and Librarianship), part of the Librarianship <a href="https://www.dal.ca/faculty/management/school-of-information-management/current-students-site/certificates.html#librarianship">Certificate</a>.</p>
 </div>
 </div>
 </section>
@@ -459,7 +470,7 @@ Did you know?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The School of Information Management offers a course on legal librarianship (INFO&nbsp;6750 Health Sciences Literature and Information Sources), also part of the Librarianship <a href="https://www.dal.ca/faculty/management/school-of-information-management/current-students-site/certificates.html#librarianship">Certificate</a>.</p>
+<p>One of electives in the MI program is a course on legal librarianship (INFO6320 Legal Literature and Librarianship), also part of the Librarianship <a href="https://www.dal.ca/faculty/management/school-of-information-management/current-students-site/certificates.html#librarianship">Certificate</a>.</p>
 </div>
 </div>
 <p>Health and law librarianship are sometimes put into the broader <strong>special libraries</strong> category alongside most libraries operating in highly specialized public, non-profit and corporate settings. You might be surprised about the number of libraries and librarians (sometimes under different labels) found in various organizations, such as the <a href="https://www.asc-csa.gc.ca/eng/library/">Canadian Space Agency</a>, the Cirque du Soleil, or the Montreal Botanical Garden. Check out the Canadian chapter of the Special Library Association (SLA) to learn more about special libraries.</p>
@@ -493,9 +504,9 @@ Meet a professional
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Stephanie Bilodeau<br>
+<p><strong>Stephanie Bilodeau<br>
 Manager, Open Government and Data Governance<br>
-Royal Canadian Mounted Police – IM/IT Program</p>
+Royal Canadian Mounted Police – IM/IT Program</strong></p>
 <p>Stephanie wears two hats with her job at the RCMP; she is the manager of Open Government and Data Governance. There is a significant need for these positions because programmers created systems to store data, but more needs to be done to organize and manage that data. They have found that when using these systems, things aren’t accurate, and queries are not constantly pulling up the right data. There is also bias in the systems depending on who entered the data. Some systems have too much data as it hasn’t been managed, disposed of or cleaned in years, creating privacy issues. This is where data governance comes into play. It is Stephanie’s job to govern how the data is entered, how the data is utilized and how it is managed.</p>
 <p>Stephanie provides service to clients. Her department serves all the department employees, helping them organize, collect, store, preserve, secure and dispose of information. She also must write policy instruments, including standards, guidelines, procedures, and processes for managing information. She must establish governance and facilitate decision-making with those with authority and responsibility regarding the data and information. As a manager, Stephanie manages the office, the employees, the workload, the scheduling of work, and the delegation of work. Open government is concerned with publishing information that would be in the public interest to be transparent. There is a lot of work to do in this regard, including ensuring that information is protected and publishing relevant information. To enhance democracy, all citizens should be able to participate in these discussions.</p>
 <p>If you want to work in a similar position, you must be a people person. The job requires you to meet with clients, partners and collaborators and to work with people to help enhance their experience of working with information. This is a position in which you would rarely work alone. It would be best if you were organized and technologically savvy. This position is incredibly tech-focused, so knowing how information is managed through IT systems is essential. You must be adaptable as the role changes and open-minded to different cultures, languages, and personalities. You must also be bilingual, speaking both French and English.</p>
@@ -518,8 +529,8 @@ Meet a professional
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Trecia<br>
-Community Services Librarian and Managing Branch Librarian of the Stellarton and Trenton Public Libraries and the regional Borrow-by-Mail service.</p>
+<p><strong>Trecia<br>
+Community Services Librarian and Managing Branch Librarian of the Stellarton and Trenton Public Libraries and the regional Borrow-by-Mail service.</strong></p>
 <p>Trecia enrolled in the MLIS program at McGill University and specialized in Knowledge Management to learn how to share knowledge best. During the final term of her program, she completed an internship with Rio Tinto Alcan in their International Intellectual Properties Division, and there, she learned that effective knowledge-gathering and sharing strategies rely on a sound understanding of your audiences. Knowledge Management work often involves doing research to fulfill specific needs and constantly re-evaluating knowledge purpose and use to ensure that the collected resources are of value for the people in the organization using them.</p>
 <p>Trecia is now the Community Services Librarian and Managing Branch Librarian of the Stellarton and Trenton Public Libraries and the regional Borrow-by-Mail service. In addition, her job portfolio covers the regional areas of responsibility for Public Relations and Communications, Programming, Outreach, and Services for Adults. One of her main focuses is developing Community-based programs and services, which involves working with the staff in each location to plan programming responsive to their communities’ needs. She finds that programming works best when there is engagement with the community to participate. Community-led programming begins with conversations with the community-at-large and other community service providers to determine programs and services of interest and value. This is the key to building responsive public library services.</p>
 <p>According to Trecia, some essential skills required of successful public librarians and public library staff include communication and leadership. Communication is critically important, mainly formal communication skills such as being comfortable with public speaking (giving presentations and leading workshops), understanding the evolving social media etiquette, and crafting effective media releases and grant applications (and reports). Management, leadership skills, and solid project management experience are vital to creating a healthy, responsive, thriving workplace environment.</p>
@@ -533,7 +544,7 @@ Community Services Librarian and Managing Branch Librarian of the Stellarton and
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/CC_DC with manual labels_title.svg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 1.3. map of Canadian LIS publications (Mongeon et al., in press)</figcaption>
+<figcaption>Figure 1.3. map of Canadian LIS publications <span class="citation" data-cites="mongeon2023">(<a href="#ref-mongeon2023" role="doc-biblioref">Mongeon et al., 2023</a>)</span>.</figcaption>
 </figure>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -549,7 +560,20 @@ Did you know?
 <p>If you want to learn how to analyze research fields and produce visualizations like Figure 1.3, consider taking the Bibliometrics and Scholarly Communications course (INFO6550) typically offered in the fall.</p>
 </div>
 </div>
-<p>If you want to know more about research in the field, check out the profiles of <a href="https://www.dal.ca/faculty/management/school-of-information-management/faculty-staff/faculty.html">SIM faculty members</a> and contact anyone to know more about their research. You can also look at this <a href="https://www.zotero.org/groups/sim_research/library/">bibliography of all the research authored or co-authored by someone at the Department of Information Science</a> that we could find in the Scopus database. You can also discuss it with your academic advisor or check out the <a href="https://www.asist.org/">Association for Information Science and Technology</a> (ASIST) and the <a href="https://cais-acsi.ca/">Canadian Association for Information Science</a> (CAIS).</p>
+<p>If you want to know more about research in the field, check out the profiles of <a href="https://www.dal.ca/faculty/management/faculty-staff/information-science.html">faculty members of the Department of Information Science</a> and get in touch with them to know more about their research. You can also look at this <a href="https://www.zotero.org/groups/sim_research/library/">bibliography of all the research authored or co-authored by someone at the Department of Information Science</a>. You can also discuss it with your academic advisor or check out the <a href="https://cais-acsi.ca/">Canadian Association for Information Science (CAIS)</a>, or the <a href="https://www.asist.org/">Association for Information Science and Technology (ASIST)</a>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Did you know?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Because the Department of Information Science is an institutional member of the Canadian Association for Information Science, you can become a member for free. You can register here: <a href="https://cais-acsi.ca/membership" class="uri">https://cais-acsi.ca/membership</a>.</p>
+</div>
+</div>
 </section>
 <section id="conclusion" class="level2" data-number="1.15">
 <h2 data-number="1.15" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">1.15</span> Conclusion</h2>
@@ -561,13 +585,13 @@ Did you know?
 <li>What are the sectors or types of information work interest you the most?</li>
 <li>What are the primary skills or knowledge you will develop during the program?</li>
 </ul>
-<p>You may have a clear idea of the answer to that question, but you may also feel like you don’t know enough at this point. Perfect, that’s what this entire course and program are for. The School of Information Management faculty and staff are here to guide you and help you make the best of your program and what will come next.</p>
+<p>You may have a clear idea of the answer to that question, but you may also feel like you don’t know enough at this point. Perfect, that’s what this entire course and program are for. The Department of Information faculty and staff are here to guide you and help you make the best of your program and what will come next.</p>
 </section>
 <section id="references" class="level2" data-number="1.17">
 <h2 data-number="1.17" class="anchored" data-anchor-id="references"><span class="header-section-number">1.17</span> References</h2>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-bates2015" class="csl-entry" role="listitem">
 Bates, M. J. (2015). The information professions: Knowledge, memory, heritage. <em>Information Research</em>, <em>20</em>(1), Paper 665. <a href="http://informationr.net/ir/20-1/paper655.html">http://informationr.net/ir/20-1/paper655.html</a>
 </div>
@@ -576,6 +600,9 @@ Gorman, M. (2015). <em>Our enduring values revisited: Librarianship in an ever-c
 </div>
 <div id="ref-koehler2003" class="csl-entry" role="listitem">
 Koehler, W. (2003). Professional values and ethics as defined by <span>"</span>the LIS discipline<span>"</span>. <em>Journal of Education for Library and Information Science</em>, <em>44</em>(2), 99–119. <a href="http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=15045134">http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=15045134</a>
+</div>
+<div id="ref-mongeon2023" class="csl-entry" role="listitem">
+Mongeon, P., Gracey, C., Riddle, P., Hare, M., Simard, M.-A., &amp; Sauvé, J.-S. (2023). Mapping information research in canada. <em>The Canadian Journal of Information and Library Science</em>, <em>46</em>(2), 1–27. <a href="https://doi.org/10.5206/cjils-rcsib.v46i2.15568">https://doi.org/10.5206/cjils-rcsib.v46i2.15568</a>
 </div>
 </div>
 </section>
@@ -622,6 +649,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -690,13 +744,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -775,10 +831,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -788,8 +861,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -801,7 +883,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -845,6 +1050,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -870,6 +1076,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -931,17 +1163,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
+      <a href="./index.html" class="pagination-link" aria-label="Overview">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Overview</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ch2.html" class="pagination-link">
+      <a href="./ch2.html" class="pagination-link" aria-label="What is information?">
         <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is information?</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
