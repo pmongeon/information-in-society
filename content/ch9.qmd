@@ -1,0 +1,210 @@
+---
+title: Chapter 9. Misinformation, Disinformation, and Fake News 
+bibliography: references.bib
+csl: apa.csl
+---
+
+## Learning Objectives
+
+Earlier in the semester, we spoke about information quality and how the information we consume can shape our worldviews. In this chapter, we will return to this issue and dive deeper into the definitions of misinformation, disinformation and fake news. We will consider the origins of misinformation, how it spreads, and societal costs. Lastly, we will discuss how to reduce the impact of misinformation and what we, as information professionals, can do.
+
+## Definitions
+
+The main difference between misinformation and disinformation is the intent behind it. Misinformation occurs when someone unknowingly shares false information under the pretense that it is true, whereas disinformation occurs when someone deliberately creates and shares information they know is false [@depaor2020]. Fake news has been defined in many different ways but generally can be seen as false news articles that mislead the reader [@depaor2020]. Fake news is co-constructed by its audience because it automatically becomes fiction if the audience does not believe it. There are many kinds of fake news, including satire, parody, fabrication, advertising and propaganda. The major problem is that fake news creators are making money off this societal trend and are, therefore, motivated to make believable false news stories [@depaor2020].
+
+::: callout-tip
+## Pause and Reflect
+
+-   Can you think of a time when you have knowingly or unknowingly spread false information?
+-   Have you ever encountered fake news?
+    -   Did you believe that it was true?
+    -   Did it in any way shape your actions?
+-   Can you think of an example of news satire?
+    -   What do you think the intentions behind it are?
+    -   What is a well-known news parody website?
+    -   Have you ever believed an article shared through one of these sites?
+:::
+
+## Origins of Misinformation
+
+Misinformation can arise in many different ways. One way is that rumours and fiction may be considered to be true. People are more likely to pass on information that evokes emotion regardless of if it is truthful. This is a common occurrence with information gleaned through gossip. People may also read fictional stories and believe their reading is accurate [@lewandowsky_misinformation_2012].
+
+The government and politicians are also known to spread misinformation. People often cannot determine which information is true or false, especially surrounding elections. People often expect to encounter some misinformation during elections [@lewandowsky_misinformation_2012].
+
+The media, including social media, are also spreaders of misinformation. The media can take accurate information from scientific studies and twist it in a way that can be misinterpreted- by oversimplifying, misrepresenting or over-dramatizing scientific results. The media often tries to portray balanced stories, but sometimes, this can create misleading outcomes. Social media, too, is a vast spreader of misinformation. Anyone can post information online without professional editors or fact checkers verifying the truthfulness of their statements. Hoax websites exist solely to spread misinformation- and disinformation. Selective exposure may also occur if people only seek out media sources that confirm their beliefs [@lewandowsky_misinformation_2012].
+
+::: callout-tip
+## Pause and Reflect
+
+-   What is an example of a fictional story that was believed to be true?
+
+-   Can you think of a time when the media may have presented you with misleading information?
+:::
+
+## How does misinformation spread?
+
+The internet creates filter bubbles in which people's social media feeds and Google searches are filtered only to include information that aligns with their current beliefs. In the Ted Talk below, Eli Pariser describes filter bubbles as "your own personal, unique universe of information you live in online". The main problem with this is that people are not shown any opposing views, which only strengthens their current views. If the views held are false, they will still be shown more information that aligns with them.
+
+:::: {style="max-width:854px"}
+::: {style="position:relative;height:0;padding-bottom:56.25%"}
+<iframe src="https://embed.ted.com/talks/lang/en/eli_pariser_beware_online_filter_bubbles" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen>
+
+</iframe>
+:::
+::::
+
+<br> People believe and spread misinformation for a myriad of reasons. People often don't know that something is misinformation until it is corrected. Even then, they may have difficulty believing the corrected information if it does not align with their beliefs. Worldview and personal ideology play a role in people's willingness to believe misinformation- people will often argue anything that goes against their pre-existing worldview [@lewandowsky_misinformation_2012]. People also struggle to identify whether or not a source is reliable. If an information source is persuasive, people are more likely to believe it is credible. People so rarely look into their sources that most often, people remember the gist of the information they read but not the source it came from. This shows how important it is for people to consider the sources they are getting their information from and whether they may be biased or misleading. It has also been shown that retractions often don't work -- people sometimes believe the information more after a retraction because they have been repeatedly exposed to it. This is because the more familiar information becomes, the truer it can seem [@lewandowsky_misinformation_2012].
+
+::: callout-tip
+## Pause and Reflect
+
+With a friend, Google something related to a current event happening in the world and compare your results. For example, "Covid-19" or "Martha's Vineyard". See if you receive the same results.
+
+-   Were you surprised by the outcome?
+
+-   How do you check that the sources you are reading are credible?
+
+-   Is it something you think that you could improve on?
+
+-   How would you teach others to do the same?
+:::
+
+## Societal costs
+
+There are many societal costs of misinformation and disinformation. One major one is that if a large majority believe in misinformation, then that misinformation can shape political decisions. This would not be in the best interest of society.
+
+::: callout-tip
+## Pause and Reflect
+
+Can you think of any other societal costs of misinformation or disinformation?
+:::
+
+## Reducing the impact of misinformation
+
+There are many ways to combat misinformation and help people make more informed decisions about what they read and believe. One way to do this is to warn people that it may be untrue when they receive information. It is more helpful if the warning is given before the false information. If a retraction is necessary, it must be repeated to make the accurate information more memorable. Another good way to combat misinformation is to provide an alternative plausible explanation explaining why the misinformation was considered initially accurate. Lastly, promoting healthy skepticism can help reduce people's susceptibility to misinformation by making them question the information they are given [@lewandowsky_misinformation_2012].
+
+::: callout-tip
+## Pause and Reflect
+
+-   What do you think is an excellent way to promote healthy skepticism?
+
+-   If you had a friend who believed in misinformation, how would you go about helping them to see that it is false?
+:::
+
+## What can information professionals do?
+
+Librarians can be seen working on the front lines of the battle against misinformation. In the past, librarians acted as fact-checkers, but in the future, they must act as educators. This is because librarians cannot keep up with the level of online misinformation. One way to do this is to hold information literacy classes at the library. Information literacy has been cited as an effective way to deal with misinformation and fake news. It has been defined as "the ability to think critically and make balanced judgements about any information we find and use" [@depaor2020, p.4]. Information literacy is an empowerment tool because it gives people the skills to make informed decisions and participate fully in society. Other ways that librarians can help combat fake news is through fact-checking websites, and creating LibGuides.
+
+::: callout-tip
+## Pause and Reflect
+
+In what ways do you think that information professionals are responsible for combating misinformation? How do you see misinformation, disinformation or fake news impacting you in your future career?
+:::
+
+::: callout-note
+## Suggested Reading
+
+If you want to learn more about the different kinds of fake news and how librarians can help combat it, look at this article.
+
+De Paor, S., & Heravi, B. (2020). Information literacy and fake news: How the field of librarianship can help combat the epidemic of fake news. The Journal of Academic Librarianship, 46(5), 102218. <https://doi.org/10.1016/j.acalib.2020.102218>
+
+If you are interested in the psychological side of why people believe in misinformation, read this article:
+
+Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and Its Correction: Continued Influence and Successful Debiasing. Psychological Science in the Public Interest, 13(3), 106--131. <https://doi.org/10.1177/1529100612451018>
+:::
+
+## Case Study
+
+*Jude, always the activist and helpful community member, offers help to another member of an online forum who has been trying to start a podcast. Jude has had extensive experience creating and distributing podcasts as part of working with the LGBTQ Archives and helped community members create their podcast platforms. After getting the infrastructure set up and hearing from the forum member that the podcasts were doing well, a month later, Jude finally had time to listen in on the latest episode. Alarmed, Jude calls Dante late at night.*
+
+\*The phone rings, waking Dante up\*
+
+**Dante**: Jude, I hope you're stranded in a desert or won the lottery because it's 2 a.m.!
+
+**Jude**: Hey, Dante, I'm sorry to wake you. Unfortunately, neither, though I kind of wish I was in the middle of a desert right now. I need to talk to you about something. Would you mind lending an ear?
+
+**Dante**: Not at all, friend. You have to promise me that if you discover that you won the lottery at two in the morning one day, I'm still first on your list of people to call. But my ears are all yours.
+
+**Jude**: You got it, buddy. To summarize, you know that podcast I was helping to get off the ground?
+
+**Dante**: Oh yeah, the one run by the guy you met on that online forum you're a part of?
+
+**Jude**: Exactly. Well, I've been so busy with work and my personal projects that I haven't been keeping tabs on it. It's been a few months since I've listened to an episode, but I've heard from a few acquaintances that the podcast was doing well.
+
+**Dante**: That's great, Jude! Well done. You're like King Midas of going viral! Everything you apply yourself to takes off!
+
+**Jude**: Thanks, Dante. I wish this time it didn't, though. I did some work late tonight and put the latest episode in the background. There was some pretty harmful content to the LGBTQ community on it. I'm abhorred. I can't believe I was a part of setting up the infrastructure for this show and contributed to giving this guy a platform.
+
+**Dante**: Oh no. That's terrible. I'm sorry, Jude. Can you contact the podcaster and talk to him about it? Or remove yourself from the project?
+
+**Jude**: Good suggestion, Dante. That's definitely what I want to do, but I'm a little intimidated. This guy has a following that is growing by the day. I want to stop him from putting more content and messaging like this out there for listeners, but I'm worried about his influence... you know, I'm not very aggressive.
+
+**Dante**: I know, Jude. I get it. It can be scary to take a stand. I can do it then! That's my style- it's time to bring some heat! They don't call me Dante's Inferno for nothing!
+
+**Jude**: Thanks, Dante, but I don't know... I need to think about this. Maybe I can write him a thoughtful email with some well-supported points, and he will reconsider his actions.
+
+**Dante**: You know what? Wren will know what to do. Tracy will have a great perspective, too- but she has her kids, so I'll let her rest.
+
+\*Dante Facetimes Wren, and she joins their call. Jude explains the situation to Wren, and Dante offers their suggestion of butt-kicking\*
+
+**Wren**: Hmm... let me investigate this. \[Typing\]. From what I've found, his podcast stats show that his views are growing steadily, but they're still menial compared to the big fish of the podcasting world. So that's a positive thing... to slow them down even further, I could hack into the cloud and delete all the content and resources in his drive!
+
+**Dante**: ...who are you?
+
+**Jude**: I'm nervous to say anything to him because I don't want to do anything that could cause more anger and backlash directed against the LGBTQ community. I know what he's broadcasting is wrong and harmful, but I feel it needs to be addressed in a way that wouldn't inspire him to anger.
+
+**Dante**: This reminds me of the library in Toronto that allowed an anti-trans speaker to give a presentation in their space. The 2SLGBTQIA+ community responded by having a protest outside the library and had more trans and trans-allies there than there were audience members who came to see the author speak.
+
+**Wren**: That seems like an effective and powerful way to combat harmful perspectives like this. What do you think, Jude? Could you organize something like that in response to the podcast site? \*Furious typing quickens\* I'm looking at the podcast website- if I redirect the viewers to advertisements, it just sends them to extreme-right-wing funded organizations. Not a good approach. We'll have to find another strategy.
+
+**Dante**: Some information should be censored on mass media platforms like podcasts. Hate speech has no intrinsic societal value and is undeserving of protection.
+
+**Jude**: I agree, Dante, but I wonder if counter-speech is better. Don't you think the most vital ideals prevail? The minimal regulation in the podcasting world facilitates unfettered discourse, and there are much better ideas that promote love over hate!
+
+**Dante**: Well, Jude, I think existing imbalances of power and prejudices make it difficult for marginalized communities to confront harmful messaging on equal footing.
+
+**Jude**: I agree, Dante. Thanks for talking this through with me. Thank you both for all of your help. I feel like this situation is all my fault. You were right about those forums becoming feedback loops. I didn't question or validate the information I was finding because it was so novel to me. I was looking for one thing and didn't realize who I was surrounded by or influenced by. I don't know what to do... I will think about it some more, but I know it's unethical to ignore it.
+
+**Dante**: We are glad you see that side of things now, Jude; we'll always try to steer you right. It's good you've recognized those things, and know we are here to help you in any way you need. Dante's inferno is always ready to be unleashed; say the word.
+
+**Wren**: Yeah, the podcaster took advantage of how helpful and kind you are. It doesn't sound like he was upfront about the nature of his show with you or you never would have supported it. Now, Jude... what's your laptop password? You are a good person, you'll do the right thing, and I'm glad you called us. But... you don't need to know what happens next. \*Furious typing intensifies\*
+
+### Epilogue
+
+\*Jude Facetimes Wren\*
+
+**Jude**: Hey, Wren, I just wanted to check in and see if there were any updates last night. What did you end up doing, after all?
+
+**Wren**: Oh, Jude, that is classified information. Need-to-know basis, you know?
+
+**Jude**: Wren, I appreciate it, but it won't cause any backlash, will it? You can tell me; I won't be upset.
+
+**Wren**: Oh, Jude. I didn't do anything wild. Also, you should probably stick to analog tech- the 1990's called and want their website design back. Changing the SEO was super easy. There's some technical stuff like root directories and assigning them not to be indexed, but I also changed all the keywords into Klingon. No one will ever find it! Bwahaha! (ghuy'cha' in Klingon)
+
+**Jude**: You are a genius, Wren! I am forever indebted to you and, at this moment, declare my undying servitude.
+
+**Wren**: I'm just glad to have my friend Jude back. Now, sleep, and we can discuss your debt of servitude later!
+
+### Discussion Questions
+
+Considering the themes of misinformation and disinformation and the conversation above, answer the following discussion questions.
+
+-   What is the difference between misinformation, disinformation, and malinformation?
+
+-   What sort of information is being spread/perpetuated through the podcast Jude helped to get started?
+
+-   How can media and information literacy play a role in counteracting misinformation and disinformation?
+
+-   Do you think that media platforms (e.g. Apple Podcasts, Google Podcasts, Spotify, etc.) are responsible for censoring content broadcast through their sites through policies that regulate harmful content, or should content and self-censorship be left to creators? Discuss.
+
+-   The Edelman Trust Barometer, found [here](https://www.edelman.com/trust/2022-trust-barometer), is an annual global survey of over 36,000 respondents in 28 countries. The report was published in January and covered a range of timely and essential societal indicators of trust among business, media, government and NGOs, shaping the conversation and setting the agenda for the year ahead. Explore this tool and discuss the latest published annual report.
+
+::: callout-note
+If you're interested in learning more about the protests in Toronto, take a look at these articles:
+
+-   <https://www.ctvnews.ca/canada/hundreds-protest-controversial-writer-outside-toronto-library-1.4661036>
+
+-   <https://nowtoronto.com/culture/books-culture/toronto-library-meghan-murphy-protest/>
+:::
+
+## References

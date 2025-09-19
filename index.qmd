@@ -1,0 +1,76 @@
+--- 
+title: "Course Overview"
+---
+
+## Learning Outcomes
+
+Upon completion of this course, students should be able to:
+
+-   Explain the general significance of information in contemporary society.
+-   Provide an informed and critical perspective on information phenomena and processes.
+-   Understand the nature and social roles of the information professions.
+-   Identify contemporary issues and their relationship with information and the information field.
+
+## Course Schedule
+
++---------------+-----------------------------------------------------------------+-------------------------+
+| Week          | Theme                                                           | Reading                 |
++:=============:+=================================================================+=========================+
+| 1\. (Sept 23) | The Information Field                                           | Chapter 1               |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 2\. (Sept 30) | What is Information?                                            | Chapter 2               |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 3\. (Oct 7)   | Information Issues                                              | Chapter 3               |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 4\. (Oct 14)  | Humans in an Information Society                                | Chapter 4               |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 5\. (Oct 21)  | Work in the Information Society + Information in Organizations\ | Chapter 5 + Chapter 6.  |
+|               | *Guest: Kellie Dalton*                                          |                         |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 6\. (Oct 28)  | Information economy                                             | Chapter 7               |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 7\. (Nov 4)   | Attention economy\                                              | Chapter 8               |
+|               | *Guest: Christine Smith (virtual)*                              |                         |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 8\. (Nov 18)  | Misinformation                                                  | Chapter 9               |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 9\. (Nov 25)  | Information and democracy                                       | Chapter 10              |
++---------------+-----------------------------------------------------------------+-------------------------+
+| 10\. (Dec 2)  | Information justice                                             | Chapter 11              |
++---------------+-----------------------------------------------------------------+-------------------------+
+
+# Important Dates
+
++-----------------------------------------------------+----------------------------+
+| Assignment                                          | Due date                   |
++=====================================================+============================+
+| 0\. Participation self-assessment - Part 1          | Friday, September 26, 2025 |
++-----------------------------------------------------+----------------------------+
+| 1\. Analysis of an information setting              | Friday, October 17, 2025   |
++-----------------------------------------------------+----------------------------+
+| 0\. Participation self-assessment - Part 2          | Friday, October 28, 2025   |
++-----------------------------------------------------+----------------------------+
+| 2\. Essay plan                                      | Friday, October 28, 2025   |
++-----------------------------------------------------+----------------------------+
+| 3\. Essay                                           | Friday, December 12, 2025  |
++-----------------------------------------------------+----------------------------+
+| 0\. Participation self-assessment - Part 3          | Friday, December 12, 2025  |
++-----------------------------------------------------+----------------------------+
+
+# Other Important Information and Resources
+
+-   The official [course syllabus](https://pmongeon.github.io/information-in-society/files/INFO5500-Syllabus.pdf).
+
+-   A [Zotero library](https://www.zotero.org/groups/2536626/info5500_-_information_in_society/library) with all the references in the course website, organized by chapter.
+
+-   Use [Zotero](https://pmongeon.github.io/information-in-society/www.zotero.org) (or another reference manager of your choice) to store your references and cite them in your work. (not mandatory, but highly recommended).
+
+-   Use **APA style** for your references in all assignments.
+
+-   You can use this [Word template](https://pmongeon.github.io/information-in-society/files/assignment-template.dotx) to write your assignments (not mandatory). Whether you use this template or not, I strongly recommend using Word styles to format and structure your document.
+
+-   Have fun.
+
+# Acknowledgements
+
+The textbook would not have been possible without the financial support, through an OER grant, of the [Dalhousie Center for Learning and Teaching](https://www.dal.ca/dept/clt.html) and the [Dalhousie Libraries](https://libraries.dal.ca/). It also would not have been possible without the help and support of Dr. Samantha Taylor, senior instructor and co-lead on the project, who orchestrated the writing of the case studies included throughout the book. It also would not have been possible without the hard work of Janine McGregor, Maddie Hare, Poppy Riddle, and Tessa Biesterfeld, alumni from Dalhousie’s Master of Information program, who helped draft some of the chapters or case studies. Special thanks to Janine McGregor, who played a leading role in the planning and writing of the textbook.

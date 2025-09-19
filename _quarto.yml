@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Information in Society"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Overview
+      - text: Assignments
+        menu:
+          - text: 0. Participation self-assessment
+            href: assignments/0-participation.qmd
+          - text: 1. Study of an information setting
+            href: assignments/1-information-setting.qmd
+          - text: 2. Essay plan
+            href: assignments/2-essay-plan.qmd
+          - text: 3. Essay
+            href: assignments/3-essay.qmd
+#     - text: Resources
+#        href: resources.qmd
+  sidebar:
+      style: "docked"
+      search: true
+      contents: 
+        - text: <strong>Content</strong>
+        - href: content/ch1.qmd
+          text: 1. The Information Field
+        - href: content/ch2.qmd
+          text: 2. What is information?
+        - href: content/ch3.qmd
+          text: 3. Information Issues
+        - href: content/ch4.qmd
+          text: 4. Humans in an Information Society
+        - href: content/ch5.qmd
+          text: 5. Work in the Information Society
+        - href: content/ch6.qmd
+          text: 6. Information in Organizations
+        - href: content/ch7.qmd
+          text: 7. The Information Economy
+        - href: content/ch8.qmd
+          text: 8. The Attention Economy
+        - href: content/ch9.qmd
+          text: 9. Misinformation, Disinformation, and Fake News
+        - href: content/ch10.qmd
+          text: 10. Information and Democracy
+        - href: content/ch11.qmd
+          text: 11. Information Justice
+format:
+  html:
+    toc: true
+    code-link: false
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai
+    css: styles.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+editor: visual
+

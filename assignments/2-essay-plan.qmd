@@ -1,0 +1,42 @@
+---
+title: "Assignment #2 ­– Essay topic and annotated bibliography"
+---
+
+## Context 
+
+You have been thinking a great deal about the role of information in society since the start of the course and have decided to write an essay. Slightly overwhelmed with all the exciting topics that come to your mind, you decide to take a moment to go through these ideas, commit to one, and gather and read a few sources to get started.
+
+## Instructions
+
+Choose an essay topic, think about how it relates to the Information in Society course, and produce an annotated bibliography with five relevant references for your essay.
+
+## To submit on Brightspace
+
+A single document containing:
+
+1.  A tentative title for your essay
+2.  A short explanation of the topic’s relevance for the course (250 words).
+3.  A summary of five sources with a justification of their relevance for your essay (250 to 500 words per source).
+
+**Note:** If you want some feedback. You should receive my feedback within a week of submitting it. If you have difficulty choosing a topic, your instructor will be happy to help you brainstorm.
+
+## Evaluation criteria
+
+-   Your essay has a title.
+-   Convincingly explains the relevance for the course.
+-   Clearly summarizes and justifies the relevance of each selected source.
+
+## Past Essay Titles (for Inspiration)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(DT)
+
+x<-read_xlsx("files/past_essays.xlsx")
+
+DT::datatable(x, rownames = F)
+```
+
+
+

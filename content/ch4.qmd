@@ -1,0 +1,153 @@
+---
+title: Chapter 4. Humans in an Information Society
+bibliography: references.bib
+csl: apa.csl
+---
+
+## Learning objectives
+
+This chapter examines how networks and information technologies shape our personal and social lives. We first consider how we experience life through networks and data processes. We then consider the power relationships on the networks and how networks have norms and standards that benefit some and marginalize others. Then, we consider how we connect with each other on the network and participate in multiple communities. Finally, we consider how information technologies and social media provide us with a platform to perform different versions of ourselves and how what we know about ourselves and others is shaped by those performances. We also join Dante, Wren, Tracy and Jude's discussion about their experiences on the network.
+
+## The datafication of the human experience
+
+@lee_towards_2021 uses the term **Informatic personhood** to represent the human experience in a world dominated by information technologies. The informatic person lives within the **informatic context** which is the technological, economic and social networks. The informatic person experiences and influences the informatic context through **data** **interfaces**, **data circulation**, and **data abstraction**.
+
+**Data interfaces** "are those systems, devices, infrastructures and objects that connect (individuals or collectives) to broader assemblages of data" [@lee_towards_2021, 173]. Your smartphone, smartwatch, tablet, television, computer, and the specific sites or apps that you use (e.g., Twitter, Facebook, TikTok) are all data interfaces through which we humans experience the world. Data interfaces are also extractive, as other entities on the network use them to extract data from or about you.
+
+::: callout-tip
+## Pause and reflect
+
+The examples above are all digital platforms or technologies. However, not all data that exists is in a digital form. Can you think of other kinds of data interfaces that are not digital?
+:::
+
+**Data circulation** refers to the dynamics of data mobility (and immobility), how data is created, moved, stored, shared and repurposed. Humans (but also other entities like machines, companies, and governments) circulate data, and almost everything we do can be understood as a form of data circulation.
+
+**Data abstraction** describes how machines or humans use data manipulation techniques and produce some outcome (intended or not) [@lee_towards_2021]. It is essentially the raison d'être of data interfaces and data circulation. Here's an example: Through our smartphone (interface), Google Maps collects data about the current traffic conditions (data circulation) and updates directions to make routes quicker and more efficient.
+
+Living in the informatic context are **informatic persons** who navigate their existence through and with data [@lee_towards_2021]. Our informatic personhood is not separated from our physical, biological selves. People develop physical injuries from texting on their smartphones, typing on keyboards, or looking at screens. The informatic context also changes our brains, as humans develop neuro-physical mechanisms to handle things such as information overload and the data interfaces that constantly seek your attention. The informatic context can actually change our attention spans and ability to concentrate [@lee_towards_2021].
+
+## Networks, standards and marginality
+
+Networks are all around us (e.g., phones, computers, road systems, the post), and many of these networks become stabilized and standardized over time. We can think of these networks as the informatic contexts within which we live our informatic personhood. We access the networks through data interfaces and then circulate data on the networks, which generates some outcomes. This section is about the standardizing forces of networks that constrain how we can access them and the things we can do on them. Indeed, every network is characterized by a more or less stable set of norms and standards, some of which can be extremely difficult to change once the network is stabilized. For example, the colour red for stoplights was an arbitrary choice initially but has become so universal that it is no longer a choice.
+
+Networks are also not neutral. They are populated with actors or groups that have more influence or power than others and can thus influence the structure of the networks, how they operate, and what their norms and standards come to be. Those who happen to fit the standards can navigate the network with some ease, but others who do not fit the standards can find themselves marginalized and excluded. Since there is always a gap between the standards of social or technological networks and the needs of the individuals that live inside (or outside) of them, we can think of the marginalization of actors on the network as a continuum: **everyone is marginalized to some degree**. Susan Leigh @star_power_1990 discusses the problem of standardization through an analogy. They are allergic to onions and observed that their order for a burger with no onions at McDonalds would take a very long time to prepare. They realized that because the standard process of preparing a burger at McDonald's includes onions, going against this standard "breaks the system".
+
+::: callout-note
+## Suggesting reading
+
+This short post about life without a smartphone illustrates some of the points @star_power_1990 made long before smartphones even existed:
+
+<https://www.theguardian.com/commentisfree/2021/nov/04/my-life-without-a-smartphone-is-getting-harder-and-harder>
+:::
+
+## Social networks
+
+So far, this chapter has focused on the human as existing in networks that shape our existence. We now turn our attention to the social relationship that these networks enable by connecting us to one another. @webster_network_2014 invites us to think of three ways in which humans are connected to one another. **Door-to-door** connectivity occurs when people live, work and play in one place. Their connections are with their immediate neighbours. **Place-to-place** connectivity is when people are connected through travelling and gathering together in a network of places. **Person-to-person** connectivity is placeless and consists of relationships mediated through information technologies. This is what @webster_network_2014 calls **Networked individualization**: the use of technologies to develop and maintain social networks that provide sociability, support, information, a sense of belonging and social identity to the individual. These networks allow people to escape the social network in which they are physically situated (where they may be exposed to diverse values and beliefs that may differ from their own) to join other social networks composed of networked individuals with shared values and beliefs**.**
+
+::: callout-tip
+## Stop and reflect
+
+Think of different communities or social networks that you belong to.
+
+-   Are they door-to-door networks, place-to-place networks, person-to-person networks, or a combination of these?
+
+-   Can you identify significant differences in the values and beliefs that characterize those networks?
+
+-   @webster_network_2014 argues that people have a compulsion to proximity, an impulse to meet up with people face to face regardless of their virtual relationships. Do you think the COVID-19 pandemic might have changed that somehow?
+:::
+
+In the following TED talk, Sherry Turkle offers a critical perspective on our relationship with technologies and our growing abandonment of the here and now to participate in virtual networks.
+
+:::: {style="max-width:854px"}
+::: {style="position:relative;height:0;padding-bottom:56.25%"}
+<iframe src="https://embed.ted.com/talks/lang/en/sherry_turkle_connected_but_alone" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen>
+
+</iframe>
+:::
+::::
+
+::: callout-tip
+## Pause and reflect
+
+-   What do you think of the arguments made by Turkle in their TED talk?
+
+-   How do you use social media to connect with different communities?
+:::
+
+## Performances of the self
+
+If we experience and influence the world through data processes on the network, then it means that this is how we experience others and how others experience us. It may also be how we get to experience and know ourselves. So, **who are we?**
+
+People present themselves differently on social media and have different personalities in different in-person situations. More notably, Technologies and social media provide access to different audiences and aspects of one's personality. When we tweet or post on Facebook or Instagram, we communicate with multiple audiences, for which our posts may carry different meanings. Zizi @papacharissi_without_2012 studied how people present themselves publicly on Twitter (what she calls networked performances). In her paper, she discusses how social media platforms are spaces where people interact with others and fulfill their need for expression and social integration. By engaging with others and posting information about themselves, users **perform** one or multiple versions of themselves.
+
+::: callout-tip
+## Pause and reflect
+
+-   How do you think the information technologies that you do or don't use shape your identity?
+
+-   Is there such a thing as an authentic self?
+:::
+
+## Case study
+
+*Dante and Wren meet you, Tracy, and Jude at a local coffee shop one summer afternoon before you begin your second year in the Master of Information program. Tracy and Jude spent the summer working in the city, while Dante and Wren have just returned from a month of travelling. They went on a road trip around Nova Scotia, exploring seaside towns and enjoying many beach days. You have been keeping up with frequent social media updates on their accounts: 'Throw_a_Wren-ch_in_it" and "All_you[']{.underline}ve_ever_Dante-d" where they post updates and pictures of their adventures. You notice that Jude and Tracy's online activity and social media content differ from Wren and Dante's. You consider your own information networks and how you exist as an informatic person.*\
+
+**You**: Good to see you, Dante, Wren! Wow, you both look like summer has treated you well!
+
+**Wren**: Hey, strangers! You wouldn't believe this past month- pure bliss. Once I graduate, I'm living on the beach full time; try and stop me!
+
+**Dante**: Says the person who complained about the Atlantic Ocean being too cold the entire month of August.
+
+**Wren**: At least I'm not so afraid of sharks. I won't even go in the water past my ankles. Say, do you follow that great white shark tracker online? Everyone is tweeting about their geographic locations around Nova Scotia beaches and panicking. I feel like they get a bad rap.
+
+**Tracy**: Oh yes, I do follow that! I feel like it's an excellent way to see a global network of such an amazing creature. I think widespread panic regarding something like sharks is unavoidable in a large online setting like Twitter... besides, don't you think social media and being online distorts how we view anything?\
+
+**Dante**: What do you mean?
+
+**Tracy**: Well, I guess we can all be interpreted differently online depending on how we exist and interact in our networks. Take your accounts, for example. You and Wren aren't a part of the beach brigade all year round, you know? All Wren has been posting about lately is lobster rolls and lifeguards she finds dreamy. If you didn't personally know her, would you be surprised to learn she is working towards a career in data management?!
+
+**Wren**: But... that is me! I'm behind the screen posting those things! Are you saying I'm not as adventurous and fun in person as I look online? Also, data *is* fun!
+
+**Tracy**: I think you are even more so, friend! But we all curate ourselves and engage differently online, right? Like, I don't share pics of my kid, for example. That's just too personal for me.
+
+**Jude**: I agree with Tracy. I have a co-worker who posts his original poetry on his social media. It comes across as totally innocent; at work, he is such a nice guy! We found out the other day that he has been writing about the new interns and sending his poems to them on their personal social media accounts! Let's just say he's getting reviewed this week...\
+
+**Dante**: Well, I wrote and posted many a song on my guitar as Wren, and I gallivanted across our glorious province this summer, and all of them were simply odes to my love of Mother Nature. No harm in that!
+
+**Wren**: Not all true! Remember when you wrote that cheesy song for your boyfriend's birthday and accidentally posted it on your public social media?!
+
+**Dante**: Oh, right! Only my mom ended up watching it before I took it down, but I wouldn't mind if others listened. I express myself more freely online.
+
+**Jude**: I've got to hear this song! I do, too, Dante. I feel more comfortable sharing my views on various social justice issues on my blog than discussing my opinions in class. I feel more confident online, almost like I can be a different person behind the screen. I also feel like I have more tools and information to connect my thoughts and make more informed arguments!
+
+**Wren:** You are so tactful and thoughtful about your online activism, though, Jude, unlike that one politician who blasts people on Twitter all the time. That has really been detrimental to his professional life.
+
+**Dante:** Yeah, like that dude I know who got fired because of the insensitive things he posted on his Facebook.
+
+**Tracy:** That's precisely what I'm afraid of! I've had some platforms for so long that, at this point, I have a huge mix of professional colleagues, friends, and family involved in my networks, so I have to engage very thoughtfully online. I enjoy connecting my various worlds and communities and wish I felt freer to share different types of content, but my content seems increasingly restrained. I'm down to recipes now, for the most part.
+
+**Wren:** Well, I still stand by the fact that Wren, in real life, is the same person who has reviewed 30 different versions of lobster rolls with a side of lifeguards. I think that's a rather impressive data collection, considering I was on vacation...
+
+Y*ou realize you have been scrolling through your phone for 10 minutes, considering how you engage online. You are connected with Dante, Wren, Jude, and Tracy on social media and other online networks (e.g. online learning software, social platforms, professional development sites, digital correspondence).*
+
+*You continue contemplating the topics that have come up in your conversation. Consider how you exist in your information networks, in a mobile society, and your informatic personhood.*
+
+**Discussion Questions:**
+
+-   In what ways might Wren's online persona be authentic? In what ways might it be curated?  
+
+-   How do you feel about workplaces punishing people for the content on their social media channels?
+
+-   Do you think it's okay for companies to look at personal social media accounts in the hiring process?
+
+-   Do you believe companies have the right to monitor the activities of their employees in a personal setting? Would you consider social media and online platforms a private or public environment?
+
+-   What are 3-4 online communities you are a part of (school, family, friends, work, etc.)? Consider how you establish and situate yourself in your networks.
+
+-   What information do you share online? Does this change based on the online space you are in?
+
+-   Consider 1-2 ways technology facilitates or inhibits your ability to interact in your in-person and online networks. How do you act as a bridge between various worlds?
+
+-   Consider the differences (or similarities) in how you interact with friends, professional colleagues, or other groups online versus in person. How do you engage with them differently online than you do face-to-face? Do you feel you take on a different persona? What benefits or detriments do you perceive as a result of this difference?
+
+## References

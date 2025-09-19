@@ -1,0 +1,200 @@
+---
+title: Chapter 5. Work in the Information Society
+bibliography: references.bib
+csl: apa.csl
+---
+
+## Learning objective
+
+This chapter will look at the workplace as an information setting. We will seek to identify and discuss common needs, obstacles, and problems that people encounter with information at work.
+
+## Introduction
+
+As discussed in Chapter 3, the occupational dimensions of the information society emphasize the increase in informational work: jobs are increasingly about producing, gathering, evaluating, sharing, publishing, processing, recording, storing, organizing, or managing data and information. Of course, some jobs may be more information-focused (e.g., a librarian or a data scientist) than others (a police officer or a manager). Still, most people are engaged in some informational labour at work. As information professionals, we may seek to understand how information shapes the working lives of individuals, the information issues they deal with at work, and how they can be addressed.
+
+### Information needs
+
+Working tends to involve producing some outcome, which implies (ideally) having some knowledge of what to do and how to do it and making some decisions based (ideally) on that knowledge. The thing about knowledge is that it is never complete, and we almost always operate under a degree of uncertainty. In other words, there are often gaps between what we know and should know to perform our work optimally or make the best possible decision or action in a given situation. Circling back to the pyramid, we can think of those knowledge gaps as conscious or unconscious **data and information needs** that individuals have and that can only be understood in relation to the context. As we read about the workplace as an information setting, consider the purpose and context of individuals in the workplace and how that might determine their specific information needs.
+
+## The workplace as an information setting
+
+Workplaces are as varied as the types of work that people do. Different work environments may function differently from each other as information settings. People may encounter information in bulletin boards, training manuals, emails, websites, Teams, policies, Brightspace, or other information systems, and in meetings or informal encounters with colleagues in the elevator or at the coffee machine. People will need, seek, use, and produce information differently. Think about different types of work and the settings where that work is done. How is information encountered, recorded, shared, used, stored, and disposed of in these different settings? What kinds of tools (digital or otherwise) are used to help workers manage this information? Consider the following settings:
+
+-   A hospital
+
+-   The Information Management program (as a student)
+
+-   The Information Management program (as an instructor)
+
+-   The Information Management program (as the program director)
+
+::: callout-tip
+## Pause and reflect
+
+As you consider some of these workplaces, consider the **information needs** of the individuals.
+
+-   What types of information needs do people have in these settings?
+-   What barriers might prevent the fulfillment of these needs?
+-   What are the possible consequences of not having these information needs fully met?
+-   What could you, an information specialist, do to ensure that the needs of the individuals in these settings are met?
+:::
+
+## **Changing workplaces**
+
+Workplace settings have always been in flux, but recent history has drastically changed information needs and expectations. Technological advances such as the internet, smartphones, and cloud storage have revolutionized many workplaces and created entirely new ones. The COVID-19 pandemic also led to organizational change, including a forced (but seemingly persistent) shift to remote work.
+
+::: callout-tip
+## Pause and reflect
+
+-   How does the development of new information technologies create information needs in the workplace?
+
+-   How has the COVID-19 pandemic created information needs in the workplace?
+:::
+
+Read the below excerpt from *Information at Work: Information Management in the Workplace*:
+
+> "New technology, such as social media tools, bring demands for learning. Today, presence on social media is a must for many organizations, but often with little solid evidence on what strategies work and which do not. Responsibility for decision making is also becoming increasingly decentralized and moving employees closer to customers. This change has led to a higher independence and responsibility for the individual employee, including responsibility for managing personal learning processes, allocation of time and focusing attention. As personal responsibility increases, personal information management is also becoming increasingly important, since swift access to relevant information often depends on structuring and managing information relevant to various work tasks." [@byström2019]
+
+## Work-life Balance
+
+As working from home, remotely, on-call, or as part of the "gig economy" becomes increasingly prominent across the workforce, it is becoming less common for people to be in a physical office or other work setting for an allotted period each week. As the lines between home and workplace blur, so can the lines of work and home life. The balance between these facets of our lives is known as work-life balance (WLB). Suppose an individual is not able to separate these facets healthily. In that case, they are likely to experience stress and other issues related to this imbalance that can be referred to as work-life conflict (WLC), which, according to [Health Canada](https://www.canada.ca/en/health-canada/services/environmental-workplace-health/reports-publications/occupational-health-safety/reducing-work-life-conflict-what-works-what-doesn.html), happens when timing and scheduling can lead to conflicts, and when individuals feel overwhelmed, overloaded or stressed by the pressures of multiple roles.
+
+::: callout-tip
+## Pause and reflect
+
+-   How do you think work-life conflicts can be understood as an information issue?
+-   Have you experienced challenges with work-life balance?
+-   What information factors have created positive experiences in the workplace, and what situations have led to negative ones?
+:::
+
+## Information issues
+
+### Quantity and quality issues
+
+As discussed in Chapter 3, information overload occurs when the amount of information someone encounters surpasses their ability to manage it [@misra_psychological_2012]. It can cause adverse outcomes like psychological stress, exhaustion, and decreased productivity [@matthes_too_2020]. It can also lead to decision paralysis or decreased decision quality [@benselin_information_2016]. Information overload is not absolute. It exists at the intersection of the information **quantity**, the **capacity** of the individual to process it, the **time** available to do so, and the **relevance/quality** of the information itself, which can increase the amount of information and the amount of time needed to process it.
+
+::: callout-tip
+## Pause and reflect
+
+Think about your current role as a student at Dalhousie or another work setting you have experienced.
+
+-   What factors do you believe contribute to information overload in these settings?
+
+-   What strategies did you or others use to reduce or cope with the information overload?
+:::
+
+As you reflected on information overload at work or in the university, you might have considered the role of technology. Perhaps you have thought about the ways that information technologies and instant messaging have made sending and receiving information more (and perhaps too) easy. You might have thought of mass emails with news, training, best practices, or other information sent by the organization.
+
+::: callout-note
+## Did you know?
+
+1.  About 319.6 billion emails were sent in 2021; by 2025, this figure is expected to rise to 376.4 billion emails [@radicatigroup2021].
+:::
+
+### Access issues
+
+Problems of information overload at work may lead us to mistakenly assume that we have more information than we need or that we have access to all the information we need.
+
+::: callout-tip
+## Pause and reflect
+
+Think about a time you felt you did not have all the information you needed to perform a task at work or school.
+
+-   What barriers prevented you from getting the information you needed in that context?
+:::
+
+**Transparency** and **information asymmetry** are two concepts that, I would argue, fall into the category of information access issues. Here is a TED talk highlighting some problems with the lack of information sharing within organizations. Consider this TED talk on pay transparency in the workplace and information asymmetry.
+
+:::: {style="max-width:854px"}
+::: {style="position:relative;height:0;padding-bottom:56.25%"}
+<iframe src="https://embed.ted.com/talks/lang/en/david_burkus_why_you_should_know_how_much_your_coworkers_get_paid" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen>
+
+</iframe>
+:::
+::::
+
+::: callout-tip
+## **Pause and Reflect**
+
+Burkus defines information asymmetry as "a situation where, in a negotiation, one party has loads more information than the other" and discusses its relevance to hiring and promotion practices.
+
+-   Can you think of other examples of information asymmetry?
+
+-   Some information in the workplace is considered private. Where does openness meet privacy in the workplace?
+:::
+
+### Behaviour issues?
+
+::: callout-tip
+## Pause and reflect
+
+-   Are the information issues that people experience at work natural phenomena?
+
+-   What are the implications of your answer to that question when seeking solutions to the information issues we experience?
+:::
+
+## Conclusion
+
+As we consider how workplaces can better manage information to serve their workers, we can be critical of the information practices we see in both traditional and emerging workplace settings. As workplaces change, we have seen how information overload and work-life conflicts can create and exacerbate information issues. When we seek information management solutions for these and other workplace problems, we can strive for ideals such as transparency, empowerment, and equality.
+
+While some tools can empower workers and meet their information needs, information management tools can also be used to inhibit those same needs. As we consider software tools for database management, knowledge management and employee communications, we must consider what other workplace expectations could be enforced by these systems. Consider reading this article on Amazon's potential new worker chat app or the excerpt below:
+
+::: callout-note
+## In the news
+
+**Leaked: New Amazon worker chat app would ban words like "union", "restrooms", "pay raise", and "plantation."**
+
+<https://theintercept.com/2022/04/04/amazon-union-living-wage-restrooms-chat-app/>
+
+"The major goal of the program, Amazon's head of worldwide consumer business, Dave Clark, said, was to reduce employee attrition by fostering happiness among workers ---and also productivity. Shout-Outs would be part of a gamified rewards system in which employees are awarded virtual stars and badges for activities that"add direct business value," documents state. At the meeting, Clark remarked that "some people are insane star collectors."
+
+But company officials also warned of what they called "the dark side of social media" and decided to actively monitor posts in order to ensure a "positive community." At the meeting, Clark suggested that the program should resemble an online dating app like Bumble, which allows individuals to engage one on one, rather than a more forum-like platform like Facebook.
+
+Following the meeting, an "auto bad word monitor" was devised, constituting a blacklist that would flag and automatically block employees from sending a message that contains any profane or inappropriate keywords. In addition to profanities, however, the terms include many relevant to organized labor, including "union," "grievance," "payraise," and "compensation." Other banned keywords include terms like "ethics", "unfair", "slave", "master", "freedom", "diversity", "injustice", and "fairness". Even some phrases like "This is concerning" will be banned.
+:::
+
+As information professionals, we may have roles in organizations that can directly affect not just the client's needs but also the workers' needs in organizations. By keeping the information needs of other people in mind, we can tackle the information issues we have seen in the workplace to create better work environments for all.
+
+## Case study
+
+*Our four main characters recently began their second year in the MI program. They have each completed a unique practicum in the spring/summer.*
+
+*Dante worked at the North Memorial Public Library in Halifax, Jude worked at the LGBTQ community archives, Tracy worked for a non-profit arts collective creating taxonomies, and Wren worked at a tech start-up.*
+
+*You run into Tracy and Dante in the common room on campus after you finish class one afternoon. They have been conversing about their practicums and are discussing some of the issues that came up in their short time at their respective organizations.*
+
+**Dante**: I've wanted to work in a public library for a while now, but the reality was different from what I had imagined.
+
+**Tracy**: How so?
+
+**Dante**: Well, there was a lot of bureaucracy involved. It was often hard to get things done because we had to get approval from so many different staff members before we could proceed with the programming we were planning. This was especially true when we were trying to create programs involving 3D printers. The financial cost was high, so upper management wanted to be more involved.
+
+**Tracy:** I can see how that would be frustrating! I noticed a lot of inefficiencies at my placement as well. People were always complaining about the number of emails they received, often with information that wasn't relevant to them or was repetitive.
+
+**Dante:** That is so valid. We dealt with the opposite. There was a distinct lack of communication, and I felt like I wasn't getting the information I needed to do the job I was hired for. I know I was essentially an unpaid intern, but I would've liked more direction.
+
+**Tracy:** Or commitment from the organization, right? I found that I was expected to do much more than feasible. I also found that the organization I worked at really had a lack of boundaries. So many people wanted my attention and help; they would even email me during my off hours or the weekend! Seriously, I think I worked through every weekend, just trying to keep up! Not only did I not know how to do things, but I also had to seek out training or tutorials that the organization did not have.
+
+**Dante**: Yes, these are all frustrating situations that could be avoided! I'm excited to run my library branch someday and work to fix these information flows.
+
+**Tracy**: I agree! I hope that one of the benefits of being in an information management position is the ability to work through these informational issues and try to correct them.
+
+*You realize that Wren had snuck into the common room a few minutes ago.*
+
+**Wren**: This is all so interesting, but you know what it makes me think about? How information is everywhere, and all jobs are centered around information. My dad is a retired dentist and had to know so much about his patients. He had to refer to their charts to see when they had last had a checkup or check their x-rays for information on the health of their teeth and gums. Isn't all of that an information process, after all?
+
+*You have been quietly observing the conversation between your classmates. You start to wonder about what issues with information flows you have encountered in your past work experience or even in school and how you might address them now as a student in information management. Tracy and Dante turn to you and ask you for your advice.*
+
+### **Discussion Questions:**
+
+-   What do you think Dante could have done to make the information flows at the library more efficient? Do you think he can elicit change as a new employee?
+
+-   Do you think it was fair of Tracy's employers to ask so much of her in a short-term position? What could she have done, or how could she have communicated that she sensed an overload of information?
+
+-   Do you feel the information flow at your last job or school was efficient? How do you feel it was compared to Dalhousie?
+
+-   What would you do to improve that flow and increase efficiency?
+
+-   Do you sometimes feel like you have too much information in your professional life? If so, how do you cope with this information overload?
+
+## References
