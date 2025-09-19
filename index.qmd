@@ -63,7 +63,7 @@ Upon completion of this course, students should be able to:
 
 -   A [Zotero library](https://www.zotero.org/groups/2536626/info5500_-_information_in_society/library) with all the references in the course website, organized by chapter.
 
--   Use [Zotero](https://pmongeon.github.io/information-in-society/www.zotero.org) (or another reference manager of your choice) to store your references and cite them in your work. (not mandatory, but highly recommended).
+-   Use [Zotero](https://www.zotero.org) (or another reference manager of your choice) to store your references and cite them in your work. (not mandatory, but highly recommended).
 
 -   Use **APA style** for your references in all assignments.
 
