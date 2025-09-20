@@ -2,6 +2,12 @@
 title: "Course Overview"
 ---
 
+::: callout-note
+You can access this course website without going through Brightspace with the following URL:
+
+<https://pmongeon.github.io/information-in-society/>
+:::
+
 ## Learning Outcomes
 
 Upon completion of this course, students should be able to:
@@ -41,21 +47,21 @@ Upon completion of this course, students should be able to:
 
 # Important Dates
 
-+---------------------------------------------+----------------------------+
-| Assignment                                  | Due date                   |
-+=============================================+============================+
-| 0\. Participation self-assessment - Part 1  | Friday, September 26, 2025 |
-+---------------------------------------------+----------------------------+
-| 1\. Analysis of an information setting      | Friday, October 17, 2025   |
-+---------------------------------------------+----------------------------+
-| 0\. Participation self-assessment - Part 2  | Friday, October 28, 2025   |
-+---------------------------------------------+----------------------------+
-| 2\. Essay plan                              | Friday, October 28, 2025   |
-+---------------------------------------------+----------------------------+
-| 3\. Essay                                   | Friday, December 12, 2025  |
-+---------------------------------------------+----------------------------+
-| 0\. Participation self-assessment - Part 3  | Friday, December 12, 2025  |
-+---------------------------------------------+----------------------------+
++--------------------------------------------+----------------------------+
+| Assignment                                 | Due date                   |
++============================================+============================+
+| 0\. Participation self-assessment - Part 1 | Friday, September 26, 2025 |
++--------------------------------------------+----------------------------+
+| 1\. Analysis of an information setting     | Friday, October 17, 2025   |
++--------------------------------------------+----------------------------+
+| 0\. Participation self-assessment - Part 2 | Friday, October 28, 2025   |
++--------------------------------------------+----------------------------+
+| 2\. Essay plan                             | Friday, October 28, 2025   |
++--------------------------------------------+----------------------------+
+| 3\. Essay                                  | Friday, December 12, 2025  |
++--------------------------------------------+----------------------------+
+| 0\. Participation self-assessment - Part 3 | Friday, December 12, 2025  |
++--------------------------------------------+----------------------------+
 
 # Other Important Information and Resources
 
