@@ -19,49 +19,29 @@ Upon completion of this course, students should be able to:
 
 ## Course Schedule
 
-+---------------+-----------------------------------------------------------------+------------------------+
-| Week          | Theme                                                           | Reading                |
-+:=============:+=================================================================+========================+
-| 1\. (Sept 23) | The Information Field                                           | Chapter 1              |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 2\. (Sept 30) | What is Information?                                            | Chapter 2              |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 3\. (Oct 7)   | Information Issues                                              | Chapter 3              |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 4\. (Oct 14)  | Humans in an Information Society                                | Chapter 4              |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 5\. (Oct 21)  | Work in the Information Society + Information in Organizations\ | Chapter 5 + Chapter 6. |
-|               | *Guest: Kellie Dalton*                                          |                        |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 6\. (Oct 28)  | Information economy                                             | Chapter 7              |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 7\. (Nov 4)   | Attention economy\                                              | Chapter 8              |
-|               | *Guest: Christine Smith (virtual)*                              |                        |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 8\. (Nov 18)  | Misinformation                                                  | Chapter 9              |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 9\. (Nov 25)  | Information and democracy                                       | Chapter 10             |
-+---------------+-----------------------------------------------------------------+------------------------+
-| 10\. (Dec 2)  | Information justice                                             | Chapter 11             |
-+---------------+-----------------------------------------------------------------+------------------------+
+| Class date | Theme/reading to complete before class | Class activities |
+|:--------------:|----------------------------------------|----------------|
+| Sept 23 | [Chapter 1. The Information Field](content/ch1.qmd) | Introduction + Course overview |
+| Sept 30 | [Chapter 2. What is Information?](content/ch2.qmd) | Short lecture + group activity |
+| Oct 7 | [Chapter 3. Information Issues](content/ch3.qmd) | Presentations of results from week 2 activity + short lecture. |
+| Oct 14 | [Chapter 4. Humans in an Information Society](content/ch4.qmd) | Lecture + group discussions |
+| Oct 21 | [Chapter 5. Work in the Information Society](content/ch5.qmd) + [Chapter 6. Information in Organizations](content/ch6.qmd) | Guest lecture from Kellie Dalton |
+| Oct 28 | [Chapter 7. The Information Economy](content/ch7.qmd) | Lecture + group discussions |
+| Nov 4 | [Chapter 8. The Attention Economy](content/ch8.qmd) | Lecture + group discussions |
+| Nov 18 | [Chapter 9. Misinformation, Disinformation, and Fake News](content/ch9.qmd) | *Guest lecture from Christine Smith (virtual) + class activity + group discussions* |
+| Nov 25 | [Chapter 10. Information and Democracy](content/ch10.qmd) | Lecture + group discussions |
+| Dec 2 | [Chapter 11. Information Justice](content/ch11.qmd) | Guest lecture TBD + discussions |
 
-# Important Dates
+# Assignments
 
-+--------------------------------------------+----------------------------+
-| Assignment                                 | Due date                   |
-+============================================+============================+
-| 0\. Participation self-assessment - Part 1 | Friday, September 26, 2025 |
-+--------------------------------------------+----------------------------+
-| 1\. Analysis of an information setting     | Friday, October 17, 2025   |
-+--------------------------------------------+----------------------------+
-| 0\. Participation self-assessment - Part 2 | Friday, October 28, 2025   |
-+--------------------------------------------+----------------------------+
-| 2\. Essay plan                             | Friday, October 28, 2025   |
-+--------------------------------------------+----------------------------+
-| 3\. Essay                                  | Friday, December 12, 2025  |
-+--------------------------------------------+----------------------------+
-| 0\. Participation self-assessment - Part 3 | Friday, December 12, 2025  |
-+--------------------------------------------+----------------------------+
+| Assignment | Due date | Weight |
+|------------------------------|----------------------|---------------------|
+| [Participation self-assessment - Part 1](assignments/0-participation.qmd) | Friday, September 26, 2025 | 7.5% |
+| [Analysis of an information setting](assignments/1-information-setting.qmd) | Friday, October 17, 2025 | 30% |
+| [Participation self-assessment - Part 2](assignments/0-participation.qmd) | Friday, October 28, 2025 | 5% |
+| [Essay plan](assignments/2-essay-plan.qmd) | Friday, October 28, 2025 | 10% |
+| [Essay](assignments/3-essay.qmd) | Friday, December 12, 2025 | 40% |
+| [Participation self-assessment - Part 3](assignments/0-participation.qmd) | Friday, December 12, 2025 | 7.5% |
 
 # Other Important Information and Resources
 
@@ -79,4 +59,4 @@ Upon completion of this course, students should be able to:
 
 # Acknowledgements
 
-The textbook would not have been possible without the financial support, through an OER grant, of the [Dalhousie Center for Learning and Teaching](https://www.dal.ca/dept/clt.html) and the [Dalhousie Libraries](https://libraries.dal.ca/). It also would not have been possible without the help and support of Dr. Samantha Taylor, senior instructor and co-lead on the project, who orchestrated the writing of the case studies included throughout the book. It also would not have been possible without the hard work of Janine McGregor, Maddie Hare, Poppy Riddle, and Tessa Biesterfeld, alumni from Dalhousie’s Master of Information program, who helped draft some of the chapters or case studies. Special thanks to Janine McGregor, who played a leading role in the planning and writing of the textbook.
+The textbook would not have been possible without the financial support, through an OER grant, of the [Dalhousie Center for Learning and Teaching](https://www.dal.ca/dept/clt.html) and the [Dalhousie Libraries](https://libraries.dal.ca/). It also would not have been possible without the help and support of Dr. Samantha Taylor, senior instructor and co-lead on the project, who orchestrated the writing of the case studies included throughout the book. It also would not have been possible without the hard work of Janine McGregor, Maddie Hare, Poppy Riddle, and Tessa Biesterfeld, alumni from Dalhousie’s Master of Information program, who wrote the case studies and helped draft some of the chapters. Special thanks to Janine McGregor, who played a leading role in the planning and writing of the textbook.
