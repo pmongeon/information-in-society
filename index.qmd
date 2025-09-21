@@ -2,12 +2,6 @@
 title: "Course Overview"
 ---
 
-::: callout-note
-You can access this course website without going through Brightspace with the following URL:
-
-<https://pmongeon.github.io/information-in-society/>
-:::
-
 # Learning Outcomes
 
 Upon completion of this course, students should be able to:
@@ -22,15 +16,17 @@ Upon completion of this course, students should be able to:
 | Class date | Theme/reading to complete before class | Class activities |
 |:---------------:|--------------------------------------|-----------------|
 | Sept 23 | [Chapter 1. The Information Field](content/ch1.qmd) | Introduction + Course overview |
-| Sept 30 | [Chapter 2. What is Information?](content/ch2.qmd) | Short lecture + group activity |
-| Oct 7 | [Chapter 3. Information Issues](content/ch3.qmd) | Presentations of results from week 2 activity + short lecture. |
-| Oct 14 | [Chapter 4. Humans in an Information Society](content/ch4.qmd) | Lecture + group discussions |
-| Oct 21 | [Chapter 5. Work in the Information Society](content/ch5.qmd) + [Chapter 6. Information in Organizations](content/ch6.qmd) | Guest lecture from Kellie Dalton |
-| Oct 28 | [Chapter 7. The Information Economy](content/ch7.qmd) | Lecture + group discussions |
-| Nov 4 | [Chapter 8. The Attention Economy](content/ch8.qmd) | Lecture + group discussions |
-| Nov 18 | [Chapter 9. Misinformation, Disinformation, and Fake News](content/ch9.qmd) | *Guest lecture from Christine Smith (virtual) + class activity + group discussions* |
-| Nov 25 | [Chapter 10. Information and Democracy](content/ch10.qmd) | Lecture + group discussions |
-| Dec 2 | [Chapter 11. Information Justice](content/ch11.qmd) | Guest lecture TBD + discussions |
+| Sept 30 | National Day For Truth & Reconciliation - No Class |  |
+| Oct 7 | [Chapter 2. What is Information?](content/ch2.qmd) | Short lecture + group activity |
+| Oct 14 | [Chapter 3. Information Issues](content/ch3.qmd) | Presentations of results from week 2 activity + short lecture. |
+| Oct 21 | [Chapter 4. Humans in an Information Society](content/ch4.qmd) | Lecture + group discussions |
+| Oct 28 | [Chapter 5. Work in the Information Society](content/ch5.qmd) + [Chapter 6. Information in Organizations](content/ch6.qmd) | Guest lecture from Kellie Dalton |
+| Nov 4 | [Chapter 7. The Information Economy](content/ch7.qmd) | Lecture + group discussions |
+| Nov 11 | Reading week - no class. |  |
+| Nov 18 | [Chapter 8. The Attention Economy](content/ch8.qmd) | Lecture + group discussions |
+| Nov 25 | [Chapter 9. Misinformation, Disinformation, and Fake News](content/ch9.qmd) | *Guest lecture from Christine Smith (virtual) + class activity + group discussions* |
+| Dec 2 | [Chapter 10. Information and Democracy](content/ch10.qmd) | Lecture + group discussions |
+| TBD | [Chapter 11. Information Justice](content/ch11.qmd) | Guest lecture TBD + discussions |
 
 # Assignments
 
@@ -44,6 +40,10 @@ Upon completion of this course, students should be able to:
 | [Participation self-assessment - Part 3](assignments/0-participation.qmd) | Friday, December 12, 2025 | 7.5% |
 
 # Other Important Information and Resources
+
+-   You can access this course website without going through Brightspace with the following URL: <https://pmongeon.github.io/information-in-society/>.
+
+<!-- -->
 
 -   The official [course syllabus](files/INFO5500-Syllabus.pdf).
 
