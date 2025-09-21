@@ -8,7 +8,7 @@ You can access this course website without going through Brightspace with the fo
 <https://pmongeon.github.io/information-in-society/>
 :::
 
-## Learning Outcomes
+# Learning Outcomes
 
 Upon completion of this course, students should be able to:
 
@@ -17,10 +17,10 @@ Upon completion of this course, students should be able to:
 -   Understand the nature and social roles of the information professions.
 -   Identify contemporary issues and their relationship with information and the information field.
 
-## Course Schedule
+# Course Schedule
 
 | Class date | Theme/reading to complete before class | Class activities |
-|:--------------:|----------------------------------------|----------------|
+|:---------------:|--------------------------------------|-----------------|
 | Sept 23 | [Chapter 1. The Information Field](content/ch1.qmd) | Introduction + Course overview |
 | Sept 30 | [Chapter 2. What is Information?](content/ch2.qmd) | Short lecture + group activity |
 | Oct 7 | [Chapter 3. Information Issues](content/ch3.qmd) | Presentations of results from week 2 activity + short lecture. |
@@ -35,7 +35,7 @@ Upon completion of this course, students should be able to:
 # Assignments
 
 | Assignment | Due date | Weight |
-|------------------------------|----------------------|---------------------|
+|-----------------------------|----------------------|---------------------|
 | [Participation self-assessment - Part 1](assignments/0-participation.qmd) | Friday, September 26, 2025 | 7.5% |
 | [Analysis of an information setting](assignments/1-information-setting.qmd) | Friday, October 17, 2025 | 30% |
 | [Participation self-assessment - Part 2](assignments/0-participation.qmd) | Friday, October 28, 2025 | 5% |
