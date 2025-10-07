@@ -84,7 +84,7 @@ To see the world (and make it better) through an information lens.
 ## Assignments {.smaller}
 
 | Assignment                             | Due date                   | Weight |
-|-----------------------------|----------------------|---------------------|
+|----------------------------------------|----------------------------|--------|
 | Participation self-assessment - Part 1 | Friday, September 26, 2025 | 7.5%   |
 | Analysis of an information setting     | Friday, October 17, 2025   | 30%    |
 | Participation self-assessment - Part 2 | Friday, October 28, 2025   | 5%     |

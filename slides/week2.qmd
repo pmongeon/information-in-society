@@ -1,0 +1,27 @@
+---
+title: "Information in Society - Week 2"
+subtitle: "What is information?"
+format: revealjs
+editor: visual
+---
+
+## What's in a name?
+
+If we are going to call ourselves information specialists, experts, professionals, managers, scientists, etc., it seems appropriate that we should seek to understand what it is that we are experts of...
+
+## What is information?
+
+![](images/clipboard-3742367617.png)
+
+## Disentangling the conceptual knot
+
+![](images/clipboard-1320379598.png)
+
+## Information in its conceptual context
+
+![](images/clipboard-4174428598.png)
+
+## Information in its disciplinary context
+
+![](images/clipboard-348792536.png)
+
