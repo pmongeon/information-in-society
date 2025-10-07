@@ -1,0 +1,28 @@
+---
+title: "Information in Society - Week 1"
+author: "Philippe Mongeon"
+format: revealjs
+editor: visual
+---
+
+## Teams {.smaller}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(DT)
+
+x<-read_xlsx("../files/teams.xlsx") %>% 
+  select(2,1)
+DT::datatable(x, rownames = F,
+              filter = "top",
+              options = list(
+                pageLength = 8,
+                columnDefs = list(
+                  list(width = '10px', targets = 0),
+                  list(className = 'dt-center', targets = 0),
+                  list(width = '400px', targets = 1))
+                )
+              )
+
+```

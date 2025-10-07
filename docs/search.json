@@ -1057,6 +1057,7 @@
     "text": "Your answers"
   },
   {
+<<<<<<< Updated upstream
     "objectID": "slides/week1.html#whats-in-a-name",
     "href": "slides/week1.html#whats-in-a-name",
     "title": "Information in Society - Week 2",
@@ -1104,5 +1105,19 @@
     "title": "Information in Society - Week 2",
     "section": "Information in its disciplinary context",
     "text": "Information in its disciplinary context"
+=======
+    "objectID": "slides/CopyOfweek1.html#team-1",
+    "href": "slides/CopyOfweek1.html#team-1",
+    "title": "Information in Society - Week 1",
+    "section": "Team 1",
+    "text": "Team 1"
+  },
+  {
+    "objectID": "slides/CopyOfweek1.html#teams",
+    "href": "slides/CopyOfweek1.html#teams",
+    "title": "Information in Society - Week 1",
+    "section": "Teams",
+    "text": "Teams"
+>>>>>>> Stashed changes
   }
 ]

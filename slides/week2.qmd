@@ -5,6 +5,12 @@ format: revealjs
 editor: visual
 ---
 
+## Today's plan
+
+-   ISSA presentation
+-   Short presentation + open discussions
+-   Fun
+
 ## What's in a name?
 
 If we are going to call ourselves information specialists, experts, professionals, managers, scientists, etc., it seems appropriate that we should seek to understand what it is that we are experts of...
@@ -25,3 +31,31 @@ If we are going to call ourselves information specialists, experts, professional
 
 ![](images/clipboard-348792536.png)
 
+# Fun time
+
+## Your task
+
+-   **Goal**: Create a visual representation of the concept of information and its relationship to other concepts.
+-   **Time**: Up until 11am
+-   **Rules**: None.
+
+##  {.smaller}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(DT)
+
+x<-read_xlsx("../files/teams.xlsx") %>% 
+  select(2,1)
+DT::datatable(x, rownames = F,
+              filter = "top",
+              options = list(
+                pageLength = 8,
+                columnDefs = list(
+                  list(width = '10px', targets = 0),
+                  list(className = 'dt-center', targets = 0),
+                  list(width = '400px', targets = 1))
+                )
+              )
+```
