@@ -3,6 +3,7 @@ title: "Information in Society - Week 2"
 subtitle: "What is information?"
 format: revealjs
 editor: visual
+chalkboard: true
 ---
 
 ## Today's plan
