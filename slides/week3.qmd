@@ -1,6 +1,6 @@
 ---
 title: "Information in Society - Week 3"
-subtitle: "Information issues in an information society?"
+subtitle: "Information issues in an information society"
 format: revealjs
 editor: visual
 chalkboard: true
@@ -16,7 +16,7 @@ chalkboard: true
 
 # Very short presentation
 
-Phil: start recording
+Note to self: don't forget to start the recording
 
 ## The dimensions of the information society {.smaller}
 
@@ -43,12 +43,16 @@ The goal is to provide a general, high-level framework that can apply most or al
 ## Questions {.smaller}
 
 -   Can you think of different ways in which the different types of information issues are related to each dimension of the information society?
+-   What parallels do you see between the paradox of choice, the information society, and information issues?
 -   How do you think technologies can help or accentuate information access issues?
 -   How can information professionals help ensure that technologies effectively increase access to information?
 -   Have you ever found yourself struggling to find the information that you needed? How did you feel? How did you cope with the situation? What was the outcome?
 -   Have you ever found yourself having too much information? What was the context? How did you feel? How did you cope with the situation? What was the outcome?
 -   Can you think of examples of information behaviour that can have a positive or negative impact on our lives or the lives of others?
 -   Do you think other types of information issues should be added to my list?
+-   Any other question from chapter 3 or of your choice.
+
+##  {.smaller}
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -75,9 +79,11 @@ DT::datatable(x, rownames = F,
 ## Questions {.smaller}
 
 -   Can you think of different ways in which the different types of information issues are related to each dimension of the information society?
+-   What parallels do you see between the paradox of choice, the information society, and information issues?
 -   How do you think technologies can help or accentuate information access issues?
 -   How can information professionals help ensure that technologies effectively increase access to information?
 -   Have you ever found yourself struggling to find the information that you needed? How did you feel? How did you cope with the situation? What was the outcome?
 -   Have you ever found yourself having too much information? What was the context? How did you feel? How did you cope with the situation? What was the outcome?
 -   Can you think of examples of information behaviour that can have a positive or negative impact on our lives or the lives of others?
 -   Do you think other types of information issues should be added to my list?
+-   Any other question from chapter 3 or of your choice.
