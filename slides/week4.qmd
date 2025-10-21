@@ -41,6 +41,24 @@ Information behaviour refers to the ways individuals:
 :::
 :::::
 
+## Informatic personhood {.smaller}
+
+::::: columns
+::: {.column width="60%"}
+-   **Informatic context**
+
+    -   Data interfaces: systems, devices, infrastructures, and objects that connect to data
+    -   Data circulation: the dynamics of data (im)mobility
+    -   Data abstraction: how data is processed and what we do with it through algorithms, big data, measures, machine learning, software, artificial intelligence, etc.
+
+-   **Informatic perso**n: the subject who resides in the informatic context and attempts to sense-make and live meaningful through and with data.
+:::
+
+::: {.column width="40%"}
+![](images/clipboard-559121853.png){fig-align="center"}
+:::
+:::::
+
 ## Standards, power, and marginalization {.smaller}
 
 -   Every network is characterized by a more or less stable set of norms and standards, some of which can be extremely difficult to change once the network is stabilized.
