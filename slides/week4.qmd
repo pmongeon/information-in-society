@@ -91,20 +91,19 @@ Goffman, E. (1956). *The Presentation of Self in Everyday Life*. Doubleday.
 ## The self {.smaller}
 
 ::::: columns
-::: {.column width="70%"}
+::: {.column width="60%"}
 -   Are we what we do?
-    -   Existence precedes essence - Jean-Paul Sartre
-    -   (Information) behaviour defines us?
--   Are we what we consume?
+    -   Does existence precede essence? (Does our information behaviour define us?)
+-   Are we what (information) we consume?
 -   How do you think the information technologies that you do or don’t use shape your identity?
 -   Are we defined by our performances?
 -   Is there such a thing as an authentic self?
--   How much control do you have on the version of yourself that is presented to others in different context? How much can we actually manage our impressions?
--   If, as Sherry Turkle suggest, we are losing the ability to disengage from the networks, does it mean we are spending less time backstage being ourselves?
+-   How much can we control the version of ourselves presented to others in different contexts? How much can we actually manage our impressions?
+-   Are we losing the ability to disengage from the networks? Are we spending less time backstage being ourselves?
 :::
 
-::: {.column width="30%"}
-![](images/clipboard-1082231306.png){fig-align="center" width="197"}
+::: {.column width="40%"}
+![](images/clipboard-2661843505.png)
 :::
 :::::
 
