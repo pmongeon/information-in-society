@@ -1,0 +1,143 @@
+---
+title: "Information in Society - Week 4"
+subtitle: "Humans in an Information Society"
+format: revealjs
+editor: visual
+chalkboard: true
+toc: true
+---
+
+## Information Behaviour {.smaller}
+
+Information behaviour refers to the ways individuals:
+
+-   **seek** information
+
+-   **encounter** information (serendipity)
+
+-   **use** information
+
+-   **avoid** information
+
+-   **produce/share** information
+
+## Networks {.smaller}
+
+::::: columns
+::: {.column width="70%"}
+-   A network is a system of nodes (entities) connected by edges (relationships).
+-   Social networks (communities)
+    -   From small networks (e.g., your reading club, or this classroom) to big networks (e.g., Swifties)
+-   Technological networks
+    -   Cloud computing, social media, internet, phones, cable, roads, the electric grid, etc.
+-   Sociotechnical network
+    -   Intertwined and interdependent social and technological networks.
+-   Networked individualization:
+    -   The use of technologies to develop social networks that provide sociability, support, information, a sense of belonging and identity.
+:::
+
+::: {.column width="30%"}
+![](images/clipboard-4087434777.png)
+:::
+:::::
+
+## Informatic personhood {.smaller}
+
+::::: columns
+::: {.column width="60%"}
+-   **Informatic context**
+
+    -   Data interfaces: systems, devices, infrastructures, and objects that connect to data
+    -   Data circulation: the dynamics of data (im)mobility
+    -   Data abstraction: how data is processed and what we do with it through algorithms, big data, measures, machine learning, software, artificial intelligence, etc.
+
+-   **Informatic perso**n: the subject who resides in the informatic context and attempts to sense-make and live meaningful through and with data.
+:::
+
+::: {.column width="40%"}
+![](images/clipboard-559121853.png){fig-align="center"}
+:::
+:::::
+
+## Standards, power, and marginalization {.smaller}
+
+-   Every network is characterized by a more or less stable set of norms and standards, some of which can be extremely difficult to change once the network is stabilized.
+-   Networks are not neutral and tend to involve power relationships
+    -   e.g., Power to set norms/standards, to control data interfaces, circulation, and abstraction.
+-   No one fits the standards and norms perfectly (marginalization as a continuum).
+-   Participating on a network (i.e., existing?) comes at a cost.
+-   **Multiplicity**: We exist and engage in multiple networks, each with their own structure, standards and norms.
+
+## Performances {.smaller}
+
+-   People perform roles in social settings, mainly to fit it.
+-   Front stage: **managing impressions** for an audience (real or imagined),
+-   Back stage: relaxing, not acting... being ourselves(?)
+-   Are network the front stage(s) on which we perform?
+-   Are all network performances public?
+
+Goffman, E. (1956). *The Presentation of Self in Everyday Life*. Doubleday.
+
+## Affordances {.smaller}
+
+-   Coined by psychologist James J. Gibson (1979).
+-   Refer to perceived possibilities for action in an environment.
+-   From an information perspective:
+    -   How users perceive and act on information systems, tools, and spaces.
+    -   Opportunities and constraints for information behaviours.
+    -   Opportunities and constraints for acting and managing impressions.
+-   Different network stages have different affordances.
+
+## The self {.smaller}
+
+::::: columns
+::: {.column width="60%"}
+-   Are we what we do?
+    -   Does existence precede essence? (Does our information behaviour define us?)
+-   Are we what (information) we consume?
+-   How do you think the information technologies that you do or don’t use shape your identity?
+-   Are we defined by our performances?
+-   Is there such a thing as an authentic self?
+-   How much can we control the version of ourselves presented to others in different contexts? How much can we actually manage our impressions?
+-   Are we losing the ability to disengage from the networks? Are we spending less time backstage being ourselves?
+:::
+
+::: {.column width="40%"}
+![](images/clipboard-2661843505.png)
+:::
+:::::
+
+##  {.smaller}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(DT)
+
+x<-read_xlsx("../files/teams.xlsx") %>%
+  filter(Week == "Week 4") %>%  
+  select(Name = first_name, Team = team) %>% 
+  arrange(Team)
+
+DT::datatable(x, rownames = F,
+              filter = "top",
+              options = list(
+                pageLength = 8,
+                columnDefs = list(
+                  list(width = '10px', targets = 0),
+                  list(className = 'dt-center', targets = 0),
+                  list(width = '400px', targets = 1))
+                )
+              )
+```
+
+## Group discussion {.smaller}
+
+-   In what ways might Wren’s online persona be authentic? In what ways might it be curated?  
+-   Should workplaces punish people based on the content on their social media channels?
+-   Is it OK for companies to look at personal social media accounts in the hiring process?
+-   Would you consider social media and online platforms a private or public environment?
+-   What online communities are you a part of? How do you manage your identity in these networks?
+-   What information do you share online? Does this change based on the online space you are in?
+-   Consider how technology facilitates or inhibits your ability to interact in your in-person and online networks?
+-   Consider the differences (or similarities) in how you interact with friends, professional colleagues, or other groups online versus in person. What are the benefits or drawbacks of this?
