@@ -1,0 +1,50 @@
+---
+title: "Information in Society - Week 6"
+subtitle: "Information Economy"
+format: revealjs
+editor: visual
+chalkboard: true
+toc: true
+---
+
+# Open discussion
+
+## 
+
+# Presentation of scholarly publishing
+
+##  {.smaller}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(DT)
+
+x<-read_xlsx("../files/teams.xlsx") %>%
+  filter(Week == "Week 6") %>%  
+  select(Name = first_name, Team = team) %>% 
+  arrange(Team)
+
+DT::datatable(x, rownames = F,
+              filter = "top",
+              options = list(
+                pageLength = 8,
+                columnDefs = list(
+                  list(width = '10px', targets = 0),
+                  list(className = 'dt-center', targets = 0),
+                  list(width = '400px', targets = 1))
+                )
+              )
+```
+
+## Group discussion {.smaller .scrollable}
+
+-   What may be the effect of the dominance of market principles on the information produced, made available, and consumed by the public?
+-   How do you think we can determine the value of information?
+-   Do you think that information should be considered a public good? Why?
+-   Do you think that you are information-poor or information-rich?
+-   Is there anything that we can do as information professionals to help with these issues?
+-   Do you agree with Dante or Jude? Do you think that it’s fair for someone to be able to download a PDF of a book for free online when others are purchasing it legally? Why?
+-   What is your opinion on the oligopoly controlling all the academic journals libraries purchase?
+-   Do you think that these journal bundles should be unbundled? Why?
+-   How do we determine value differently on an individual versus collective basis?
