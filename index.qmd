@@ -14,7 +14,7 @@ Upon completion of this course, students should be able to:
 # Course Schedule
 
 | Class date | Theme/reading to complete before class | Class activities |
-|:---------------:|--------------------------------------|-----------------|
+|:----------------:|------------------------------------|------------------|
 | Sept 23 | [Chapter 1. The Information Field](content/ch1.qmd) | Introduction + Course overview |
 | Sept 30 | National Day For Truth & Reconciliation - No Class |  |
 | Oct 7 | [Chapter 2. What is Information?](content/ch2.qmd) | Short lecture + group activity |
@@ -23,10 +23,10 @@ Upon completion of this course, students should be able to:
 | Oct 28 | [Chapter 5. Work in the Information Society](content/ch5.qmd) + [Chapter 6. Information in Organizations](content/ch6.qmd) | Guest lecture from Kellie Dalton |
 | Nov 4 | [Chapter 7. The Information Economy](content/ch7.qmd) | Lecture + group discussions |
 | Nov 11 | Reading week - no class. |  |
-| Nov 18 | [Chapter 8. The Attention Economy](content/ch8.qmd) | Lecture + group discussions |
-| Nov 25 | [Chapter 9. Misinformation, Disinformation, and Fake News](content/ch9.qmd) | *Guest lecture from Christine Smith (virtual) + class activity + group discussions* |
+| Nov 18 | [Chapter 8. The Attention Economy](content/ch8.qmd) | *Guest lecture from Christine Smith (virtual) + class activity + group discussions* |
+| Nov 25 **(Important, class will start at 10am)** | [Chapter 9. Misinformation, Disinformation, and Fake News](content/ch9.qmd) | *Class activity + [Lecture by Anatoliy Gruzd (at 4:00 pm)](https://www.dal.ca/faculty/management/news-events/events/2025/11/25/alan_h__macdonald_information_science_public_lecture__how_generative_ai_fuels_disinformation_and_misinformation_and_what_we_must_do.html)* |
 | Dec 2 | [Chapter 10. Information and Democracy](content/ch10.qmd) | Lecture + group discussions |
-| TBD | [Chapter 11. Information Justice](content/ch11.qmd) | Guest lecture TBD + discussions |
+| Dec 9 **(Online)** | [Chapter 11. Information Justice](content/ch11.qmd) | Short lecture + Panel with guests Paola Gonzalez and Alison Brown |
 
 # Assignments
 
@@ -42,19 +42,11 @@ Upon completion of this course, students should be able to:
 # Other Important Information and Resources
 
 -   You can access this course website without going through Brightspace with the following URL: <https://pmongeon.github.io/information-in-society/>.
-
-<!-- -->
-
 -   The official [course syllabus](files/INFO5500-Syllabus.pdf).
-
 -   A [Zotero library](https://www.zotero.org/groups/2536626/info5500_-_information_in_society/library) with all the references in the course website, organized by chapter.
-
 -   Use [Zotero](https://www.zotero.org) (or another reference manager of your choice) to store your references and cite them in your work. (not mandatory, but highly recommended).
-
 -   Use **APA style** for your references in all assignments.
-
 -   You can use this [Word template](files/assignment-template.dotx) to write your assignments (not mandatory). Whether you use this template or not, I strongly recommend using Word styles to format and structure your document.
-
 -   Have fun.
 
 # Acknowledgements

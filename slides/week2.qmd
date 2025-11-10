@@ -3,7 +3,6 @@ title: "Information in Society - Week 2"
 subtitle: "What is information?"
 format: revealjs
 editor: visual
-chalkboard: true
 ---
 
 ## Today's plan
@@ -34,13 +33,7 @@ If we are going to call ourselves information specialists, experts, professional
 
 # Fun time
 
-## Your task
-
--   **Goal**: Create a visual representation of the concept of information and its relationship to other concepts.
--   **Time**: Up until 11am
--   **Rules**: None.
-
-##  {.smaller}
+## Teams {.smaller}
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -60,91 +53,3 @@ DT::datatable(x, rownames = F,
                 )
               )
 ```
-
-## Bates information {.scrollable .smaller}
-
-**Embedded information**: The pattern of organization of the enduring
-
-effects of the presence of animals on the earth; may be incidental, as a
-
-path through the woods, or deliberate, as a fashioned utensil or tool.
-
-**Embodied** **information**: The corporeal expression or manifestation of
-
-information previously in encoded form.
-
-**Encoded** **information**: Natural information that has symbolic, linguistic,
-
-and/or signal-based patterns of organization.
-
-Enacted information: The pattern of organization of actions of an animal
-
-in, and interacting with, its environment, utilizing capabilities and
-
-experience from its neural stores.
-
-**Experienced** **information**: The pattern of organization of subjective
-
-experience, the feeling of being in life, of an animal.
-
-**Exosomatic** **information**: Information stored in durable form external to
-
-the body (Idea drawn from Goonatilake, 1991).
-
-**Expressed** **information**: The pattern of organization of communicatory
-
-scents, calls, gestures, and ultimately, human spoken language used to
-
-communicate among members of a species and between species.
-
-**Genetic information**: Information contained in the genotype.
-
-**Genotype**: The genetic constitution of a living thing (drawn from standard
-
-definitions in the biological literature).
-
-**Information 1**: The pattern of organization of matter and energy.
-
-**Information 2**: Some pattern of organization of matter and energy given
-
-meaning by a living being.
-
-**Knowledge**: Information given meaning and integrated with other
-
-contents of understanding.
-
-**Natural information**: All information is natural information, in that it
-
-exists in the material world of matter and energy. Represented
-
-information (below) is an important subset of natural information.
-
-**Neural**-**cultural** information: Information that has been created by,
-
-processed in, or disseminated from animal nervous systems, especially
-
-human nervous systems. (Neural information may also be used for
-
-lower animals and/or specifically for the nervous system structures that
-
-make memory and action possible in general in animals and humans.)
-
-**Phenotype**: The genetically and environmentally determined embodiment
-
-of a genotype. (Drawn from standard definitions in the biological
-
-literature.)
-
-**Recorded information**: Communicatory or memorial information
-
-preserved in a durable medium.
-
-**Represented information**: Natural information that is encoded or
-
-embodied.
-
-**Trace information**: The pattern of organization of the residue that is
-
-incidental to living processes or which remains after living processes
-
-are finished with it.
