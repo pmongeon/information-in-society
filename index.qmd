@@ -14,7 +14,7 @@ Upon completion of this course, students should be able to:
 # Course Schedule
 
 | Class date | Theme/reading to complete before class | Class activities |
-|:----------------:|------------------------------------|------------------|
+|:--:|----|----|
 | Sept 23 | [Chapter 1. The Information Field](content/ch1.qmd) | Introduction + Course overview |
 | Sept 30 | National Day For Truth & Reconciliation - No Class |  |
 | Oct 7 | [Chapter 2. What is Information?](content/ch2.qmd) | Short lecture + group activity |
@@ -31,7 +31,7 @@ Upon completion of this course, students should be able to:
 # Assignments
 
 | Assignment | Due date | Weight |
-|-----------------------------|----------------------|---------------------|
+|----|----|----|
 | [Participation self-assessment - Part 1](assignments/0-participation.qmd) | Friday, September 26, 2025 | 7.5% |
 | [Analysis of an information setting](assignments/1-information-setting.qmd) | Friday, October 17, 2025 | 30% |
 | [Participation self-assessment - Part 2](assignments/0-participation.qmd) | Friday, October 31, 2025 | 5% |
