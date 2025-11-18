@@ -1,0 +1,47 @@
+---
+title: "Information in Society - Week 7"
+subtitle: "Attention Economy"
+format: revealjs
+editor: visual
+chalkboard: true
+toc: true
+---
+
+# Open discussion
+
+## 
+
+##  {.smaller}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(DT)
+
+x<-read_xlsx("../files/teams.xlsx") %>%
+  filter(Week == "Week 7") %>%  
+  select(Name = first_name, Team = team) %>% 
+  arrange(Team)
+
+DT::datatable(x, rownames = F,
+              filter = "top",
+              options = list(
+                pageLength = 8,
+                columnDefs = list(
+                  list(width = '10px', targets = 0),
+                  list(className = 'dt-center', targets = 0),
+                  list(width = '400px', targets = 1))
+                )
+              )
+```
+
+##  {.smaller .scrollable}
+
+-   Would you consider Jude’s online behaviours healthy?
+-   Consider how Jude exists as a user in online settings: do you think he feels/is in control? Do you feel as though he possesses a level of awareness regarding the time he is spending online and the ways in which he is interacting with content?
+-   Do you feel as though you have a level of agency over the information you provide online? When you offer up your data to online sites, does it transform from personal information into a commodity? How do you perceive personal versus collective versus organizational ownership of data online? Is this based on how it was created/generated, or by whom?
+-   Is our data inherently of value? How is value added to the data we generate digitally?
+-   To what degree are you informed about the ways online sites use your information? Is it important to you to be aware of how your attention is captured and commodified? In what ways can we facilitate greater awareness surrounding the attention economy in ourselves and in others?
+-   How do we ensure equitable access to information in an ethical way?
+-   What are the implications of the attention economy for information access, quantity, quality, and behaviour?
+-   How do the phenomena discussed in this chapter apply to individuals or collectives that are not necessarily or directly generating revenues out of the attention and information about others?
