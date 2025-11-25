@@ -1,0 +1,129 @@
+---
+title: "INFO5500 - Week 9"
+author: "Philippe Mongeon"
+format: revealjs
+editor: visual
+bibliography: references.bib
+chalkboard: true
+---
+
+## Important updates
+
+![](images/breaking-news.jpg){fig-align="center"}
+
+## Actual important update #1
+
+![](images/breaking_news2.jpg){fig-align="center"}
+
+## Actual important update #2
+
+![](images/breaking-news3.jpg){fig-align="center"}
+
+## Spot the troll
+
+<https://spotthetroll.org/>
+
+## Spot the fake person
+
+<https://www.whichfaceisreal.com/index.php>
+
+## Criteria for online source evaluation
+
+-   **Audience**. For whom is this source intended?
+-   **Accuracy**. Is the information in this source correct?
+-   **Bias**. Does the information in the source support a particular agenda?
+-   **Credibility**. Is the author an expert in this field?
+-   **Currency**. Is the information up to date?
+
+^Dal's handout: <https://tinyurl.com/mtz9372n>^
+
+^Dal's libguide: <https://dal.ca.libguides.com/ResearchSkills/source-evaluation>^
+
+## Practice
+
+Compare the following pairs of sites and consider these questions:​​
+
+-   What kind of site are you looking at?  Informational? Sales? Personal? Advocating for a cause?​
+-   Who is responsible for the information?  Look for an ABOUT page.​
+-   Which one is more appropriate for class assignments?​
+-   Which is more credible?​
+-   What factors helped you decide?​
+
+^~source:<https://hennepintech.libguides.com/evaluatingwebsites>~ ​^
+
+## Pair 1
+
+-   [Center for Consumer Freedom](http://www.consumerfreedom.com/)​
+
+-   [Consumer Reports](http://www.consumerreports.org/)
+
+## Pair 2
+
+-   [The Effects of Pesticides from the Global Healing Center](https://explore.globalhealing.com/effects-of-pesticides/)​
+
+-   [About Pesticides](https://www.epa.gov/pesticides)
+
+## Pair 3
+
+-   [Factcheck.org](http://www.factcheck.org/)​
+
+-   [JustFacts.com](http://www.justfacts.com/)
+
+## Pair 4
+
+-   [The Use of Drugs in Farm Animals: Benefits and Risks](http://books.nap.edu/openbook.php?record_id=5137&page=R1)​
+
+-   [The Dangers of Antibiotics in Foods](http://www.healthambition.com/antibiotics-in-food/)
+
+## Pair 5
+
+-   [Antibiotics Used in Meat Pose a Threat to Public Health, Admits FDA](http://www.naturalnews.com/030132_antibiotics_meat.html)​
+
+-   [Antibiotics in Meat Could Be Damaging Our Guts](https://www.nytimes.com/2018/05/25/opinion/sunday/meat-antibiotics-organic-farming.html)
+
+## Pair 6
+
+-   [Community Supported Agriculture: A Secure Market, A Local Food Supply](https://attra.ncat.org/newsletter/pdf/ATTRAnews_May-June06.pdf)​
+
+-   [Community Supported Agriculture for Meat and Eggs](http://www.ucsusa.org/food_and_agriculture/solutions/expand-healthy-food-access/community-supported.html#.Vhad_sa1KkE)
+
+## Pair 7
+
+-   [Greener Pastures: How Grass-Fed Beef and Milk Contribute to Healthy Eating](http://ucsusa.org/food_and_agriculture/solutions/smart_pasture_operations/greener-pastures.html)​
+
+-   [The Health Benefits of Grass Fed Beef](https://bodyecology.com/articles/the-health-benefits-of-grass-fed-beef/)
+
+## Pair 8
+
+-   [About Antimicrobial Resistance: A Brief Overview](http://www.cdc.gov/drugresistance/about.html)​
+
+-   [Antibiotic Resistance](http://www.detectingdesign.com/antibioticresistance.html)
+
+## How misinformation spreads
+
+![](images/spread.png){fig-align="center"}
+
+^Soroush Vosoughi *et al.* The spread of true and false news online.*Science***359**,1146-1151(2018).DOI:[10.1126/science.aap9559](https://doi.org/10.1126/science.aap9559)^
+
+## Revisiting misinformation and related concepts
+
+-   Misinformation, disinformation, malinformation
+-   Fake news and satire
+-   Positivism, constructivism, postmodernism
+-   Truth, lies, and Bullsh\*t
+
+## Can chatGPT lie?
+
+![](images/can%20chatGPT%20lie.png){fig-align="center" width="1084"}
+
+## 
+
+# 15 minutes break - 45 minutes breakout.
+
+## References
+
+-   Frankfurt, H. G. (2005). *On bullshit*. Princeton University Press.
+
+<!-- -->
+
+-   Soroush Vosoughi *et al.* The spread of true and false news online.*Science***359**,1146-1151(2018).DOI:[10.1126/science.aap9559](https://doi.org/10.1126/science.aap9559)
