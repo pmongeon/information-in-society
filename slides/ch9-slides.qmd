@@ -3,7 +3,6 @@ title: "INFO5500 - Week 9"
 author: "Philippe Mongeon"
 format: revealjs
 editor: visual
-bibliography: references.bib
 chalkboard: true
 ---
 
