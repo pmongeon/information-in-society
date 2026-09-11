@@ -10,10 +10,10 @@ You embarked on the information in society journey with some expectations and go
 
 A text of no more than 300 words (can be bullet points) establishing some engagement goals for yourself.  You may wish to provide some context (e.g., “Asking a question in class is not something I usually do, and it would require me stepping out of my comfort zone”). Here are some questions to help you think about this (you don’t have to answer them all or at all):
 
--   Do you intend to attend all the classes?
--   Do you intend to do the readings ahead of classes?
--   There are reflection questions throughout the chapters. Do you intend to take the time to think about them?
--   What are your expectations with assignments? Do you want to just get them done and move on? Or do you want to challenge yourself a little? How much time and effort are you hoping to put into them?
+- Do you intend to attend all the classes?
+- Do you intend to do the readings ahead of classes?
+- There are reflection questions throughout the chapters. Do you intend to take the time to think about them?
+- What are your expectations with assignments? Do you want to just get them done and move on? Or do you want to challenge yourself a little? How much time and effort are you hoping to put into them?
 
 # Part 2 - Midterm Check-in
 
@@ -31,7 +31,7 @@ As the course and the semester are about to end, take a moment to look back at y
 
 A text of no more than 300 words commenting on your level of participation in the course. You may indicate in the text what letter grade you would give yourself, but this is not required. Here are a few elements you *may* wish to consider, along with the engagement goals you set for yourself at the beginning of the semester:
 
--   **Attendance**: How many classes did you attend?
--   **Preparation**: Did you read some of the materials and came to class prepared?
--   **Engagement**: Did you actively engage in discussions in or with your instructor or TA?
--   **Effort**: How happy are you with your assignments? Did you put in as much effort as you would have expected or hoped for yourself?
+- **Attendance**: How many classes did you attend?
+- **Preparation**: Did you read some of the materials and came to class prepared?
+- **Engagement**: Did you actively engage in discussions in or with your instructor or TA?
+- **Effort**: How happy are you with your assignments? Did you put in as much effort as you would have expected or hoped for yourself?

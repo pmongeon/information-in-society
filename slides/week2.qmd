@@ -7,9 +7,9 @@ editor: visual
 
 ## Today's plan
 
--   ISSA presentation
--   Short presentation + open discussions
--   Fun
+- ISSA presentation
+- Short presentation + open discussions
+- Fun
 
 ## What's in a name?
 

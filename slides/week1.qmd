@@ -27,14 +27,14 @@ editor: visual
 
 ## Doing the math {.smaller}
 
-**3-credit course\
-**9hrs/week = 3hrs/week of class time + 6hrs/week for the rest.
+**3-credit course\**
+9hrs/week = 3hrs/week of class time + 6hrs/week for the rest.
 
-**This semester\
-**6 hours x ~~12~~ 10 weeks = 60 hours.
+**This semester\**
+6 hours x ~~12~~ 10 weeks = 60 hours.
 
-**This course\
-**Class prep \~ 15 hours\
+**This course\**
+Class prep \~ 15 hours\
 Participation self-assessment \~ 2 hours\
 Assignment #1 - Information Setting \~ 10 hours\
 Assignment #2 - Essay plan \~ 10 hours\

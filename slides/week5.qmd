@@ -14,7 +14,7 @@ output:
         toggleNotesButton: true
       menu:
         side: right
-bibliography: references.bib
+## bibliography: references.bib
 ---
 
 # Bibliometrics and scholarly communications
@@ -60,7 +60,7 @@ Robert Maxwell owned Pergamon Press (formerly Buttersworth) from 1951 to 1991.
 
 ## **Enrolling researchers**
 
-"We would get dinner and fine wine, and at the end [Robert Maxwell] would present us a cheque -- a few thousand pounds for the society. It was more money than us poor scientists had ever seen." *Leslie Iversen, former editor at the Journal of Neurochemistry.*
+"We would get dinner and fine wine, and at the end \[Robert Maxwell\] would present us a cheque -- a few thousand pounds for the society. It was more money than us poor scientists had ever seen." *Leslie Iversen, former editor at the Journal of Neurochemistry.*
 
 ## **Price inelasticity**
 
@@ -74,7 +74,7 @@ Robert Maxwell owned Pergamon Press (formerly Buttersworth) from 1951 to 1991.
 
 ## **Breaking point**
 
-*"By 1994 [...] Elsevier had raised its prices by 50%. Universities complained that their budgets were stretched to breaking point"* (Buranyi, 2017)
+*"By 1994 \[...\] Elsevier had raised its prices by 50%. Universities complained that their budgets were stretched to breaking point"* (Buranyi, 2017)
 
 ## **The "big deals"**
 
@@ -86,9 +86,9 @@ Libraries could save money by canceling the print subscriptions.
 
 *"Academic library directors should not sign on to the Big Deal or any comprehensive licensing agreements with commercial publishers." (Frazier, 2001)*
 
--   Forced acquisition of journals that we don't want or need.
+- Forced acquisition of journals that we don't want or need.
 
--   Increased dependency on commercial publishers with monopolistic ambitions.
+- Increased dependency on commercial publishers with monopolistic ambitions.
 
 ## **Increased control over scholarly publishing....**
 
@@ -114,11 +114,11 @@ Open Access (OA) is a process that aims to make research output freely available
 
 Journals often allow authors to make their work available online in places such as:
 
--   Institutional repositories (e.g., Atrium here at Guelph);
+- Institutional repositories (e.g., Atrium here at Guelph);
 
--   Disciplinary repositories (e.g., PubMed Central, ArXiv, SocArXiv, BioRxiv);
+- Disciplinary repositories (e.g., PubMed Central, ArXiv, SocArXiv, BioRxiv);
 
--   Their website.
+- Their website.
 
 Information on individual journal policies: [\<https://v2.sherpa.ac.uk/romeo/\>](https://v2.sherpa.ac.uk/romeo/){.uri}
 
@@ -134,31 +134,31 @@ This model typically (but not always) involves an article processing charge (APC
 
 ## **Multiple gold mines**
 
--   Library budgets (nearly depleted gold mine)
+- Library budgets (nearly depleted gold mine)
 
--   Authors research budgets and personal funds (unexploited gold mine)
+- Authors research budgets and personal funds (unexploited gold mine)
 
--   Governments spending to support open access (unexploited gold mine).
+- Governments spending to support open access (unexploited gold mine).
 
 *Once they had exhausted the libraries' capacity to pay they turned to the researchers' infinite need to publish papers, and universities ambition to climb in the rankings, and the global push for open access.*
 
 ## **Open access mega journals**
 
--   Charateristics
+- Charateristics
 
-    -   High publication volume
+  - High publication volume
 
-    -   High acceptance rate
+  - High acceptance rate
 
-    -   No instistance on novelty
+  - No instistance on novelty
 
--   Examples
+- Examples
 
-    -   Scientific Reports (Springer-Nature)
+  - Scientific Reports (Springer-Nature)
 
-    -   SAGE open (Sage)
+  - SAGE open (Sage)
 
-    -   SpringerPlus (Springer)
+  - SpringerPlus (Springer)
 
 ## **Hybrid OA**
 
@@ -178,53 +178,53 @@ Tranformative agreements seek to shift scholarly publishing away from subscripti
 
 ## **The SAGE deal with Canadian Universities**
 
--   Free hybrid OA for authors as part of the "big deal"
+- Free hybrid OA for authors as part of the "big deal"
 
--   6% increase to the "big deal" price.
+- 6% increase to the "big deal" price.
 
 ## **The Wiley deal with German universities**
 
--   Access to the "big deal" journals restored.
+- Access to the "big deal" journals restored.
 
--   Universities to pay 2,750 euros per articles authored by their researchers.
+- Universities to pay 2,750 euros per articles authored by their researchers.
 
 ## **The Elsevier deal with the University of California**
 
--   Access to the "big deal" journals restored.
+- Access to the "big deal" journals restored.
 
--   Hybrid OA becomes the standard (authors need to opt-out)
+- Hybrid OA becomes the standard (authors need to opt-out)
 
--   First 1000\$ paid by the University
+- First 1000\$ paid by the University
 
--   Rest paid by the author
+- Rest paid by the author
 
--   If the author has no research funds, the library will pay
+- If the author has no research funds, the library will pay
 
 ## **The Elsevier deal with CRKN**
 
--   A 12.5% reduction for 2021, followed by a 0% change for 2022, and a 2% increase for 2023.
+- A 12.5% reduction for 2021, followed by a 0% change for 2022, and a 2% increase for 2023.
 
--   Cost savings of US\$17.4 million over three years (when compared with a three-year contract with anticipated 2% annual increases).
+- Cost savings of US\$17.4 million over three years (when compared with a three-year contract with anticipated 2% annual increases).
 
--   A 20% discount on Article Processing Charges (APCs) for both hybrid and gold open access journals.
+- A 20% discount on Article Processing Charges (APCs) for both hybrid and gold open access journals.
 
 <font size="5">Source: <https://www.crkn-rcdr.ca/en/crkn-meets-bold-negotiation-objectives-elsevier-renewal></font>
 
 # **Why transformative agreements could be good**
 
--   Reduced pressures on library budgets.
+- Reduced pressures on library budgets.
 
--   Reduced inequalities of access to open access publishing.
+- Reduced inequalities of access to open access publishing.
 
--   Increased access.
+- Increased access.
 
 # **Why transformative agreements could be bad**
 
 ## **Status quo of financial and power dynamics?**
 
--   Maintained grasp of large publishers on scholarly publishing.
+- Maintained grasp of large publishers on scholarly publishing.
 
--   Maintained (most likely increased) profits.
+- Maintained (most likely increased) profits.
 
 ## **Killing the competition?**
 
@@ -238,9 +238,9 @@ Will authors choose to pay APCs to a small publisher that does not have a transf
 
 If we consider accessing and participating to research as a human right, we must:
 
--   Eliminate the corporate for-profit logic from the scholarly publishing ecosystem
+- Eliminate the corporate for-profit logic from the scholarly publishing ecosystem
 
--   Replace it with a focus on equality and the public good
+- Replace it with a focus on equality and the public good
 
 ## **Resume journal cancellations**
 
@@ -276,25 +276,25 @@ Demand change!
 
 The entire board of the *Journal of Informetrics* resigned to launch a new open access journal, *Quantitative Science Studies*, on the basis that:
 
--   Scholarly journals should be owned by the scholarly community.
+- Scholarly journals should be owned by the scholarly community.
 
--   Journals should be open access under fair principles.
+- Journals should be open access under fair principles.
 
--   Citation data should be freely available.
+- Citation data should be freely available.
 
 ## **Key success factor**
 
--   Collective initiative by the elite of the field.
+- Collective initiative by the elite of the field.
 
--   Endorsement of the International Society for Scientometrics and Informetrics ([\<https://www.issi-society.org/\>](https://www.issi-society.org/){.uri})
+- Endorsement of the International Society for Scientometrics and Informetrics ([\<https://www.issi-society.org/\>](https://www.issi-society.org/){.uri})
 
 ## **Challenges**
 
--   The *Journal of Informetrics* still exists.
+- The *Journal of Informetrics* still exists.
 
--   QSS doesn't have an impact factor yet.
+- QSS doesn't have an impact factor yet.
 
--   Article Processing Charges.
+- Article Processing Charges.
 
 ## **The CJILS transition to OA**
 
@@ -302,19 +302,19 @@ In 2020, The Canadian Association for Information Science (CAIS) ended its contr
 
 ## **Key success factors**
 
--   The support of the community
+- The support of the community
 
-    -   A recognition that free Open Access is the only publishing model that aligns with our professional values
+  - A recognition that free Open Access is the only publishing model that aligns with our professional values
 
-    -   A dedicated group of volunteers eager to contribute.
+  - A dedicated group of volunteers eager to contribute.
 
--   The Open Journal System (OJS) developed by the Public Knowledge Project ([\<https://pkp.sfu.ca/\>](https://pkp.sfu.ca/){.uri})
+- The Open Journal System (OJS) developed by the Public Knowledge Project ([\<https://pkp.sfu.ca/\>](https://pkp.sfu.ca/){.uri})
 
--   Non-profit publishing partners
+- Non-profit publishing partners
 
-    -   Érudit ([\<https://www.erudit.org/\>](https://www.erudit.org/){.uri})
+  - Érudit ([\<https://www.erudit.org/\>](https://www.erudit.org/){.uri})
 
-    -   Coalition Publica ([\<https://www.coalition-publi.ca/\>](https://www.coalition-publi.ca/){.uri})
+  - Coalition Publica ([\<https://www.coalition-publi.ca/\>](https://www.coalition-publi.ca/){.uri})
 
 ## **Negotiate** <strike>**harder**</strike> **no more**
 
