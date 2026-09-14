@@ -51,7 +51,7 @@ Use at least one level of subheading for each argument, and present:
 ## Evaluation criteria
 
 | Criterion | Excellent | Satisfactory | Needs Improvement | Points |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | **Argument & Thesis** | Clear, focused, and persuasive argument maintained throughout. | Argument is present but may lack depth or consistency. | Argument is unclear, weak, or unsupported. | **30** |
 | **Use of Literature & Evidence** | Effectively uses and synthesizes scholarly sources to support claims. | Uses relevant sources but relies more on summary than synthesis. | Limited, inappropriate, or poorly integrated sources. | **25** |
 | **Critical Analysis** | Demonstrates strong critical thinking and evaluation of ideas. | Some analysis present, but tends toward description. | Primarily descriptive with little critical reflection. | **25** |
