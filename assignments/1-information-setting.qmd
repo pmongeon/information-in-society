@@ -10,7 +10,7 @@ Since joining the Information in Society course, you have started to observe the
 
 Choose a physical, virtual, or hybrid setting where information phenomena are occurring. You can be creative and choose a setting where information is not the first thing that comes to mind (e.g., an emergency room or a game of Monopoly). It can also be a personal space (e.g., your kitchen or home office). Avoid choosing a setting that is too large to be fully observed (e.g., Dalhousie University in Halifax or the internet). Please reach out to me if you can’t find a setting or would like to discuss your choice.
 
-# To Submit on Brightspace
+# To submit on Brightspace
 
 An approximately 1,500-word text including:
 
@@ -19,18 +19,10 @@ An approximately 1,500-word text including:
 3.  The function(s) of information in the setting.
 4.  The interactions between people and information in the setting.
 5.  The factors that facilitate or hinder the information processes (e.g., use, access, exchange, etc.) in the setting.
-6.  The impact of technologies on the setting.
-7.  The implications/opportunities for information professionals.
-
-::: callout-tip
-## Note
-
-You don’t have to include all of the elements listed above in your paper if some are not relevant for the specific setting you chose. If that is the case, please provide a short explanation in your paper. Likewise, if you wish to include additional sections to your paper, please feel free to do so but briefly justify your decision.
-:::
 
 # Grading Criteria
 
--   The analysis is clear, logical and sufficiently detailed (15 points)
--   All elements are included, and exclusions/additions are justified (10 points)
--   Adequate length of the paper (2.5 points)
--   Quality of writing (absence of typos, etc.) (2.5 points)
+- The analysis is clear, logical and sufficiently detailed (15 points)
+- All elements are included (10 points)
+- Adequate length of the paper (2.5 points)
+- Quality of writing (absence of typos, etc.) (2.5 points)

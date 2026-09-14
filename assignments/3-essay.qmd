@@ -8,32 +8,41 @@ Your ideas continued to evolve as you progressed through more of the readings an
 
 ## Instructions
 
-Write an argumentative essay of about 3,500 words on a topic of your choice that relates to the course. I recommend using the following structure for your essay:
+Write an argumentative essay of about 4,000 words on a topic of your choice that relates to the course using the following structure:
 
 **Introduction**
 
-- Background/context
+- Brief Background/context
+- Thesis statement
+- Roadmap of the argument (optional)
 
-- Objective(s) of the essay
+**Literature review / Contextualization**
 
-- A brief outline of the essay
+- Define key concepts
+- Present current perspectives on the topic
 
-**Body**
+**Main argument(s)**
 
-- Include an adequately titled subsection for each key point of your essay.
+Use at least one level of subheading for each argument, and present:
+
+- Your claim
+- Supporting evidence
+- Connection to thesis
+
+**Counterargument**
+
+- Present an opposing perspective and your response
 
 **Conclusion**
 
-- Summary of key points
-
-- General conclusion
-
-- Broader implication or future action
+- Summary of thesis and key arguments adn significance
+- What are the implications (theoretical, practical, political, or other) of your argument?
+- Forward looking statement
 
 **Notes:**
 
 - Sources of various types (e.g., peer-reviewed scholarly articles, opinion pieces, videos) may be suitable but should be evaluated for their quality, authoritativeness, and relevance.
-- There is no minimum (or maximum) number of references to include.
+- Use at least 5 references. There is no maximum number of references to include.
 
 ## Submit on Brightspace
 
@@ -41,5 +50,10 @@ Write an argumentative essay of about 3,500 words on a topic of your choice that
 
 ## Evaluation criteria
 
-- Strength of the argument.
-- Structure, quality and flow of the text.
+| Criterion | Excellent | Satisfactory | Needs Improvement | Points |
+|---------------|---------------|---------------|---------------|---------------|
+| **Argument & Thesis** | Clear, focused, and persuasive argument maintained throughout. | Argument is present but may lack depth or consistency. | Argument is unclear, weak, or unsupported. | **30** |
+| **Use of Literature & Evidence** | Effectively uses and synthesizes scholarly sources to support claims. | Uses relevant sources but relies more on summary than synthesis. | Limited, inappropriate, or poorly integrated sources. | **25** |
+| **Critical Analysis** | Demonstrates strong critical thinking and evaluation of ideas. | Some analysis present, but tends toward description. | Primarily descriptive with little critical reflection. | **25** |
+| **Organization & Writing** | Well-organized, coherent, and professionally written. | Generally clear with minor organizational or writing issues. | Difficult to follow due to organizational or writing problems. | **10** |
+| **Referencing & Academic Conventions** | Accurate citations and consistent academic style. | Minor errors in citations or formatting. | Frequent citation or formatting errors. | **10** |

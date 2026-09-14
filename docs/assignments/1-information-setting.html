@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-9f30c2c2d2429ed22c1cf9f617479b3b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-9e15f8fb9e1f2f288bfbe28f6ca11029.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b62bfd5236959114d0e6374d52c994e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8c538f48b60fafe19613180f1479b39f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context">Context</a></li>
   <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a></li>
-  <li><a href="#to-submit-on-brightspace" id="toc-to-submit-on-brightspace" class="nav-link" data-scroll-target="#to-submit-on-brightspace">To Submit on Brightspace</a></li>
+  <li><a href="#to-submit-on-brightspace" id="toc-to-submit-on-brightspace" class="nav-link" data-scroll-target="#to-submit-on-brightspace">To submit on Brightspace</a></li>
   <li><a href="#grading-criteria" id="toc-grading-criteria" class="nav-link" data-scroll-target="#grading-criteria">Grading Criteria</a></li>
   </ul>
 </nav>
@@ -148,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Choose a physical, virtual, or hybrid setting where information phenomena are occurring. You can be creative and choose a setting where information is not the first thing that comes to mind (e.g., an emergency room or a game of Monopoly). It can also be a personal space (e.g., your kitchen or home office). Avoid choosing a setting that is too large to be fully observed (e.g., Dalhousie University in Halifax or the internet). Please reach out to me if you can’t find a setting or would like to discuss your choice.</p>
 </section>
 <section id="to-submit-on-brightspace" class="level1">
-<h1>To Submit on Brightspace</h1>
+<h1>To submit on Brightspace</h1>
 <p>An approximately 1,500-word text including:</p>
 <ol type="1">
 <li>A brief description of the setting.</li>
@@ -156,28 +157,13 @@ ul.task-list li input[type="checkbox"] {
 <li>The function(s) of information in the setting.</li>
 <li>The interactions between people and information in the setting.</li>
 <li>The factors that facilitate or hinder the information processes (e.g., use, access, exchange, etc.) in the setting.</li>
-<li>The impact of technologies on the setting.</li>
-<li>The implications/opportunities for information professionals.</li>
 </ol>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You don’t have to include all of the elements listed above in your paper if some are not relevant for the specific setting you chose. If that is the case, please provide a short explanation in your paper. Likewise, if you wish to include additional sections to your paper, please feel free to do so but briefly justify your decision.</p>
-</div>
-</div>
 </section>
 <section id="grading-criteria" class="level1">
 <h1>Grading Criteria</h1>
 <ul>
 <li>The analysis is clear, logical and sufficiently detailed (15 points)</li>
-<li>All elements are included, and exclusions/additions are justified (10 points)</li>
+<li>All elements are included (10 points)</li>
 <li>Adequate length of the paper (2.5 points)</li>
 <li>Quality of writing (absence of typos, etc.) (2.5 points)</li>
 </ul>
@@ -237,13 +223,14 @@ Note
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

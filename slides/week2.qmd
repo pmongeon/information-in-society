@@ -7,7 +7,6 @@ editor: visual
 
 ## Today's plan
 
-- ISSA presentation
 - Short presentation + open discussions
 - Fun
 
