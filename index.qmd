@@ -13,51 +13,63 @@ Upon completion of this course, students should be able to:
 
 # Course Schedule
 
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Date   | Theme/reading to complete before class                                      | Class activities                             |
-+:======:+=============================================================================+==============================================+
-| Sep 14 | [Chapter 1. The Information Field](content/ch1.qmd)                         | Introduction\                                |
-|        |                                                                             | Course overview                              |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Sep 21 | [Chapter 2. What is Information?](content/ch2.qmd)                          | Short lecture\                               |
-|        |                                                                             | group exercise                               |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Sep 28 | [Chapter 3. Information Issues](content/ch3.qmd)                            | Guest lecture by Dr. Jennifer Grek-Martin    |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Oct 5  | [Chapter 10. Information and Democracy](content/ch10.qmd)                   | Guest lecture by Dr. Jason Hannan            |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Oct 19 | [Chapter 5. Work in the Information Society](content/ch5.qmd)\              | Guest lecture by Kellie Dalton               |
-|        | [Chapter 6. Information in Organizations](content/ch6.qmd)                  |                                              |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Oct 26 | [Chapter 7. The Information Economy](content/ch7.qmd)                       | Guest lecture by Dan Philips                 |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Nov 2  | [Chapter 4. Humans in an Information Society](content/ch4.qmd)\             | Short lecture + group discussions            |
-|        | [Chapter 8. The Attention Economy](content/ch8.qmd)                         |                                              |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Nov 16 | [Chapter 11. Information Justice](content/ch11.qmd)                         | Guest lecture by Alison Brown                |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Nov 23 | TBD                                                                         | Guest lecture by Maddie Hare and Janet Music |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Nov 30 | [Chapter 9. Misinformation, Disinformation, and Fake News](content/ch9.qmd) | Short lecture\                               |
-|        |                                                                             | group exercise                               |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Dec 7  | TBD                                                                         | Guest lecture by Coel Conrad                 |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
-| Dec 8  | N/A                                                                         | Fun.                                         |
-+--------+-----------------------------------------------------------------------------+----------------------------------------------+
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Date                                                                                 | Theme/reading to complete before class                                      | Class activities                             |
++:====================================================================================:+=============================================================================+==============================================+
+| Sep 14                                                                               | [Chapter 1. The Information Field](content/ch1.qmd)                         | Introduction\                                |
+|                                                                                      |                                                                             | Course overview                              |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Sep 21                                                                               | [Chapter 2. What is Information?](content/ch2.qmd)                          | Short lecture\                               |
+|                                                                                      |                                                                             | group exercise                               |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Sep 28                                                                               | [Chapter 3. Information Issues](content/ch3.qmd)                            | Guest lecture by Dr. Jennifer Grek-Martin    |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Oct 5                                                                                | [Chapter 10. Information and Democracy](content/ch10.qmd)                   | Guest lecture by Dr. Jason Hannan            |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Oct 19\                                                                              | [Chapter 5. Work in the Information Society](content/ch5.qmd)\              | Guest lecture by Kellie Dalton               |
+| [Teams link](https://teams.microsoft.com/meet/2552696644987515?p=AvGabNhUaWWAirpCh6) | [Chapter 6. Information in Organizations](content/ch6.qmd)                  |                                              |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Oct 26\                                                                              | [Chapter 7. The Information Economy](content/ch7.qmd)                       | Guest lecture by Dan Philips                 |
+| [Teams link](https://teams.microsoft.com/meet/225771196342159?p=mYWVwqquIataLxPT7Z)  |                                                                             |                                              |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Nov 2\                                                                               | [Chapter 4. Humans in an Information Society](content/ch4.qmd)\             | Short lecture + group discussions            |
+| [Teams link](https://teams.microsoft.com/meet/2493505198739147?p=8nOzjwqIeaxzQRxuIC) | [Chapter 8. The Attention Economy](content/ch8.qmd)                         |                                              |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Nov 16\                                                                              | [Chapter 11. Information Justice](content/ch11.qmd)                         | Guest lecture by Alison Brown                |
+| [Teams link](https://teams.microsoft.com/meet/210546465672495?p=IpMSVpp2llEfK80C1l)  |                                                                             |                                              |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Nov 23\                                                                              | TBD                                                                         | Guest lecture by Maddie Hare and Janet Music |
+| [Teams link](https://teams.microsoft.com/meet/210546465672495?p=IpMSVpp2llEfK80C1l)  |                                                                             |                                              |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Nov 30\                                                                              | [Chapter 9. Misinformation, Disinformation, and Fake News](content/ch9.qmd) | Short lecture\                               |
+| [Teams link](https://teams.microsoft.com/meet/2857907700956468?p=NGq7QGL8UuYBB7hidg) |                                                                             | group exercise                               |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Dec 7\                                                                               | TBD                                                                         | Guest lecture by Coel Conrad                 |
+| [Teams link](https://teams.microsoft.com/meet/265440625779680?p=1Uk0fwl3Pj6VKOnDuB)  |                                                                             |                                              |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
+| Dec 8\                                                                               | N/A                                                                         | Fun.                                         |
+| [Teams link](https://teams.microsoft.com/meet/2144650994710788?p=gFnPwpCcDWSU92Tj0l) |                                                                             |                                              |
++--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+----------------------------------------------+
 
 # Assignments
 
 **IMPORTANT NOTE:** The assignments will be updated in the next few days, the current ones reflect essentially what the assignments will be for this course, but be aware that they will slightly change.
 
-| Assignment | Due date | Weight |
-|----|----|----|
-| [Participation self-assessment - Part 1](assignments/0-participation.qmd) | Friday, September 25, 2026 | 7.5% |
-| [Analysis of an information setting](assignments/1-information-setting.qmd) | Friday, October 16, 2026 | 30% |
-| [Participation self-assessment - Part 2](assignments/0-participation.qmd) | Friday, October 30, 2026 | 5% |
-| [Essay plan](assignments/2-essay-plan.qmd) | Friday, October 30, 2026 | 10% |
-| [Essay](assignments/3-essay.qmd) | Friday, December 11, 2026 | 40% |
-| [Participation self-assessment - Part 3](assignments/0-participation.qmd) | Friday, December 11, 2026 | 7.5% |
++-----------------------------------------------------------------------------+----------------------------+----------------------+
+| Assignment                                                                  | Due date                   | Weight               |
++=============================================================================+============================+======================+
+| [Participation self-assessment - Part 1](assignments/0-participation.qmd)   | Friday, September 25, 2026 | 7.5%                 |
++-----------------------------------------------------------------------------+----------------------------+----------------------+
+| [Analysis of an information setting](assignments/1-information-setting.qmd) | Friday, October 16, 2026   | 30%                  |
++-----------------------------------------------------------------------------+----------------------------+----------------------+
+| [Participation self-assessment - Part 2](assignments/0-participation.qmd)   | Friday, October 30, 2026   | 5%                   |
++-----------------------------------------------------------------------------+----------------------------+----------------------+
+| [Essay plan](assignments/2-essay-plan.qmd)                                  | Friday, October 30, 2026   | 10%                  |
++-----------------------------------------------------------------------------+----------------------------+----------------------+
+| [Essay](assignments/3-essay.qmd)                                            | Friday, December 11, 2026  | 40%                  |
++-----------------------------------------------------------------------------+----------------------------+----------------------+
+| [Participation self-assessment - Part 3](assignments/0-participation.qmd)   | Friday, December 11, 2026  | 7.5%                 |
++-----------------------------------------------------------------------------+----------------------------+----------------------+
 
 # Other Important Information and Resources
 
