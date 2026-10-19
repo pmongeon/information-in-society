@@ -55,21 +55,14 @@ Upon completion of this course, students should be able to:
 
 **IMPORTANT NOTE:** The assignments will be updated in the next few days, the current ones reflect essentially what the assignments will be for this course, but be aware that they will slightly change.
 
-+-----------------------------------------------------------------------------+----------------------------+----------------------+
-| Assignment                                                                  | Due date                   | Weight               |
-+=============================================================================+============================+======================+
-| [Participation self-assessment - Part 1](assignments/0-participation.qmd)   | Friday, September 25, 2026 | 7.5%                 |
-+-----------------------------------------------------------------------------+----------------------------+----------------------+
-| [Analysis of an information setting](assignments/1-information-setting.qmd) | Friday, October 16, 2026   | 30%                  |
-+-----------------------------------------------------------------------------+----------------------------+----------------------+
-| [Participation self-assessment - Part 2](assignments/0-participation.qmd)   | Friday, October 30, 2026   | 5%                   |
-+-----------------------------------------------------------------------------+----------------------------+----------------------+
-| [Essay plan](assignments/2-essay-plan.qmd)                                  | Friday, October 30, 2026   | 10%                  |
-+-----------------------------------------------------------------------------+----------------------------+----------------------+
-| [Essay](assignments/3-essay.qmd)                                            | Friday, December 11, 2026  | 40%                  |
-+-----------------------------------------------------------------------------+----------------------------+----------------------+
-| [Participation self-assessment - Part 3](assignments/0-participation.qmd)   | Friday, December 11, 2026  | 7.5%                 |
-+-----------------------------------------------------------------------------+----------------------------+----------------------+
+| Assignment | Due date | Weight |
+|----|----|----|
+| [Participation self-assessment - Part 1](assignments/0-participation.qmd) | Friday, September 25, 2026 | 7.5% |
+| [Analysis of an information setting](assignments/1-information-setting.qmd) | Friday, October 16, 2026 | 30% |
+| [Participation self-assessment - Part 2](assignments/0-participation.qmd) | Friday, October 30, 2026 | 5% |
+| [Essay plan](assignments/2-essay-plan.qmd) | Friday, October 30, 2026 | 10% |
+| [Essay](assignments/3-essay.qmd) | Friday, December 11, 2026 | 40% |
+| [Participation self-assessment - Part 3](assignments/0-participation.qmd) | Friday, December 11, 2026 | 7.5% |
 
 # Other Important Information and Resources
 
