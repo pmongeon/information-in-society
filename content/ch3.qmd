@@ -1,5 +1,5 @@
 ---
-title: Information issues
+title: Information Issues
 bibliography: references.bib
 csl: apa.csl
 ---
