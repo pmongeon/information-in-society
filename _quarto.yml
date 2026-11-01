@@ -1,9 +1,12 @@
 project:
   type: book
   output-dir: docs
-
 book:
   title: "Information in Society"
+  page-footer:
+    center: |
+      Except where otherwise noted, this work is licensed under a
+      [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
   author: "Philippe Mongeon"
   date: "2022-08-26"
   chapters:
@@ -21,6 +24,9 @@ book:
     - content/ch11.qmd
 
 bibliography: references.bib
+
+license: "CC BY 4.0"
+copyright: "2026 Philippe Mongeon"
 
 format:
   html:
