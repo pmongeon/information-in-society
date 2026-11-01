@@ -1,6 +1,7 @@
 project:
   type: book
   output-dir: docs
+  
 book:
   title: "Information in Society"
   page-footer:
@@ -23,6 +24,9 @@ book:
     - content/ch10.qmd
     - content/ch11.qmd
 
+edition: "1st Edition"
+
+
 bibliography: references.bib
 
 license: "CC BY 4.0"
@@ -34,3 +38,8 @@ format:
       light: paper
       dark: darkly
     number-sections: true
+#  pdf:
+#    documentclass: scrreport
+#    toc: true
+#    number-sections: true
+#    pdf-engine: xelatex

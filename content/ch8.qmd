@@ -157,7 +157,7 @@ What data do you intentionally collect and analyze (screentime, step count, etc.
 
 **Trace_2_face_consultation**: Good morning Jude, et al. I see you were up really late Jude, were you just watching videos all night?
 
-**Dantes_infern0**: Rise and shine team! Let's manage information 😊
+**Dantes_infern0**: Rise and shine team! Let's manage information.
 
 **tWrending_in_tech**: Good morn!! Hmm... I saw this the other day when it was floating around the internet... but only cause I've got to keep my finger on the pulse of the web and not because it's content I usually watch... where did you find this, Jude?
 

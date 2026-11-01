@@ -8,7 +8,7 @@ csl: apa.csl
 
 In this chapter, we will discuss some principles of information and knowledge management as it relates to organizations. We will touch on Senge's concept of **learning organizations** and Choo's theoretical framework of **knowing organizations**. We will also consider different tools and applications of these frameworks.
 
-## **Introduction**
+## Introduction
 
 Organizations are entities that are made up of people working for a common purpose or goal. Fields such as Business, Finance, Management, Political Science, and others will categorize and define organizations as they relate to those fields. These fields of study may seek to analyze the hierarchies, structures, or success of different kinds of organizations. There are many theoretical frameworks as to how organizations function and flourish. Still, we will focus on frameworks that discuss how organizations interact with information to meet their goals.
 
