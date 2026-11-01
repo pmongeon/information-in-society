@@ -1,5 +1,5 @@
 ---
-title: Chapter 10. Information and Democracy
+title: Information and Democracy
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -194,15 +194,15 @@ Have you seen movements of social change originate or propagate in your social m
 
 ## Discussion questions
 
--   How do you think social media has impacted Jude?
+- How do you think social media has impacted Jude?
 
--   What is your general opinion about social media? In what ways do you think it supports rational debate, collective thinking, and democracy?
+- What is your general opinion about social media? In what ways do you think it supports rational debate, collective thinking, and democracy?
 
--   Consider how public opinion diversity can be united and divided by information and social media.
+- Consider how public opinion diversity can be united and divided by information and social media.
 
--   What do you think is (or could be) the role of information professionals in the public sphere?
+- What do you think is (or could be) the role of information professionals in the public sphere?
 
--   What is your own experience with social media?
+- What is your own experience with social media?
 
 If you are interested in watching Taylor Swift's commencement speech, it can be found here: [NYU's 2022 Commencement Speaker Taylor Swift](https://www.youtube.com/watch?v=OBG50aoUwlI).
 

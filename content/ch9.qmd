@@ -1,5 +1,5 @@
 ---
-title: Chapter 9. Misinformation, Disinformation, and Fake News 
+title: Misinformation, Disinformation, and Fake News 
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -15,14 +15,14 @@ The main difference between misinformation and disinformation is the intent behi
 ::: callout-tip
 ## Pause and Reflect
 
--   Can you think of a time when you have knowingly or unknowingly spread false information?
--   Have you ever encountered fake news?
-    -   Did you believe that it was true?
-    -   Did it in any way shape your actions?
--   Can you think of an example of news satire?
-    -   What do you think the intentions behind it are?
-    -   What is a well-known news parody website?
-    -   Have you ever believed an article shared through one of these sites?
+- Can you think of a time when you have knowingly or unknowingly spread false information?
+- Have you ever encountered fake news?
+  - Did you believe that it was true?
+  - Did it in any way shape your actions?
+- Can you think of an example of news satire?
+  - What do you think the intentions behind it are?
+  - What is a well-known news parody website?
+  - Have you ever believed an article shared through one of these sites?
 :::
 
 ## Origins of Misinformation
@@ -36,9 +36,9 @@ The media, including social media, are also spreaders of misinformation. The med
 ::: callout-tip
 ## Pause and Reflect
 
--   What is an example of a fictional story that was believed to be true?
+- What is an example of a fictional story that was believed to be true?
 
--   Can you think of a time when the media may have presented you with misleading information?
+- Can you think of a time when the media may have presented you with misleading information?
 :::
 
 ## How does misinformation spread?
@@ -60,13 +60,13 @@ The internet creates filter bubbles in which people's social media feeds and Goo
 
 With a friend, Google something related to a current event happening in the world and compare your results. For example, "Covid-19" or "Martha's Vineyard". See if you receive the same results.
 
--   Were you surprised by the outcome?
+- Were you surprised by the outcome?
 
--   How do you check that the sources you are reading are credible?
+- How do you check that the sources you are reading are credible?
 
--   Is it something you think that you could improve on?
+- Is it something you think that you could improve on?
 
--   How would you teach others to do the same?
+- How would you teach others to do the same?
 :::
 
 ## Societal costs
@@ -86,9 +86,9 @@ There are many ways to combat misinformation and help people make more informed 
 ::: callout-tip
 ## Pause and Reflect
 
--   What do you think is an excellent way to promote healthy skepticism?
+- What do you think is an excellent way to promote healthy skepticism?
 
--   If you had a friend who believed in misinformation, how would you go about helping them to see that it is false?
+- If you had a friend who believed in misinformation, how would you go about helping them to see that it is false?
 :::
 
 ## What can information professionals do?
@@ -189,22 +189,22 @@ Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012)
 
 Considering the themes of misinformation and disinformation and the conversation above, answer the following discussion questions.
 
--   What is the difference between misinformation, disinformation, and malinformation?
+- What is the difference between misinformation, disinformation, and malinformation?
 
--   What sort of information is being spread/perpetuated through the podcast Jude helped to get started?
+- What sort of information is being spread/perpetuated through the podcast Jude helped to get started?
 
--   How can media and information literacy play a role in counteracting misinformation and disinformation?
+- How can media and information literacy play a role in counteracting misinformation and disinformation?
 
--   Do you think that media platforms (e.g. Apple Podcasts, Google Podcasts, Spotify, etc.) are responsible for censoring content broadcast through their sites through policies that regulate harmful content, or should content and self-censorship be left to creators? Discuss.
+- Do you think that media platforms (e.g. Apple Podcasts, Google Podcasts, Spotify, etc.) are responsible for censoring content broadcast through their sites through policies that regulate harmful content, or should content and self-censorship be left to creators? Discuss.
 
--   The Edelman Trust Barometer, found [here](https://www.edelman.com/trust/2022-trust-barometer), is an annual global survey of over 36,000 respondents in 28 countries. The report was published in January and covered a range of timely and essential societal indicators of trust among business, media, government and NGOs, shaping the conversation and setting the agenda for the year ahead. Explore this tool and discuss the latest published annual report.
+- The Edelman Trust Barometer, found [here](https://www.edelman.com/trust/2022-trust-barometer), is an annual global survey of over 36,000 respondents in 28 countries. The report was published in January and covered a range of timely and essential societal indicators of trust among business, media, government and NGOs, shaping the conversation and setting the agenda for the year ahead. Explore this tool and discuss the latest published annual report.
 
 ::: callout-note
 If you're interested in learning more about the protests in Toronto, take a look at these articles:
 
--   <https://www.ctvnews.ca/canada/hundreds-protest-controversial-writer-outside-toronto-library-1.4661036>
+- <https://www.ctvnews.ca/canada/hundreds-protest-controversial-writer-outside-toronto-library-1.4661036>
 
--   <https://nowtoronto.com/culture/books-culture/toronto-library-meghan-murphy-protest/>
+- <https://nowtoronto.com/culture/books-culture/toronto-library-meghan-murphy-protest/>
 :::
 
 ## References

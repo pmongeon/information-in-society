@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Chapter 2. What is Information? – Information in Society</title>
+<title>3&nbsp; What is Information? – Information in Society</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -50,22 +56,28 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/ch3.html" rel="next">
+<link href="../content/ch1.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-9f30c2c2d2429ed22c1cf9f617479b3b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b62bfd5236959114d0e6374d52c994e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a64f2b92d8b4b45ab5f5d9261e8b8c9d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -87,71 +99,314 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Information in Society</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/ch2.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Information?</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Information in Society</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Overview</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Information Field</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Information?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Information issues</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Humans in an Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Work in the Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information in Organizations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Attention Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Misinformation, Disinformation, and Fake News</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and Democracy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Information Justice</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning objectives</a></li>
-  <li><a href="#what-is-information" id="toc-what-is-information" class="nav-link" data-scroll-target="#what-is-information">What is information?</a></li>
-  <li><a href="#situating-information-in-its-disciplinary-contexts" id="toc-situating-information-in-its-disciplinary-contexts" class="nav-link" data-scroll-target="#situating-information-in-its-disciplinary-contexts">Situating information in its disciplinary contexts</a></li>
-  <li><a href="#a-definition-of-information-for-the-information-field" id="toc-a-definition-of-information-for-the-information-field" class="nav-link" data-scroll-target="#a-definition-of-information-for-the-information-field">A definition of information for the information field?</a>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">3.1</span> Learning objectives</a></li>
+  <li><a href="#what-is-information" id="toc-what-is-information" class="nav-link" data-scroll-target="#what-is-information"><span class="header-section-number">3.2</span> What is information?</a></li>
+  <li><a href="#situating-information-in-its-disciplinary-contexts" id="toc-situating-information-in-its-disciplinary-contexts" class="nav-link" data-scroll-target="#situating-information-in-its-disciplinary-contexts"><span class="header-section-number">3.3</span> Situating information in its disciplinary contexts</a></li>
+  <li><a href="#a-definition-of-information-for-the-information-field" id="toc-a-definition-of-information-for-the-information-field" class="nav-link" data-scroll-target="#a-definition-of-information-for-the-information-field"><span class="header-section-number">3.4</span> A definition of information for the information field?</a>
   <ul class="collapse">
-  <li><a href="#bates-fundamental-forms-of-information" id="toc-bates-fundamental-forms-of-information" class="nav-link" data-scroll-target="#bates-fundamental-forms-of-information">Bates: Fundamental forms of information</a></li>
-  <li><a href="#hjørland-information-as-a-subjectivesituation-construct" id="toc-hjørland-information-as-a-subjectivesituation-construct" class="nav-link" data-scroll-target="#hjørland-information-as-a-subjectivesituation-construct">Hjørland: Information as a subjective/situation construct?</a></li>
-  <li><a href="#buckland-information-as-thing-process-and-knowledge" id="toc-buckland-information-as-thing-process-and-knowledge" class="nav-link" data-scroll-target="#buckland-information-as-thing-process-and-knowledge">Buckland: information as thing, process, and knowledge</a></li>
+  <li><a href="#bates-fundamental-forms-of-information" id="toc-bates-fundamental-forms-of-information" class="nav-link" data-scroll-target="#bates-fundamental-forms-of-information"><span class="header-section-number">3.4.1</span> Bates: Fundamental forms of information</a></li>
+  <li><a href="#hjørland-information-as-a-subjectivesituation-construct" id="toc-hjørland-information-as-a-subjectivesituation-construct" class="nav-link" data-scroll-target="#hjørland-information-as-a-subjectivesituation-construct"><span class="header-section-number">3.4.2</span> Hjørland: Information as a subjective/situation construct?</a></li>
+  <li><a href="#buckland-information-as-thing-process-and-knowledge" id="toc-buckland-information-as-thing-process-and-knowledge" class="nav-link" data-scroll-target="#buckland-information-as-thing-process-and-knowledge"><span class="header-section-number">3.4.3</span> Buckland: information as thing, process, and knowledge</a></li>
   </ul></li>
-  <li><a href="#the-data-information-knowledge-and-wisdom-pyramid" id="toc-the-data-information-knowledge-and-wisdom-pyramid" class="nav-link" data-scroll-target="#the-data-information-knowledge-and-wisdom-pyramid">The data, information, knowledge, and wisdom pyramid</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  <li><a href="#additional-questions" id="toc-additional-questions" class="nav-link" data-scroll-target="#additional-questions">Additional questions</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#the-data-information-knowledge-and-wisdom-pyramid" id="toc-the-data-information-knowledge-and-wisdom-pyramid" class="nav-link" data-scroll-target="#the-data-information-knowledge-and-wisdom-pyramid"><span class="header-section-number">3.5</span> The data, information, knowledge, and wisdom pyramid</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">3.6</span> Conclusion</a></li>
+  <li><a href="#additional-questions" id="toc-additional-questions" class="nav-link" data-scroll-target="#additional-questions"><span class="header-section-number">3.7</span> Additional questions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">3.8</span> References</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Chapter 2. What is Information?</h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Information?</span></h1>
 </div>
 
 
@@ -168,8 +423,8 @@ div.csl-indent {
 </header>
 
 
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<section id="learning-objectives" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">3.1</span> Learning objectives</h2>
 <p>So what is information anyway? If we call ourselves information managers, specialists, information professionals, or information scientists. In that case, it seems appropriate to seek a clear understanding of what we are experts in. This chapter aims to explore the concept of information and its related concepts as they have been discussed within the library and information science field. By the end of this chapter, you should be able to:</p>
 <ul>
 <li>Recognize the challenges in defining the concept of information.</li>
@@ -182,7 +437,7 @@ div.csl-indent {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Clarification
+<span class="screen-reader-only">Note</span>Clarification
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -190,8 +445,8 @@ Clarification
 </div>
 </div>
 </section>
-<section id="what-is-information" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-information">What is information?</h2>
+<section id="what-is-information" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="what-is-information"><span class="header-section-number">3.2</span> What is information?</h2>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -228,7 +483,7 @@ Tip
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Stop and reflect
+<span class="screen-reader-only">Tip</span>Stop and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -240,8 +495,8 @@ Stop and reflect
 </div>
 </div>
 </section>
-<section id="situating-information-in-its-disciplinary-contexts" class="level2">
-<h2 class="anchored" data-anchor-id="situating-information-in-its-disciplinary-contexts">Situating information in its disciplinary contexts</h2>
+<section id="situating-information-in-its-disciplinary-contexts" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="situating-information-in-its-disciplinary-contexts"><span class="header-section-number">3.3</span> Situating information in its disciplinary contexts</h2>
 <p>One of the things that you may have noticed with the dictionary definitions is that some of them are unrelated to the information professions as you may now think of them. Indeed, one of the main issues with the word “information” is that it is used in a wide variety of contexts or disciplines, and the meaning of the word often depends on that context or discipline. What, then, would be the specific understanding of information that is most useful for information management? The figure below is a network showing the links between disciplines represented by a large circle and the most frequent keywords containing the word “information” that research publications in these disciplines contain. The orange circle represents our field labelled “LIS” (for Library and Information Science).</p>
 <p><img src="images/paste-E85F17EB.png" class="img-fluid"></p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -250,7 +505,7 @@ Stop and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Stop and reflect
+<span class="screen-reader-only">Tip</span>Stop and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -261,11 +516,11 @@ Stop and reflect
 </div>
 </div>
 </section>
-<section id="a-definition-of-information-for-the-information-field" class="level2">
-<h2 class="anchored" data-anchor-id="a-definition-of-information-for-the-information-field">A definition of information for the information field?</h2>
+<section id="a-definition-of-information-for-the-information-field" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="a-definition-of-information-for-the-information-field"><span class="header-section-number">3.4</span> A definition of information for the information field?</h2>
 <p>Whatever name the schools or programs that train information professionals are called (e.g., Information Management, Information Studies, Information Science), most have in common that one word: “information”. It is thus no surprise that at least a handful of scholars working in these schools or departments have sought to provide some conceptual clarity regarding that word that unites us all. What may be more surprising, however, is that several decades of scholarship and debates have not achieved consensus on the definition of the word information. Still, these conceptual explorations have generated many attempts at such a definition, leading us to explore a range of other correlated concepts that have sometimes been used to determine what is (and what is not) information. They have also generated entertaining debates, such as the well-known discussion between Birger Hjørland and Marcia Bates on whether understanding information as an objective phenomenon is helpful for the field. In the next section, we provide an overview of how three scholars of the information disciplines have proposed that we should think about the term information: Marcia Bates, Birger Hjørland, and Michael Buckland.</p>
-<section id="bates-fundamental-forms-of-information" class="level3">
-<h3 class="anchored" data-anchor-id="bates-fundamental-forms-of-information">Bates: Fundamental forms of information</h3>
+<section id="bates-fundamental-forms-of-information" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="bates-fundamental-forms-of-information"><span class="header-section-number">3.4.1</span> Bates: Fundamental forms of information</h3>
 <p>Marcia Bates believed that all information is natural and exists in the material world of matter and energy and that “almost anything existing in the universe that can come into human and other animals’ purview can be experienced as information” <span class="citation" data-cites="bates2006">(<a href="#ref-bates2006" role="doc-biblioref">Bates, 2006, p. 1033</a>)</span>. From there, she constructed a glossary of the different forms of information:</p>
 <ul>
 <li><p><strong>Embedded information</strong>: Information left behind on earth by animals. Includes such things as human-created tools or paths through the woods.</p></li>
@@ -292,7 +547,7 @@ Stop and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Suggested reading
+<span class="screen-reader-only">Note</span>Suggested reading
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -301,8 +556,8 @@ Suggested reading
 </div>
 </div>
 </section>
-<section id="hjørland-information-as-a-subjectivesituation-construct" class="level3">
-<h3 class="anchored" data-anchor-id="hjørland-information-as-a-subjectivesituation-construct">Hjørland: Information as a subjective/situation construct?</h3>
+<section id="hjørland-information-as-a-subjectivesituation-construct" class="level3" data-number="3.4.2">
+<h3 data-number="3.4.2" class="anchored" data-anchor-id="hjørland-information-as-a-subjectivesituation-construct"><span class="header-section-number">3.4.2</span> Hjørland: Information as a subjective/situation construct?</h3>
 <p>According to <span class="citation" data-cites="hjorland_information_2007">Hjørland (<a href="#ref-hjorland_information_2007" role="doc-biblioref">2007</a>)</span>, there are two basic views of information:</p>
 <ul>
 <li><p><strong>Objective information</strong>: any difference (in patterns of matter and energy, as in Bates’ concept of information 1).</p></li>
@@ -315,7 +570,7 @@ Suggested reading
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Stop and reflect
+<span class="screen-reader-only">Tip</span>Stop and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -331,7 +586,7 @@ Stop and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Suggested readings
+<span class="screen-reader-only">Note</span>Suggested readings
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -343,8 +598,8 @@ Suggested readings
 </div>
 </div>
 </section>
-<section id="buckland-information-as-thing-process-and-knowledge" class="level3">
-<h3 class="anchored" data-anchor-id="buckland-information-as-thing-process-and-knowledge">Buckland: information as thing, process, and knowledge</h3>
+<section id="buckland-information-as-thing-process-and-knowledge" class="level3" data-number="3.4.3">
+<h3 data-number="3.4.3" class="anchored" data-anchor-id="buckland-information-as-thing-process-and-knowledge"><span class="header-section-number">3.4.3</span> Buckland: information as thing, process, and knowledge</h3>
 <p><span class="citation" data-cites="buckland1991">Buckland (<a href="#ref-buckland1991" role="doc-biblioref">1991</a>)</span> describes information in three ways; information-as-thing, information-as-process, and information-as-knowledge.</p>
 <p>Information can be considered a <strong>thing</strong> when it describes an object, such as data or documents. They are considered information because they are informative; they impart knowledge or communicate information. Everything around you can be informative, which is problematic for information professionals. Indeed, the information systems we manage deal directly with information-as-thing and since we cannot deal with everything in the world, we need to decide what kinds of information-as-thing we choose to engage with. The term document may be helpful here. According to Briet (1951), a document is “any physical or symbolic sign, preserved or recorded, intended to represent, reconstruct, or demonstrate a physical or conceptual phenomenon”. She is well known for her example of an antelope as a document. She discusses how an antelope living free in Africa would not be considered a document, but once captured and put into a zoo, it becomes an object of study. At that point, it has become a document as it is now physical evidence to be used by researchers. Information as a <strong>process</strong> occurs when someone is informed of something, changing what they know, and what is known is <strong>information-as-knowledge</strong> that exists in an intangible form in the mind of the knowing entity and cannot be observed or measured.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -353,7 +608,7 @@ Suggested readings
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Stop and reflect
+<span class="screen-reader-only">Tip</span>Stop and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -368,7 +623,7 @@ Stop and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Suggested reading
+<span class="screen-reader-only">Note</span>Suggested reading
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -378,8 +633,8 @@ Suggested reading
 </div>
 </section>
 </section>
-<section id="the-data-information-knowledge-and-wisdom-pyramid" class="level2">
-<h2 class="anchored" data-anchor-id="the-data-information-knowledge-and-wisdom-pyramid">The data, information, knowledge, and wisdom pyramid</h2>
+<section id="the-data-information-knowledge-and-wisdom-pyramid" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="the-data-information-knowledge-and-wisdom-pyramid"><span class="header-section-number">3.5</span> The data, information, knowledge, and wisdom pyramid</h2>
 <p>In exploring the concept of information, we came across many other terms, such as document, knowledge, understanding, and data. One way to try to make sense of it is by situating each of these terms in relation to each other. The data, information, knowledge and wisdom (DIKW) hierarchy or pyramid (pictured below) was not developed by scholars in the LIS field. Still, it can be helpful to us as it offers a visual representation of the relationship between some of the terms we encountered so far.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -400,7 +655,7 @@ Suggested reading
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Stop and reflect
+<span class="screen-reader-only">Tip</span>Stop and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -413,12 +668,12 @@ Stop and reflect
 </div>
 </div>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<section id="conclusion" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">3.6</span> Conclusion</h2>
 <p>In conclusion, let us all remember that the purpose of the chapter was not to arrive at a final and universal understanding of information but to initiate a reflection on information and related concepts and how these may be relevant to our field. You may come out of this week with an increased sense of clarity or confusion, but what matters most is that you are aware of the ideas behind the terminological mess and reflect on how these ideas may be relevant to you as a future information professional.</p>
 </section>
-<section id="additional-questions" class="level2">
-<h2 class="anchored" data-anchor-id="additional-questions">Additional questions</h2>
+<section id="additional-questions" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="additional-questions"><span class="header-section-number">3.7</span> Additional questions</h2>
 <ol type="1">
 <li>Do you think that information exists in an objective form?</li>
 <li>Do you think that information exists in a subjective form?</li>
@@ -427,14 +682,11 @@ Stop and reflect
 <li>Does all information transfer require language?</li>
 </ol>
 </section>
-<section id="references" class="level2">
+<section id="references" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="references"><span class="header-section-number">3.8</span> References</h2>
 
 
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-bates2006" class="csl-entry" role="listitem">
 Bates, M. J. (2006). Fundamental forms of information. <em>Journal of the American Society for Information Science and Technology</em>, <em>57</em>(8), 10331045. <a href="https://doi.org/10.1002/asi.20369">https://doi.org/10.1002/asi.20369</a>
 </div>
@@ -445,11 +697,27 @@ Buckland, M. (1991). Information as thing. <em>JASIS</em>. <a href="http://skat.
 Hjørland, B. (2007). Information: <span>Objective</span> or subjective/situational? <em>Journal of the American Society for Information Science and Technology</em>, <em>58</em>(10), 1448–1456. <a href="https://doi.org/10.1002/asi.20620">https://doi.org/10.1002/asi.20620</a>
 </div>
 <div id="ref-rowley2007" class="csl-entry" role="listitem">
-Rowley, J. (2007). The wisdom hierarchy: representations of the DIKW hierarchy. <em>Journal of Information Science</em>. <a href="https://doi.org/10.1177/0165551506070706">https://doi.org/10.1177/0165551506070706</a>
+Rowley, J. (2007). The wisdom hierarchy: Representations of the DIKW hierarchy. <em>Journal of Information Science</em>. <a href="https://doi.org/10.1177/0165551506070706">https://doi.org/10.1177/0165551506070706</a>
 </div>
-</div></section></div></main> <!-- /main -->
+</div>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -499,13 +767,14 @@ Rowley, J. (2007). The wisdom hierarchy: representations of the DIKW hierarchy. 
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -847,6 +1116,18 @@ Rowley, J. (2007). The wisdom hierarchy: representations of the DIKW hierarchy. 
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/ch1.html" class="pagination-link" aria-label="The Information Field">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Information Field</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/ch3.html" class="pagination-link" aria-label="Information issues">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Information issues</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

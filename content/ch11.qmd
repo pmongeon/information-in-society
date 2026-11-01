@@ -1,5 +1,5 @@
 ---
-title: Chapter 11. Information Justice
+title: Information Justice
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -12,13 +12,13 @@ This chapter explores what it means to have a socially just society and how LIS 
 
 Kay @mathiesen2015 defines a socially just society as one in which everyone is given equal opportunities and all groups are treated equally and fairly. She proposes an informational justice framework that includes three components:
 
--   **iDistributive justice**: To be treated justly as seekers, people should have equal access to information.
+- **iDistributive justice**: To be treated justly as seekers, people should have equal access to information.
 
--   **iParticipatory justice**: To be treated justly as sources, all people should have an equal chance to contribute to information and knowledge. Everyone's opinions and points of view should be considered, and everyone should have equal rights to contribute to decision-making about information resources.
+- **iParticipatory justice**: To be treated justly as sources, all people should have an equal chance to contribute to information and knowledge. Everyone's opinions and points of view should be considered, and everyone should have equal rights to contribute to decision-making about information resources.
 
--   **iRecognitional justice**: information should have fair representations of people and society.
+- **iRecognitional justice**: information should have fair representations of people and society.
 
-    ![Source: [@mathiesen2015]](images/matiesen.png){width="336"}
+  ![Source: [@mathiesen2015]](images/matiesen.png){width="336"}
 
 Let us now consider these three components in a little more detail.
 
@@ -51,10 +51,10 @@ Thinking about access this way provides us with two main areas of intervention t
 ::: callout-tip
 ## Pause and reflect
 
--   Can you consider other factors that information managers can consider to make information accessible?
--   How can we improve access to information by focusing on the users or potential users of information?
--   How can information be intellectually comprehensible but not physically comprehensible, and vice versa?
--   How can findability, availability and reachability issues affect unhoused and poor populations?
+- Can you consider other factors that information managers can consider to make information accessible?
+- How can we improve access to information by focusing on the users or potential users of information?
+- How can information be intellectually comprehensible but not physically comprehensible, and vice versa?
+- How can findability, availability and reachability issues affect unhoused and poor populations?
 :::
 
 ### Participation
@@ -66,9 +66,9 @@ The participation element of Mathiesen's informational justice framework is rela
 
 In the pre-digital world, the means of producing and disseminating information were concentrated by media organizations and governments. Now, the Internet and social media have levelled the playing field so that anyone can have a voice and participate equally in producing and disseminating information.
 
--   What do you think of this statement? In what ways do you think it is accurate or not true?
+- What do you think of this statement? In what ways do you think it is accurate or not true?
 
--   Why do you think having equal access to producing and disseminating information matters?
+- Why do you think having equal access to producing and disseminating information matters?
 :::
 
 ### Recognition
@@ -82,13 +82,13 @@ The [Truth and Reconciliation Commission of Canada](https://www.rcaanc-cirnac.gc
 
 @mathiesen2015 emphasizes the interdependence of distributive, participatory, and recognitional justice.
 
--   How does distributive justice relate to participatory justice?
+- How does distributive justice relate to participatory justice?
 
--   How does participatory justice relate to recognitional justice?
+- How does participatory justice relate to recognitional justice?
 
--   How does distributive justice relate to recognitional justice?
+- How does distributive justice relate to recognitional justice?
 
--   How do you think the three components of the framework come into play in the Truth and Reconciliation process?
+- How do you think the three components of the framework come into play in the Truth and Reconciliation process?
 :::
 
 ## Informational Justice in Museums
@@ -121,17 +121,17 @@ Mike Murawski, author of Museums as Agents of Change, wrote the following on how
 
 @murawski2021 wrote the following points on Identifying and Replacing White Dominant Culture In Museums:
 
--   Move from professional and transactional relationships to relationships based on trust, care, and shared commitments.
+- Move from professional and transactional relationships to relationships based on trust, care, and shared commitments.
 
--   Move from protecting power to sharing power.
+- Move from protecting power to sharing power.
 
--   Move from a culture of overworking to a culture of self-care and community care.
+- Move from a culture of overworking to a culture of self-care and community care.
 
--   Move from competition and struggle for limited resources to a mindset of collaboration and working to share resources.
+- Move from competition and struggle for limited resources to a mindset of collaboration and working to share resources.
 
--   Move away from prioritizing only degrees, work experience, and job titles toward recognizing and centering lived experience.
+- Move away from prioritizing only degrees, work experience, and job titles toward recognizing and centering lived experience.
 
--   Move from a place of those with power making decisions for others toward a place where we work to include those affected by decisions in the decision-making process.
+- Move from a place of those with power making decisions for others toward a place where we work to include those affected by decisions in the decision-making process.
 
 ## Case study
 
@@ -195,18 +195,18 @@ Mike Murawski, author of Museums as Agents of Change, wrote the following on how
 
 ## Discussion Questions
 
--   How do you interpret Knowledge versus Information justice? What are a few examples of this you can think of?
+- How do you interpret Knowledge versus Information justice? What are a few examples of this you can think of?
 
--   Have you experienced digital divides in your own life? What digital divides can you identify in your community? In your province? In Canada? Across the globe? Can you identify any possible solutions for closing these divides?
+- Have you experienced digital divides in your own life? What digital divides can you identify in your community? In your province? In Canada? Across the globe? Can you identify any possible solutions for closing these divides?
 
--   How do digital divides create unequal footing regarding information literacy and access to information?
+- How do digital divides create unequal footing regarding information literacy and access to information?
 
--   What sort of digital divides exist in rural areas and urban centres? What sort of divides exist between them?
+- What sort of digital divides exist in rural areas and urban centres? What sort of divides exist between them?
 
--   Consider how digital divides in Canada occur systemically, especially regarding Indigenous communities.
+- Consider how digital divides in Canada occur systemically, especially regarding Indigenous communities.
 
--   Relate the case study to Mathiesen's Informational Justice Framework, including distributive justice, participatory justice, and recognitional justice.
+- Relate the case study to Mathiesen's Informational Justice Framework, including distributive justice, participatory justice, and recognitional justice.
 
--   Reflect on what you have learned throughout the last semester and think through the course themes.
+- Reflect on what you have learned throughout the last semester and think through the course themes.
 
 ## References

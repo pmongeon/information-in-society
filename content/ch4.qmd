@@ -1,5 +1,5 @@
 ---
-title: Chapter 4. Humans in an Information Society
+title: Humans in an Information Society
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -49,11 +49,11 @@ So far, this chapter has focused on the human as existing in networks that shape
 
 Think of different communities or social networks that you belong to.
 
--   Are they door-to-door networks, place-to-place networks, person-to-person networks, or a combination of these?
+- Are they door-to-door networks, place-to-place networks, person-to-person networks, or a combination of these?
 
--   Can you identify significant differences in the values and beliefs that characterize those networks?
+- Can you identify significant differences in the values and beliefs that characterize those networks?
 
--   @webster_network_2014 argues that people have a compulsion to proximity, an impulse to meet up with people face to face regardless of their virtual relationships. Do you think the COVID-19 pandemic might have changed that somehow?
+- @webster_network_2014 argues that people have a compulsion to proximity, an impulse to meet up with people face to face regardless of their virtual relationships. Do you think the COVID-19 pandemic might have changed that somehow?
 :::
 
 In the following TED talk, Sherry Turkle offers a critical perspective on our relationship with technologies and our growing abandonment of the here and now to participate in virtual networks.
@@ -69,9 +69,9 @@ In the following TED talk, Sherry Turkle offers a critical perspective on our re
 ::: callout-tip
 ## Pause and reflect
 
--   What do you think of the arguments made by Turkle in their TED talk?
+- What do you think of the arguments made by Turkle in their TED talk?
 
--   How do you use social media to connect with different communities?
+- How do you use social media to connect with different communities?
 :::
 
 ## Performances of the self
@@ -83,9 +83,9 @@ People present themselves differently on social media and have different persona
 ::: callout-tip
 ## Pause and reflect
 
--   How do you think the information technologies that you do or don't use shape your identity?
+- How do you think the information technologies that you do or don't use shape your identity?
 
--   Is there such a thing as an authentic self?
+- Is there such a thing as an authentic self?
 :::
 
 ## Case study
@@ -134,20 +134,20 @@ Y*ou realize you have been scrolling through your phone for 10 minutes, consider
 
 **Discussion Questions:**
 
--   In what ways might Wren's online persona be authentic? In what ways might it be curated?  
+- In what ways might Wren's online persona be authentic? In what ways might it be curated?  
 
--   How do you feel about workplaces punishing people for the content on their social media channels?
+- How do you feel about workplaces punishing people for the content on their social media channels?
 
--   Do you think it's okay for companies to look at personal social media accounts in the hiring process?
+- Do you think it's okay for companies to look at personal social media accounts in the hiring process?
 
--   Do you believe companies have the right to monitor the activities of their employees in a personal setting? Would you consider social media and online platforms a private or public environment?
+- Do you believe companies have the right to monitor the activities of their employees in a personal setting? Would you consider social media and online platforms a private or public environment?
 
--   What are 3-4 online communities you are a part of (school, family, friends, work, etc.)? Consider how you establish and situate yourself in your networks.
+- What are 3-4 online communities you are a part of (school, family, friends, work, etc.)? Consider how you establish and situate yourself in your networks.
 
--   What information do you share online? Does this change based on the online space you are in?
+- What information do you share online? Does this change based on the online space you are in?
 
--   Consider 1-2 ways technology facilitates or inhibits your ability to interact in your in-person and online networks. How do you act as a bridge between various worlds?
+- Consider 1-2 ways technology facilitates or inhibits your ability to interact in your in-person and online networks. How do you act as a bridge between various worlds?
 
--   Consider the differences (or similarities) in how you interact with friends, professional colleagues, or other groups online versus in person. How do you engage with them differently online than you do face-to-face? Do you feel you take on a different persona? What benefits or detriments do you perceive as a result of this difference?
+- Consider the differences (or similarities) in how you interact with friends, professional colleagues, or other groups online versus in person. How do you engage with them differently online than you do face-to-face? Do you feel you take on a different persona? What benefits or detriments do you perceive as a result of this difference?
 
 ## References

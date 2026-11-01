@@ -1,5 +1,5 @@
 ---
-title: Chapter 8. The Attention Economy 
+title: The Attention Economy 
 author: 
   - Toni Beaton
   - Catherine Gracey
@@ -53,23 +53,23 @@ When a user consumes information for free, the way in which a company makes mone
 
 According to @kelly2008, there are several strategies that we or a company can employ to "sell" free information in an attention economy:  
 
--   **Immediacy** -- getting the information you want, when you want it; having no need to wait around to access the freely available information (I.e., paying a bit extra to see a movie in theatres versus waiting for it to be freely accessible on a streaming media provider, like Kanopy or Hoopla provided by Halifax Public Libraries).  
+- **Immediacy** -- getting the information you want, when you want it; having no need to wait around to access the freely available information (I.e., paying a bit extra to see a movie in theatres versus waiting for it to be freely accessible on a streaming media provider, like Kanopy or Hoopla provided by Halifax Public Libraries).  
 
--   **Personalization** -- a personalized copy of an information resource, which motivates the user to pay for what would otherwise be free.
+- **Personalization** -- a personalized copy of an information resource, which motivates the user to pay for what would otherwise be free.
 
--   **Interpretation** -- providing a paid service (like technical assistance) for free software or instructional information (I.e., technical support provided by TELUS will charge you money to speak to a representative over the phone, whereas the same information online can be found for free). 
+- **Interpretation** -- providing a paid service (like technical assistance) for free software or instructional information (I.e., technical support provided by TELUS will charge you money to speak to a representative over the phone, whereas the same information online can be found for free). 
 
--   **Authenticity** -- paying for the "authentic" version of a software/information that is "tried and true" (I.e., paying for the authentic version of a Taylor Swift recording via a Spotify subscription versus downloading the song freely \[illegally\] at a potentially lower quality).
+- **Authenticity** -- paying for the "authentic" version of a software/information that is "tried and true" (I.e., paying for the authentic version of a Taylor Swift recording via a Spotify subscription versus downloading the song freely \[illegally\] at a potentially lower quality).
 
--   **Accessibility** -- paying for backups and storage of online information (i.e., iCloud).
+- **Accessibility** -- paying for backups and storage of online information (i.e., iCloud).
 
 <!-- -->
 
--   **Embodiment** -- paying for the experience of being in an information setting with other "users" (I.e., paying to see multiple bands perform at a music festival versus watching a recording of those performances online)  
+- **Embodiment** -- paying for the experience of being in an information setting with other "users" (I.e., paying to see multiple bands perform at a music festival versus watching a recording of those performances online)  
 
--   **Patronage** -- paying a fee to support your favourite authors/artists/creators; those within a "fandom" will opt to support the creation of their favourite works, so long as it is easy to do so.
+- **Patronage** -- paying a fee to support your favourite authors/artists/creators; those within a "fandom" will opt to support the creation of their favourite works, so long as it is easy to do so.
 
--   **Findability** -- information that is free may sometimes be more difficult and time-consuming to find.
+- **Findability** -- information that is free may sometimes be more difficult and time-consuming to find.
 
 ::: callout-tip
 ## Pause and reflect
@@ -203,20 +203,20 @@ Consider the themes discussed in the group chat. The gang observes that Jude's a
 
 ## Discussion Questions
 
--   Would you consider Jude's online behaviours healthy?
+- Would you consider Jude's online behaviours healthy?
 
--   Consider how Jude exists as a user in online settings: do you think he feels/is in control? Do you feel as though he possesses a level of awareness regarding the time he is spending online and the ways in which he is interacting with content?
+- Consider how Jude exists as a user in online settings: do you think he feels/is in control? Do you feel as though he possesses a level of awareness regarding the time he is spending online and the ways in which he is interacting with content?
 
--   Do you feel as though you have a level of agency over the information you provide online? When you offer up your data to online sites, does it transform from personal information into a commodity? How do you perceive personal versus collective versus organizational ownership of data online? Is this based on how it was created/generated, or by whom?
+- Do you feel as though you have a level of agency over the information you provide online? When you offer up your data to online sites, does it transform from personal information into a commodity? How do you perceive personal versus collective versus organizational ownership of data online? Is this based on how it was created/generated, or by whom?
 
--   Is our data inherently of value? How is value added to the data we generate digitally?
+- Is our data inherently of value? How is value added to the data we generate digitally?
 
--   To what degree are you informed about the ways online sites use your information? Is it important to you to be aware of how your attention is captured and commodified? In what ways can we facilitate greater awareness surrounding the attention economy in ourselves and in others?
+- To what degree are you informed about the ways online sites use your information? Is it important to you to be aware of how your attention is captured and commodified? In what ways can we facilitate greater awareness surrounding the attention economy in ourselves and in others?
 
--   How do we ensure equitable access to information in an ethical way?
+- How do we ensure equitable access to information in an ethical way?
 
--   What are the implications of the attention economy for information access, quantity, quality, and behaviour?
+- What are the implications of the attention economy for information access, quantity, quality, and behaviour?
 
--   How do the phenomena discussed in this chapter apply to individuals or collectives that are not necessarily or directly generating revenues out of the attention and information about others?
+- How do the phenomena discussed in this chapter apply to individuals or collectives that are not necessarily or directly generating revenues out of the attention and information about others?
 
 ## References

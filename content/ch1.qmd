@@ -1,5 +1,5 @@
 ---
-title: Chapter 1. The Information Field
+title: The Information Field
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -51,25 +51,20 @@ Despite the diversity of roles and settings in which information professionals o
 - **Stewardship**\
   Gathering, organizing, and preserving information for future use.
 
-- **Service\**
-  Being of service to our users, colleagues, and communities.
+- \*\*Service\*\* Being of service to our users, colleagues, and communities.
 
-- **Intellectual freedom\**
-  Protecting the right of people to hold, share and access ideas without restrictions.
+- \*\*Intellectual freedom\*\* Protecting the right of people to hold, share and access ideas without restrictions.
 
-- **Equity, diversity, and inclusion\**
-  Ensuring that all individuals and groups have access to information, can participate in the production of information, and be adequately represented in information.
+- \*\*Equity, diversity, and inclusion\*\* Ensuring that all individuals and groups have access to information, can participate in the production of information, and be adequately represented in information.
 
 - **Privacy**\
   protecting the privacy of individuals and activities.
 
-- **Literacy and learning\**
-  Promoting reading and lifelong learning.
+- \*\*Literacy and learning\*\* Promoting reading and lifelong learning.
 
-- **Democracy\**
-  Supporting democracy and democratic principles.
+- \*\*Democracy\*\* Supporting democracy and democratic principles.
 
-- **Rationalism** \
+- **Rationalism**\
   Supporting critical thinking. Organizing, preserving, and providing access to knowledge through reasoned, evidence-based principles rather than authority, tradition, or ideology.
 
 ::: callout-tip

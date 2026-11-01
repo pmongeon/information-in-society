@@ -1,5 +1,5 @@
 ---
-title: Chapter 3. Information issues
+title: Information issues
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -28,13 +28,13 @@ Webster, F. (2014). *Theories of the Information Society* (4th ed.). Routledge. 
 
 In the previous chapter and class, we explored the concept of information. We situated it in relation to dozens of related concepts, which I hope helped you expand your understanding of how information manifests itself in the different spheres of society. No matter where we look in this complex conceptual landscape, we can find opportunities and challenges for information professionals, or let's call them "information issues" for us to tackle. I would argue that there are four fundamental forms of information issues:
 
--   Issues of information **access**
+- Issues of information **access**
 
--   Issues of information **quantity**
+- Issues of information **quantity**
 
--   Issues of information **quality**
+- Issues of information **quality**
 
--   Issues of information **behaviour**
+- Issues of information **behaviour**
 
 Some of these will come back in one way or another in the following chapters, so the goal is to provide a high-level overview and introduce some topics we will dive more deeply into later on.
 
@@ -59,11 +59,11 @@ Access is also closely linked to the **literacy** concepts family (information l
 ::: callout-tip
 ## Pause and reflect
 
--   In what ways do you think technologies help solve information access issues?
+- In what ways do you think technologies help solve information access issues?
 
--   In what ways do you think technologies do not help, or even accentuate, information access issues?
+- In what ways do you think technologies do not help, or even accentuate, information access issues?
 
--   How do you think information professionals can play a role in ensuring that technologies effectively increase access to information?
+- How do you think information professionals can play a role in ensuring that technologies effectively increase access to information?
 :::
 
 ### Quantity issues

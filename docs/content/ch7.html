@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Chapter 7. The Information Economy – Information in Society</title>
+<title>8&nbsp; The Information Economy – Information in Society</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -50,22 +56,28 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/ch8.html" rel="next">
+<link href="../content/ch6.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-9f30c2c2d2429ed22c1cf9f617479b3b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b62bfd5236959114d0e6374d52c994e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a64f2b92d8b4b45ab5f5d9261e8b8c9d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -87,72 +99,315 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Information in Society</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/ch7.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Information in Society</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Overview</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Information Field</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Information?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Information issues</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Humans in an Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Work in the Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information in Organizations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch7.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Attention Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Misinformation, Disinformation, and Fake News</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and Democracy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Information Justice</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#information-in-a-capitalist-system" id="toc-information-in-a-capitalist-system" class="nav-link" data-scroll-target="#information-in-a-capitalist-system">Information in a capitalist system</a>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">8.1</span> Learning Objectives</a></li>
+  <li><a href="#information-in-a-capitalist-system" id="toc-information-in-a-capitalist-system" class="nav-link" data-scroll-target="#information-in-a-capitalist-system"><span class="header-section-number">8.2</span> Information in a capitalist system</a>
   <ul class="collapse">
-  <li><a href="#market-principles-and-practices" id="toc-market-principles-and-practices" class="nav-link" data-scroll-target="#market-principles-and-practices">Market principles and practices</a></li>
-  <li><a href="#the-commodification-of-information" id="toc-the-commodification-of-information" class="nav-link" data-scroll-target="#the-commodification-of-information">The commodification of information</a></li>
-  <li><a href="#class-inequalities" id="toc-class-inequalities" class="nav-link" data-scroll-target="#class-inequalities">Class inequalities</a></li>
+  <li><a href="#market-principles-and-practices" id="toc-market-principles-and-practices" class="nav-link" data-scroll-target="#market-principles-and-practices"><span class="header-section-number">8.2.1</span> Market principles and practices</a></li>
+  <li><a href="#the-commodification-of-information" id="toc-the-commodification-of-information" class="nav-link" data-scroll-target="#the-commodification-of-information"><span class="header-section-number">8.2.2</span> The commodification of information</a></li>
+  <li><a href="#class-inequalities" id="toc-class-inequalities" class="nav-link" data-scroll-target="#class-inequalities"><span class="header-section-number">8.2.3</span> Class inequalities</a></li>
   </ul></li>
-  <li><a href="#the-case-academic-publishing-industry" id="toc-the-case-academic-publishing-industry" class="nav-link" data-scroll-target="#the-case-academic-publishing-industry">The case academic publishing industry</a></li>
-  <li><a href="#open-access" id="toc-open-access" class="nav-link" data-scroll-target="#open-access">Open access</a></li>
-  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study">Case study</a>
+  <li><a href="#the-case-academic-publishing-industry" id="toc-the-case-academic-publishing-industry" class="nav-link" data-scroll-target="#the-case-academic-publishing-industry"><span class="header-section-number">8.3</span> The case academic publishing industry</a></li>
+  <li><a href="#open-access" id="toc-open-access" class="nav-link" data-scroll-target="#open-access"><span class="header-section-number">8.4</span> Open access</a></li>
+  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study"><span class="header-section-number">8.5</span> Case study</a>
   <ul class="collapse">
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions">Discussion Questions</a></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">8.5.1</span> Discussion Questions</a></li>
   </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8.6</span> References</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Chapter 7. The Information Economy</h1>
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></h1>
 </div>
 
 
@@ -169,28 +424,28 @@ div.csl-indent {
 </header>
 
 
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<section id="learning-objectives" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">8.1</span> Learning Objectives</h2>
 <p>This chapter aims to get you to consider information as a commodity (something that can be bought, owned and sold) subject to market forces and to reflect on the implications for libraries, information professionals and society at large.</p>
 </section>
-<section id="information-in-a-capitalist-system" class="level2">
-<h2 class="anchored" data-anchor-id="information-in-a-capitalist-system">Information in a capitalist system</h2>
+<section id="information-in-a-capitalist-system" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="information-in-a-capitalist-system"><span class="header-section-number">8.2</span> Information in a capitalist system</h2>
 <p>This section summarizes some of the key elements of Herbert Schiller’s views of the information society, as reported in <span class="citation" data-cites="webster_information_2014">Webster (<a href="#ref-webster_information_2014" role="doc-biblioref">2014</a>)</span>. Schiller’s perspective, influenced by his economics background and his work as a Professor of Communications, played a central role in the <strong>political economy</strong> approach to understanding information, which emphasized the importance of “looking behind information” at the structural features that shape the information produced:</p>
 <blockquote class="blockquote">
 <p><em>If one wants to understand why newspapers and television produce particular content, […] one ought not to start with an analysis of journalists, editors, or scriptwriters [or of the content itself]. Better far to ask: who owns the operation? What are the priorities of the business? Where does it make its money?</em> <span class="citation" data-cites="webster_information_2014">(<a href="#ref-webster_information_2014" role="doc-biblioref">Webster, 2014, p. 152</a>)</span></p>
 </blockquote>
 <p>The political economy approach also emphasizes the importance of considering the capitalist system as a whole, the role of power, control, and interest, and their significance for the information society. Some central points of Schiller’s theory are market principles and practices, corporate capitalism, the commodification of information, and class inequalities.</p>
-<section id="market-principles-and-practices" class="level3">
-<h3 class="anchored" data-anchor-id="market-principles-and-practices">Market principles and practices</h3>
+<section id="market-principles-and-practices" class="level3" data-number="8.2.1">
+<h3 data-number="8.2.1" class="anchored" data-anchor-id="market-principles-and-practices"><span class="header-section-number">8.2.1</span> Market principles and practices</h3>
 <p>According to Schiller, “the information environment is expressive of the interests and priorities of corporate capitalism” <span class="citation" data-cites="webster_information_2014">(<a href="#ref-webster_information_2014" role="doc-biblioref">Webster, 2014, p. 167</a>)</span>. The primary purpose of corporations is the generation of profits, which leads to information being produced and made available only if profits can be made. This determines what information will be produced, by whom, for whom, and under what conditions it will be available. Moreover, under corporate capitalism, these decisions tend to be made by a limited number of large corporations that form powerful oligopolies.</p>
 </section>
-<section id="the-commodification-of-information" class="level3">
-<h3 class="anchored" data-anchor-id="the-commodification-of-information">The commodification of information</h3>
+<section id="the-commodification-of-information" class="level3" data-number="8.2.2">
+<h3 data-number="8.2.2" class="anchored" data-anchor-id="the-commodification-of-information"><span class="header-section-number">8.2.2</span> The commodification of information</h3>
 <p>According to Schiller and others, information is increasingly commodified to operate in a market society. This means that information gets to be something one can own, have a price, and be sold or licensed by a party to another <span class="citation" data-cites="webster_information_2014">(<a href="#ref-webster_information_2014" role="doc-biblioref">Webster, 2014</a>)</span>. For information to exist as a commodity, there needs to be a legal framework that supports it, such as intellectual property law. In Canada, the Copyright Act protects the rights of content producers by granting them exclusive economic rights over their work <span class="citation" data-cites="al-sharieh_securing_2018">(<a href="#ref-al-sharieh_securing_2018" role="doc-biblioref">Al-Sharieh, 2018</a>)</span>. However, the principle of fair dealing allows users to use copyrighted information without permission or payment of royalties. The “dealing” must only be for the following purposes: research, private study, criticism, review, news reporting, education, satire, or parody. Another exception is when a work is reproduced in alternative formats to increase accessibility for people with perceptual disabilities <span class="citation" data-cites="al-sharieh_securing_2018">(<a href="#ref-al-sharieh_securing_2018" role="doc-biblioref">Al-Sharieh, 2018</a>)</span>. This highlights the need for a balance between the rights of the creator and the rights of the user (such as the right to participate in culture or the right to education).</p>
 <p>Schiller believed that information should be a public good, an idea that goes entirely against the dominant model. The struggle between the public good and corporate interests is well illustrated in scholarly publishing, which we explore in more detail below.</p>
 </section>
-<section id="class-inequalities" class="level3">
-<h3 class="anchored" data-anchor-id="class-inequalities">Class inequalities</h3>
+<section id="class-inequalities" class="level3" data-number="8.2.3">
+<h3 data-number="8.2.3" class="anchored" data-anchor-id="class-inequalities"><span class="header-section-number">8.2.3</span> Class inequalities</h3>
 <p>Class inequalities also shape how information is produced and distributed, as class can determine what information one has access to. This brings us back to the digital divide from Chapter 3 on information issues. Schiller contends that the information society is one of “information stratification” where some (the minority) are information-rich, and others (the majority, or the “general public”) are information-poor. Furthermore, just like unregulated capitalism naturally leads to monopolies, the natural tendency of this system is to increase the gap between these two groups.</p>
 <p>When the ability to profit determines what information you will have access to, the information-poor are those who, by having the ability to pay, end up lumped together in what we call a “mass market” to which a “cheaper” kind of information can be sold without sacrificing profits.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -199,7 +454,7 @@ div.csl-indent {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -214,8 +469,8 @@ Pause and reflect
 </div>
 </section>
 </section>
-<section id="the-case-academic-publishing-industry" class="level2">
-<h2 class="anchored" data-anchor-id="the-case-academic-publishing-industry">The case academic publishing industry</h2>
+<section id="the-case-academic-publishing-industry" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="the-case-academic-publishing-industry"><span class="header-section-number">8.3</span> The case academic publishing industry</h2>
 <p>Academic publishing is a highly profitable industry. Here’s how it works in a nutshell. Universities (funded mainly by students and taxpayers) pay the researchers’ salaries. The researchers ask for more public money to fund their research and hire research assistants, PhDs and postdocs to do research and write a manuscript to report the research and its results. They then submit the findings to a journal managed by an editorial board (all volunteers). One of these volunteers (although there are exceptions, as some editors-in-chief are paid) will recruit two or three additional volunteers to evaluate the submitted manuscript. After two rounds of reviews, the paper will be copy-edited, packaged, and sold back to the universities who already paid the salaries of all the people involved in producing and evaluating the work.</p>
 <p>Consider the suggested reading below for a much more detailed and accurate depiction of the industry.</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -224,7 +479,7 @@ Pause and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Suggested readings
+<span class="screen-reader-only">Note</span>Suggested readings
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -242,15 +497,15 @@ Suggested readings
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-The cost of access to scholarly journals in Canada
+<span class="screen-reader-only">Note</span>The cost of access to scholarly journals in Canada
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>The subscription fees paid by Canadian university libraries to some publishers are reported yearly and are openly available. The latest release of this data can be found in <span class="citation" data-cites="brin2021">Brin (<a href="#ref-brin2021" role="doc-biblioref">2021</a>)</span>. Here are the subscriptions reported for Dalhousie University for the 2019-2020 fiscal year:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 75%">
-<col style="width: 25%">
+<col style="width: 73%">
+<col style="width: 26%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -328,7 +583,7 @@ The cost of access to scholarly journals in Canada
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Suggested reading
+<span class="screen-reader-only">Note</span>Suggested reading
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -337,8 +592,8 @@ Suggested reading
 </div>
 </div>
 </section>
-<section id="open-access" class="level2">
-<h2 class="anchored" data-anchor-id="open-access">Open access</h2>
+<section id="open-access" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="open-access"><span class="header-section-number">8.4</span> Open access</h2>
 <p>Open Access is a movement aiming to make research output freely available online by removing barriers to access, such as subscription prices. The Budapest Initiative (BOAI) initially proposed two main open-access models. The first one, self-archiving (also known as green open access), allows researchers to deposit their already published articles in open electronic archives, also known as repositories. The second one, also known as gold open access, relies on a brand new type of journal that makes new scientific articles immediately available on its website, with no copyright restriction. These new journals would not charge for subscription or access fees. While the original BOAI declaration suggested that these new journals find alternative sources of revenue (such as grants or add-ons that could be sold as an extra), article processing charges (APCs), a publishing fee charged to authors, emerged as one of the primary sources of funding for OA journals. While the open access movement may have seemed like a break away from the commodification of scientific knowledge, the pay-to-publish model turned out to be, once again, an extremely lucrative business for publishers. <span class="citation" data-cites="butler2022">Butler et al. (<a href="#ref-butler2022" role="doc-biblioref">2022</a>)</span> estimated that the five largest publishers generated $1.06 billion in revenues from APCs during 2015-2018.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -346,7 +601,7 @@ Suggested reading
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -356,8 +611,8 @@ Pause and reflect
 </div>
 </div>
 </section>
-<section id="case-study" class="level2">
-<h2 class="anchored" data-anchor-id="case-study">Case study</h2>
+<section id="case-study" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="case-study"><span class="header-section-number">8.5</span> Case study</h2>
 <p><em>The gang have all moved on from their entry-level jobs and are starting towards the careers they hoped for while in school. Dante has become a public librarian at Saskatoon Public Library, Jude is working at the Nova Scotia Archives, Tracy is a knowledge management corporate consultant in Montreal’s arts and entertainment sector, and Wren has been promoted at the tech start-up she works for.</em></p>
 <p><em>Dante and Jude attend a library and archives conference in Lake Como, Italy. The conference party, which takes place on a small, private boat, features many prominent professionals in Information Management.</em></p>
 <p><em>The air is warm as the two disembark the boat at the end of the night, discussing the conversations. One speaker that resonated with both was Mallory Jensen, an Academic librarian from New York State. She spoke about her work negotiating with publishers to unbundle the academic journals her library purchases so that libraries can save money and only buy the journals their library desires.</em></p>
@@ -372,8 +627,8 @@ Pause and reflect
 <p><strong>Jude</strong>: What about open-access journals? There has been a significant movement towards them. They offer freely accessible content to democratize knowledge but usually charge publication fees to make the work they host publicly available. This remedies the problem of the end-user paying abominable subscription fees, though they carry their own issues. But at least we are moving in the right direction!</p>
 <p><strong>Dante</strong>: You’re probably right! Speaking of open access, why don’t we just grab an aperitif at that cute little restaurant across the street? It has a beautiful, uncovered patio, and it’s such a warm evening!</p>
 <p><strong>Jude</strong>: That’s a great idea, oh look! Mallory is sitting with a couple more conference speakers; let’s see if she can offer more insight!</p>
-<section id="discussion-questions" class="level3">
-<h3 class="anchored" data-anchor-id="discussion-questions">Discussion Questions</h3>
+<section id="discussion-questions" class="level3" data-number="8.5.1">
+<h3 data-number="8.5.1" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">8.5.1</span> Discussion Questions</h3>
 <ul>
 <li><p>Do you agree with Dante or Jude? Do you think that it’s fair for someone to be able to download a PDF of a book for free online when others are purchasing it legally? Why?</p></li>
 <li><p>What is your opinion on the oligopoly controlling all the academic journals libraries purchase?</p></li>
@@ -384,14 +639,11 @@ Pause and reflect
 </ul>
 </section>
 </section>
-<section id="references" class="level2">
+<section id="references" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="references"><span class="header-section-number">8.6</span> References</h2>
 
 
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-al-sharieh_securing_2018" class="csl-entry" role="listitem">
 Al-Sharieh, S. (2018). Securing the <span>Future</span> of <span>Copyright</span> <span>Users</span>’ <span>Rights</span> in <span>Canada</span>. <em>Windsor Yearbook of Access to Justice</em>, <em>35</em>, 11–39. <a href="https://doi.org/10.22329/wyaj.v35i0.5109">https://doi.org/10.22329/wyaj.v35i0.5109</a>
 </div>
@@ -402,7 +654,7 @@ Brin, L. (2021). <em>Expenditures of CARL member libraries for scholarly resourc
 Butler, L.-A., Matthias, L., Simard, M.-A., Mongeon, P., &amp; Haustein, S. (2022). <em>The Oligopoly’s Shift to Open Access. How For-Profit Publishers Benefit from Article Processing Charges</em>. <a href="https://doi.org/10.5281/zenodo.7057144">https://doi.org/10.5281/zenodo.7057144</a>
 </div>
 <div id="ref-larivière2015" class="csl-entry" role="listitem">
-Larivière, V., Haustein, S., &amp; Mongeon, P. (2015). The Oligopoly of Academic Publishers in the Digital Era. <em>PLOS ONE</em>, <em>10</em>(6), e0127502. <a href="https://doi.org/10.1371/journal.pone.0127502">https://doi.org/10.1371/journal.pone.0127502</a>
+Larivière, V., Haustein, S., &amp; Mongeon, P. (2015). The oligopoly of academic publishers in the digital era. <em>PLOS ONE</em>, <em>10</em>(6), e0127502. <a href="https://doi.org/10.1371/journal.pone.0127502">https://doi.org/10.1371/journal.pone.0127502</a>
 </div>
 <div id="ref-mongeon2021" class="csl-entry" role="listitem">
 Mongeon, P., Siler, K., Archambault, A., Sugimoto, C., &amp; Larivière, V. (2021). Collection development in the era of big deals. <em>College &amp; Research Libraries</em>, <em>82</em>(2), 219. <a href="https://doi.org/10.5860/crl.82.2.219">https://doi.org/10.5860/crl.82.2.219</a>
@@ -413,9 +665,25 @@ Shu, F., Mongeon, P., Haustein, S., Siler, K., Alperin, J. P., &amp; Larivière,
 <div id="ref-webster_information_2014" class="csl-entry" role="listitem">
 Webster, F. (2014). Information and the market system: <span>Herbert</span> <span>Schiller</span>. In <em>Theories of the information society</em> (Fourth edition, pp. 149–195). Routledge.
 </div>
-</div></section></div></main> <!-- /main -->
+</div>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -465,13 +733,14 @@ Webster, F. (2014). Information and the market system: <span>Herbert</span> <spa
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -813,6 +1082,18 @@ Webster, F. (2014). Information and the market system: <span>Herbert</span> <spa
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/ch6.html" class="pagination-link" aria-label="Information in Organizations">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information in Organizations</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/ch8.html" class="pagination-link" aria-label="The Attention Economy">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Attention Economy</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

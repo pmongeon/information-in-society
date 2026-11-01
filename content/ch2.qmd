@@ -1,5 +1,5 @@
 ---
-title: Chapter 2. What is Information?
+title: What is Information?
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -8,9 +8,9 @@ csl: apa.csl
 
 So what is information anyway? If we call ourselves information managers, specialists, information professionals, or information scientists. In that case, it seems appropriate to seek a clear understanding of what we are experts in. This chapter aims to explore the concept of information and its related concepts as they have been discussed within the library and information science field. By the end of this chapter, you should be able to:
 
--   Recognize the challenges in defining the concept of information.
--   Name and explain some of the concepts related to information.
--   Situate these concepts in relationship with each other.
+- Recognize the challenges in defining the concept of information.
+- Name and explain some of the concepts related to information.
+- Situate these concepts in relationship with each other.
 
 ::: callout-note
 ## Clarification
@@ -23,9 +23,9 @@ The goal is not for you to come out of this week with a final definition of info
 ::: callout-tip
 Think of the word information, and write down the first ten words (no more) that come to your mind.
 
--   Was it difficult?
+- Was it difficult?
 
--   In what way are your words related to one another beyond their common relationship to the word information?
+- In what way are your words related to one another beyond their common relationship to the word information?
 :::
 
 Now that we have brought the concept of information to our attention let us do what we were all taught (at least in my generation) to do when seeking to understand the meaning of a term and turn to a dictionary to obtain a definition of the term "information". Here are the definitions offered by the Merriam-Webster Dictionary:
@@ -46,9 +46,9 @@ Now that we have brought the concept of information to our attention let us do w
 
 Think of the ten words you came up with earlier.
 
--   To which of the ten definitions above are your ten words most strongly related?
+- To which of the ten definitions above are your ten words most strongly related?
 
--   Which of the ten definitions do you think are relevant to our field? Which do you think are not?
+- Which of the ten definitions do you think are relevant to our field? Which do you think are not?
 :::
 
 ## Situating information in its disciplinary contexts
@@ -60,9 +60,9 @@ One of the things that you may have noticed with the dictionary definitions is t
 ::: callout-tip
 ## Stop and reflect
 
--   What did you think of this map? Were you able to observe apparent disciplinary differences in the uses of the term "information"?
+- What did you think of this map? Were you able to observe apparent disciplinary differences in the uses of the term "information"?
 
--   Did the terms linked to the LIS field make sense to you based on your knowledge of the field? Were some of them surprising?
+- Did the terms linked to the LIS field make sense to you based on your knowledge of the field? Were some of them surprising?
 :::
 
 ## A definition of information for the information field?
@@ -73,39 +73,39 @@ Whatever name the schools or programs that train information professionals are c
 
 Marcia Bates believed that all information is natural and exists in the material world of matter and energy and that "almost anything existing in the universe that can come into human and other animals' purview can be experienced as information" [@bates2006, p. 1033]. From there, she constructed a glossary of the different forms of information:
 
--   **Embedded information**: Information left behind on earth by animals. Includes such things as human-created tools or paths through the woods.
+- **Embedded information**: Information left behind on earth by animals. Includes such things as human-created tools or paths through the woods.
 
--   **Embodied** **information**: The corporeal expression or manifestation of information previously in encoded form.
+- **Embodied** **information**: The corporeal expression or manifestation of information previously in encoded form.
 
--   **Encoded** **information**: Natural information organized symbolically, linguistically, or signal-based.
+- **Encoded** **information**: Natural information organized symbolically, linguistically, or signal-based.
 
--   **Enacted information**: The pattern of organization of actions of an animal in, and interacting with, its environment, utilizing capabilities and experience from its neural stores.
+- **Enacted information**: The pattern of organization of actions of an animal in, and interacting with, its environment, utilizing capabilities and experience from its neural stores.
 
--   **Experienced information**: The pattern of organization of subjective experience, the feeling of being in life, of an animal.
+- **Experienced information**: The pattern of organization of subjective experience, the feeling of being in life, of an animal.
 
--   **Exosomatic** **information**: Information that is stored outside of the body.
+- **Exosomatic** **information**: Information that is stored outside of the body.
 
--   **Expressed** **information**: The pattern of organization of communicatory scents, calls, gestures, and ultimately, the human spoken language used to communicate among species members and between species.
+- **Expressed** **information**: The pattern of organization of communicatory scents, calls, gestures, and ultimately, the human spoken language used to communicate among species members and between species.
 
--   **Genetic information**: Information contained in the genotype
+- **Genetic information**: Information contained in the genotype
 
--   **Genotype**: The genetic constitution of a living thing.
+- **Genotype**: The genetic constitution of a living thing.
 
--   **Information 1**: The pattern of organization of matter and energy
+- **Information 1**: The pattern of organization of matter and energy
 
--   **Information 2**: Some pattern of organization of matter and energy to which a living being has given meaning.
+- **Information 2**: Some pattern of organization of matter and energy to which a living being has given meaning.
 
--   **Knowledge**: Information that has been integrated with other contents of understanding and, therefore, given meaning.
+- **Knowledge**: Information that has been integrated with other contents of understanding and, therefore, given meaning.
 
--   **Neural-cultural information**: Information created by, processed in, or disseminated from animal nervous systems, especially human nervous systems. (Neural information may also be used for lower animals and/or specifically for the nervous system structures that make memory and action possible in general in animals and humans.)
+- **Neural-cultural information**: Information created by, processed in, or disseminated from animal nervous systems, especially human nervous systems. (Neural information may also be used for lower animals and/or specifically for the nervous system structures that make memory and action possible in general in animals and humans.)
 
--   **Phenotype**: The genetically and environmentally determined embodiment of a genotype.
+- **Phenotype**: The genetically and environmentally determined embodiment of a genotype.
 
--   **Recorded** **information**: Information that has been stored in a durable medium.
+- **Recorded** **information**: Information that has been stored in a durable medium.
 
--   **Represented information**: Natural information that is encoded or embodied.
+- **Represented information**: Natural information that is encoded or embodied.
 
--   **Trace** **information**: The information that remains after a species is done with it. For example, a no-longer-used wasps' nest.
+- **Trace** **information**: The information that remains after a species is done with it. For example, a no-longer-used wasps' nest.
 
 ::: callout-note
 ## Suggested reading
@@ -119,16 +119,16 @@ Bates, Marcia J. 2006. "Fundamental Forms of Information." *Journal of the Ameri
 
 According to @hjorland_information_2007, there are two basic views of information:
 
--   **Objective information**: any difference (in patterns of matter and energy, as in Bates' concept of information 1).
+- **Objective information**: any difference (in patterns of matter and energy, as in Bates' concept of information 1).
 
--   **Subjective/situational information**: a difference that makes a difference.
+- **Subjective/situational information**: a difference that makes a difference.
 
 In his paper, \@hjorland_information_2007 criticizes Bates' fundamental form of information and argues that only subjective information is relevant to the field. While Bates' concept of information 2 is compatible with that view, the concept of information 1 is not and should be ignored. Hjørland also argues that Bates' definition of information 2 is too limited because it specifies the need for a living being to interpret the signal and give it meaning, which excludes the idea of computers processing information.
 
 ::: callout-tip
 ## Stop and reflect
 
--   Do you agree with Hjørland and think computers can give meaning to the signal they process?
+- Do you agree with Hjørland and think computers can give meaning to the signal they process?
 :::
 
 For Hjørland, If no one is aware of an object, then it cannot be information; it can become information once someone (or a computer) becomes aware of it. Under the situational definition of information, whether or not something is information depends on the circumstances surrounding the document, data, object or event. These things may be defined as information in certain situations but not others. This idea becomes complicated when you think of how vast the range of information can be; determining if and how something can be informative is very difficult. A tree can be informative in multiple ways. It will represent other trees of its kind, but the rings inside the trunk also provide information about weather patterns. Anything can then be information given the proper context. Hence, for Hjørland, there is no point in ever considering information as an objective phenomenon without any context since information is determined and defined by that context.
@@ -156,7 +156,7 @@ Information can be considered a **thing** when it describes an object, such as d
 ::: callout-tip
 ## Stop and reflect
 
--   One branch of our field is called knowledge management. If knowledge is information in an intangible form that cannot be observed or measured, how can it be managed?
+- One branch of our field is called knowledge management. If knowledge is information in an intangible form that cannot be observed or measured, how can it be managed?
 :::
 
 ::: callout-note
@@ -186,13 +186,13 @@ The hierarchy connects wisdom, knowledge, information, and data to identify how 
 ::: callout-tip
 ## Stop and reflect
 
--   If, according to the pyramid, information is processed data, and knowledge is processed information, then how would you define wisdom?
+- If, according to the pyramid, information is processed data, and knowledge is processed information, then how would you define wisdom?
 
--   Does good data necessarily lead to good information?
+- Does good data necessarily lead to good information?
 
--   In what ways do information professionals deal with each level of the pyramid?
+- In what ways do information professionals deal with each level of the pyramid?
 
--   What levels of the pyramids can be achieved by computers?
+- What levels of the pyramids can be achieved by computers?
 :::
 
 ## Conclusion

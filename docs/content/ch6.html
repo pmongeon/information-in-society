@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Chapter 6. Information in Organizations – Information in Society</title>
+<title>7&nbsp; Information in Organizations – Information in Society</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -50,22 +56,28 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/ch7.html" rel="next">
+<link href="../content/ch5.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-9f30c2c2d2429ed22c1cf9f617479b3b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b62bfd5236959114d0e6374d52c994e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a64f2b92d8b4b45ab5f5d9261e8b8c9d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -87,79 +99,322 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Information in Society</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/ch6.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information in Organizations</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Information in Society</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Overview</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Information Field</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Information?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Information issues</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Humans in an Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Work in the Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch6.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information in Organizations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Attention Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Misinformation, Disinformation, and Fake News</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and Democracy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Information Justice</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><strong>Introduction</strong></a></li>
-  <li><a href="#the-learning-organization" id="toc-the-learning-organization" class="nav-link" data-scroll-target="#the-learning-organization">The Learning Organization</a></li>
-  <li><a href="#the-knowing-organization" id="toc-the-knowing-organization" class="nav-link" data-scroll-target="#the-knowing-organization">The Knowing Organization</a>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">7.1</span> Learning Objectives</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">7.2</span> <strong>Introduction</strong></a></li>
+  <li><a href="#the-learning-organization" id="toc-the-learning-organization" class="nav-link" data-scroll-target="#the-learning-organization"><span class="header-section-number">7.3</span> The Learning Organization</a></li>
+  <li><a href="#the-knowing-organization" id="toc-the-knowing-organization" class="nav-link" data-scroll-target="#the-knowing-organization"><span class="header-section-number">7.4</span> The Knowing Organization</a>
   <ul class="collapse">
-  <li><a href="#sense-making" id="toc-sense-making" class="nav-link" data-scroll-target="#sense-making">Sense-making</a></li>
-  <li><a href="#knowledge-creation" id="toc-knowledge-creation" class="nav-link" data-scroll-target="#knowledge-creation">Knowledge Creation</a></li>
-  <li><a href="#decision-making" id="toc-decision-making" class="nav-link" data-scroll-target="#decision-making">Decision Making</a></li>
-  <li><a href="#the-organizational-knowing-cycle" id="toc-the-organizational-knowing-cycle" class="nav-link" data-scroll-target="#the-organizational-knowing-cycle">The Organizational Knowing Cycle</a></li>
-  <li><a href="#business-process-models" id="toc-business-process-models" class="nav-link" data-scroll-target="#business-process-models">Business Process Models</a></li>
+  <li><a href="#sense-making" id="toc-sense-making" class="nav-link" data-scroll-target="#sense-making"><span class="header-section-number">7.4.1</span> Sense-making</a></li>
+  <li><a href="#knowledge-creation" id="toc-knowledge-creation" class="nav-link" data-scroll-target="#knowledge-creation"><span class="header-section-number">7.4.2</span> Knowledge Creation</a></li>
+  <li><a href="#decision-making" id="toc-decision-making" class="nav-link" data-scroll-target="#decision-making"><span class="header-section-number">7.4.3</span> Decision Making</a></li>
+  <li><a href="#the-organizational-knowing-cycle" id="toc-the-organizational-knowing-cycle" class="nav-link" data-scroll-target="#the-organizational-knowing-cycle"><span class="header-section-number">7.4.4</span> The Organizational Knowing Cycle</a></li>
+  <li><a href="#business-process-models" id="toc-business-process-models" class="nav-link" data-scroll-target="#business-process-models"><span class="header-section-number">7.4.5</span> Business Process Models</a></li>
   </ul></li>
-  <li><a href="#embedded-librarianship" id="toc-embedded-librarianship" class="nav-link" data-scroll-target="#embedded-librarianship">Embedded Librarianship</a>
+  <li><a href="#embedded-librarianship" id="toc-embedded-librarianship" class="nav-link" data-scroll-target="#embedded-librarianship"><span class="header-section-number">7.5</span> Embedded Librarianship</a>
   <ul class="collapse">
-  <li><a href="#advantages-of-embedded-librarianship" id="toc-advantages-of-embedded-librarianship" class="nav-link" data-scroll-target="#advantages-of-embedded-librarianship">Advantages of Embedded Librarianship</a></li>
-  <li><a href="#other-kinds-of-mobile-librarianship" id="toc-other-kinds-of-mobile-librarianship" class="nav-link" data-scroll-target="#other-kinds-of-mobile-librarianship">Other Kinds of Mobile Librarianship</a></li>
+  <li><a href="#advantages-of-embedded-librarianship" id="toc-advantages-of-embedded-librarianship" class="nav-link" data-scroll-target="#advantages-of-embedded-librarianship"><span class="header-section-number">7.5.1</span> Advantages of Embedded Librarianship</a></li>
+  <li><a href="#other-kinds-of-mobile-librarianship" id="toc-other-kinds-of-mobile-librarianship" class="nav-link" data-scroll-target="#other-kinds-of-mobile-librarianship"><span class="header-section-number">7.5.2</span> Other Kinds of Mobile Librarianship</a></li>
   </ul></li>
-  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study">Case study</a>
+  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study"><span class="header-section-number">7.6</span> Case study</a>
   <ul class="collapse">
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions">Discussion Questions</a></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">7.6.1</span> Discussion Questions</a></li>
   </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">7.7</span> References</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Chapter 6. Information in Organizations</h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information in Organizations</span></h1>
 </div>
 
 
@@ -176,12 +431,12 @@ div.csl-indent {
 </header>
 
 
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<section id="learning-objectives" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">7.1</span> Learning Objectives</h2>
 <p>In this chapter, we will discuss some principles of information and knowledge management as it relates to organizations. We will touch on Senge’s concept of <strong>learning organizations</strong> and Choo’s theoretical framework of <strong>knowing organizations</strong>. We will also consider different tools and applications of these frameworks.</p>
 </section>
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction"><strong>Introduction</strong></h2>
+<section id="introduction" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="introduction"><span class="header-section-number">7.2</span> <strong>Introduction</strong></h2>
 <p>Organizations are entities that are made up of people working for a common purpose or goal. Fields such as Business, Finance, Management, Political Science, and others will categorize and define organizations as they relate to those fields. These fields of study may seek to analyze the hierarchies, structures, or success of different kinds of organizations. There are many theoretical frameworks as to how organizations function and flourish. Still, we will focus on frameworks that discuss how organizations interact with information to meet their goals.</p>
 <p>There are a variety of types of organizations, which may have different needs and structures, including:</p>
 <ul>
@@ -195,7 +450,7 @@ div.csl-indent {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -206,17 +461,17 @@ Pause and reflect
 </div>
 </div>
 </section>
-<section id="the-learning-organization" class="level2">
-<h2 class="anchored" data-anchor-id="the-learning-organization">The Learning Organization</h2>
+<section id="the-learning-organization" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="the-learning-organization"><span class="header-section-number">7.3</span> The Learning Organization</h2>
 <p>Business Management scholar Peter Senge developed the idea of the <strong>learning organization</strong>. He envisioned organizations that excelled in the face of rapid change through adaptability and informed decision-making. He wrote that learning organizations are “…organizations where people continually expand their capacity to create the results they truly desire, where new and expansive patterns of thinking are nurtured, where collective aspiration is set free, and where people are continually learning to see the whole together” <span class="citation" data-cites="senge2006">(<a href="#ref-senge2006" role="doc-biblioref">Senge, 2006</a>)</span>.</p>
 <p>Senge’s concept was influenced heavily by <strong>systems theory.</strong> Systems theory is an interdisciplinary term exploring how groups, systems, or individuals may interact in a larger system. Broadly speaking, it can be described as how things can be greater than the sum of their parts. Senge explored his concept of learning organizations in relation to the <strong>systems theory of organizations –</strong> which seeks to describe and explain how the organization works as a whole to accomplish its goals. Senge wrote a framework of core principles for the learning organization, including the concept he called <strong>team learning.</strong> Senge describes team learning as a skill in which individuals within the organization can discuss and have a dialogue with each other for the organization to learn and advance.</p>
 <p>If you want to know more about the systems theory of organizations, consider watching this YouTube video (not mandatory, only if you are curious or confused): <a href="https://www.youtube.com/watch?v=1L1c-EKOY-w&amp;ab_channel=OrganizationalCommunicationChannel">Systems Theory of Organizations</a>.</p>
 </section>
-<section id="the-knowing-organization" class="level2">
-<h2 class="anchored" data-anchor-id="the-knowing-organization">The Knowing Organization</h2>
+<section id="the-knowing-organization" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="the-knowing-organization"><span class="header-section-number">7.4</span> The Knowing Organization</h2>
 <p>We can think of organizations from an information-based view in which the people in organizations are working with information to accomplish specific outcomes. Information Management scholar Chun Wei Choo created a framework in which these outcomes can be divided into three categories: sense-making, knowledge creation and decision-making.</p>
-<section id="sense-making" class="level3">
-<h3 class="anchored" data-anchor-id="sense-making">Sense-making</h3>
+<section id="sense-making" class="level3" data-number="7.4.1">
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="sense-making"><span class="header-section-number">7.4.1</span> Sense-making</h3>
 <p>Sense-making is a process through which an organization creates its identity and a shared context for action and reflection by collecting and interpreting data from its environment <span class="citation" data-cites="choo_knowing_2006">(<a href="#ref-choo_knowing_2006" role="doc-biblioref">Choo, 2006</a>)</span>. Sense-making is s three-steps process that begins when an <strong>Ecological change</strong> in the organizational environment results in a disturbance that the organization needs to make sense of:</p>
 <ol type="1">
 <li><strong>Enactment</strong>. Organizations interact with their environment by selectively bracketing, highlighting or isolating data or by adding features to the environment to facilitate data acquisition and sense-making. After enactment, the organization has data to interpret.</li>
@@ -224,8 +479,8 @@ Pause and reflect
 <li><strong>Retention</strong>. The products of successful enactment and selection are retained for future use. “It is like a historical document, stored perhaps as stories, explanations, and beliefs or as a map of relationships between events and actions. In these forms, interpretations are remembered and made available for future cycles of enactment and selection.” <span class="citation" data-cites="choo_knowing_2006">(<a href="#ref-choo_knowing_2006" role="doc-biblioref">Choo, 2006, p. 6</a>)</span></li>
 </ol>
 </section>
-<section id="knowledge-creation" class="level3">
-<h3 class="anchored" data-anchor-id="knowledge-creation">Knowledge Creation</h3>
+<section id="knowledge-creation" class="level3" data-number="7.4.2">
+<h3 data-number="7.4.2" class="anchored" data-anchor-id="knowledge-creation"><span class="header-section-number">7.4.2</span> Knowledge Creation</h3>
 <p>Organizations must continuously create knowledge. Knowledge can be created by managing the relationship between explicit and tacit knowledge. <strong>Tacit knowledge</strong> is embodied knowledge that is hard to formalize or communicate to others <span class="citation" data-cites="choo2005">(<a href="#ref-choo2005" role="doc-biblioref">Choo, 2005</a>)</span>. <strong>Explicit knowledge</strong> is the opposite; it is formal knowledge that can easily be transmitted between both individuals and groups, such as recipes, formulas, or instructions.</p>
 <p><span class="citation" data-cites="choo_knowing_2006">Choo (<a href="#ref-choo_knowing_2006" role="doc-biblioref">2006</a>)</span> describes four processes through which new tacit and explicit knowledge is created:</p>
 <ol type="1">
@@ -235,12 +490,12 @@ Pause and reflect
 <li><strong>Internalization</strong>. “process of embodying explicit knowledge into tacit knowledge, internalizing the experiences gained through the other modes of knowledge creation into individuals’ tacit knowledge bases in the form of shared mental models or work practices.” <span class="citation" data-cites="choo_knowing_2006">(<a href="#ref-choo_knowing_2006" role="doc-biblioref">Choo, 2006, p. 9</a>)</span></li>
 </ol>
 </section>
-<section id="decision-making" class="level3">
-<h3 class="anchored" data-anchor-id="decision-making">Decision Making</h3>
+<section id="decision-making" class="level3" data-number="7.4.3">
+<h3 data-number="7.4.3" class="anchored" data-anchor-id="decision-making"><span class="header-section-number">7.4.3</span> Decision Making</h3>
 <p>When making decisions, organizations operate under the principle of bounded rationality and are constrained by cognitive capabilities, available knowledge, and values. To help individuals in the organization make decisions, the organizations establishes value premises and factual premises. Value premises determine the desirable traits of an alternative, and factual premises determine what information is relevant to help the decision-making process <span class="citation" data-cites="choo2005">(<a href="#ref-choo2005" role="doc-biblioref">Choo, 2005</a>)</span>. Then the organization performs a search for satisfactory alternative decisions.</p>
 </section>
-<section id="the-organizational-knowing-cycle" class="level3">
-<h3 class="anchored" data-anchor-id="the-organizational-knowing-cycle">The Organizational Knowing Cycle</h3>
+<section id="the-organizational-knowing-cycle" class="level3" data-number="7.4.4">
+<h3 data-number="7.4.4" class="anchored" data-anchor-id="the-organizational-knowing-cycle"><span class="header-section-number">7.4.4</span> The Organizational Knowing Cycle</h3>
 <p><span class="citation" data-cites="choo_knowing_2006">Choo (<a href="#ref-choo_knowing_2006" role="doc-biblioref">2006</a>)</span> describes an organization’s flow from one “mode” to another as the Organizational Knowing Cycle.</p>
 <p>“In the knowing cycle, a continuous flow of information is maintained between sense-making, knowledge-creating, and decision making, so that the outcome of information use in one mode provides the elaborated context and the expanded resources for information use in the other modes.” <span class="citation" data-cites="weichoo2001">(<a href="#ref-weichoo2001" role="doc-biblioref">Wei Choo, 2001</a>)</span></p>
 <div class="quarto-figure quarto-figure-center">
@@ -250,8 +505,8 @@ Pause and reflect
 </div>
 <p>Choo comments that learning organizations will encourage and foster innovation through this cycle. Innovations and new concepts are created and evaluated based on the organization’s needs and goals. Concepts created are then tested and re-evaluated before being enacted in other organizational levels to generate new knowledge creation cycles.</p>
 </section>
-<section id="business-process-models" class="level3">
-<h3 class="anchored" data-anchor-id="business-process-models">Business Process Models</h3>
+<section id="business-process-models" class="level3" data-number="7.4.5">
+<h3 data-number="7.4.5" class="anchored" data-anchor-id="business-process-models"><span class="header-section-number">7.4.5</span> Business Process Models</h3>
 <p>As we consider ways organizations can learn and know, we can look at different tools to help sense-making, knowledge creation, and decision-making. One such tool is the Business Process Model.</p>
 <p>Business Process Models (BPMs) are tools that people within the organization can use to visualize the flow of different processes. These tools can also help us visualize the organization’s and individuals’ information needs at each step of the process. As different individuals and departments in an organization may come together to complete a task, so will the information needed to complete that task. By creating accurate BPMs, organizations can help create transparency for workers, allowing information needs to be better identified and met.</p>
 <p>BPMs will be discussed more in your Information Systems class, but we can develop a surface understanding of their usefulness in organizations. Each BPM will have a start point (where the process begins) and an end point (where the process is complete) and may describe different steps for each individual involved. The steps for different individuals may be visually represented in different “lanes,” like in the below BPM for a restaurant process. The customer, host/hostess, waitstaff, chefs, and even the point of sales system are displayed in their lane. Each lane outlines steps of how and when an individual will participate in the entire process.</p>
@@ -268,7 +523,7 @@ Pause and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and Reflect
+<span class="screen-reader-only">Tip</span>Pause and Reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -277,8 +532,8 @@ Pause and Reflect
 </div>
 </section>
 </section>
-<section id="embedded-librarianship" class="level2">
-<h2 class="anchored" data-anchor-id="embedded-librarianship">Embedded Librarianship</h2>
+<section id="embedded-librarianship" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="embedded-librarianship"><span class="header-section-number">7.5</span> Embedded Librarianship</h2>
 <p>People tend to identify librarians based on the buildings they work in, thinking that “a librarian works in a library”. This is not always the case. As traditional reference services are becoming less common due to the rise of the internet and the changing role of libraries, librarians are moving out of physical libraries. Embedded librarianship occurs when librarians are embedded within organizations and institutions. These librarians develop strong relationships with the groups of people they work with, such as faculty, students, a marketing department or a research team. Embedded librarians are knowledgeable about the work their team is working on <span class="citation" data-cites="shumaker2012">(<a href="#ref-shumaker2012" role="doc-biblioref">Shumaker, 2012b</a>)</span>. “In order for librarians to be effective in the learning community, they must be viewed by all as a partner in the community. Real familiarity with the course and content is vital to change the perception of students that the librarian is ‘just visiting’ and is not an integral part of the learning community” <span class="citation" data-cites="muir2010">(<a href="#ref-muir2010" role="doc-biblioref">Muir &amp; Heller-Ross, 2010, p. 92</a>)</span></p>
 <p>Three main factors define embedded librarianship: ongoing relationships, knowledge of and commitment to shared goals, and customized high-value contributions <span class="citation" data-cites="shumaker2012">(<a href="#ref-shumaker2012" role="doc-biblioref">Shumaker, 2012b</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -286,12 +541,12 @@ Pause and Reflect
 <p><img src="images/Embedded_librarian.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
-<section id="advantages-of-embedded-librarianship" class="level3">
-<h3 class="anchored" data-anchor-id="advantages-of-embedded-librarianship">Advantages of Embedded Librarianship</h3>
+<section id="advantages-of-embedded-librarianship" class="level3" data-number="7.5.1">
+<h3 data-number="7.5.1" class="anchored" data-anchor-id="advantages-of-embedded-librarianship"><span class="header-section-number">7.5.1</span> Advantages of Embedded Librarianship</h3>
 <p>Embedded librarians can anticipate their patrons’ needs; they don’t wait to be asked for help. They work for an entire team and help multiple people at once. Embedded librarians understand the needs of their team because they are so familiar with the project. “With embedded librarianship, transactions still occur- documents are requested, instructional sessions are held, or documents are added to a shared virtual workspace- but the emphasis shifts from the transaction to the project” <span class="citation" data-cites="shumaker_defining_2012">(<a href="#ref-shumaker_defining_2012" role="doc-biblioref">Shumaker, 2012a, p. 13</a>)</span>. Embedded librarianships are responsible for more than just providing a service.</p>
 </section>
-<section id="other-kinds-of-mobile-librarianship" class="level3">
-<h3 class="anchored" data-anchor-id="other-kinds-of-mobile-librarianship">Other Kinds of Mobile Librarianship</h3>
+<section id="other-kinds-of-mobile-librarianship" class="level3" data-number="7.5.2">
+<h3 data-number="7.5.2" class="anchored" data-anchor-id="other-kinds-of-mobile-librarianship"><span class="header-section-number">7.5.2</span> Other Kinds of Mobile Librarianship</h3>
 <p>It is not only embedded librarians that move outside of traditional library spaces. You may find a few different kinds of librarians outside the library. <span class="citation" data-cites="shumaker_defining_2012">(<a href="#ref-shumaker_defining_2012" role="doc-biblioref">Shumaker, 2012a</a>)</span></p>
 <ul>
 <li><p><strong>Virtual librarians</strong>. Virtual librarians are available remotely (sometimes 24/7 due to time zones) through phone, email, instant messaging or texting. These librarians are similar to traditional librarians in that they passively wait to be asked for help.</p></li>
@@ -301,8 +556,8 @@ Pause and Reflect
 </ul>
 </section>
 </section>
-<section id="case-study" class="level2">
-<h2 class="anchored" data-anchor-id="case-study">Case study</h2>
+<section id="case-study" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="case-study"><span class="header-section-number">7.6</span> Case study</h2>
 <p><em>Wren and Tracey are out for a walk at Point Pleasant on a sunny Saturday morning in October. Last spring, the gang graduated from the MI program and have not seen each other since. The two are vecited to catch up and learn how everything has been going for the last few months.</em></p>
 <p><strong>Wren</strong>: Tracy! It feels like forever since I’ve seen you; it’s so good to catch up finally!</p>
 <p><strong>Tracy</strong>: It does feel like it’s been ages, but time really does fly. Hey! Have you heard what Jude and Dante have been up to this summer?</p>
@@ -327,8 +582,8 @@ Pause and Reflect
 <p><strong>Wren</strong>: Yes, exactly, Tracy. In a smaller workplace environment, it was clear how employees contributed to the work they did and to what degree. Now, I might be tasked with writing multiple reports a year outlining how my position is critical to the company’s success.</p>
 <p><strong>Tracy</strong>: I’m sorry, Wren. If it makes you feel better, your friendship is invaluable to the gang and me. You are a fantastic communicator, though, so I think as long as you exercise those skills during this transition period, everything will work out okay. Growing pains!</p>
 <p>Consider the exchange of information and knowledge in the workplaces you have worked in and the professional environments you have been a part of. Reflect on the importance of communication and how it impacts the success of an organization’s goals.</p>
-<section id="discussion-questions" class="level3">
-<h3 class="anchored" data-anchor-id="discussion-questions">Discussion Questions</h3>
+<section id="discussion-questions" class="level3" data-number="7.6.1">
+<h3 data-number="7.6.1" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">7.6.1</span> Discussion Questions</h3>
 <ul>
 <li><p>What should Wren’s company do to ensure a smooth transition with the merger? How can they ensure that the information flow stays efficient?</p></li>
 <li><p>Consider your current or past places of work- how does information flow internally? How does it flow externally?</p></li>
@@ -339,14 +594,11 @@ Pause and Reflect
 </ul>
 </section>
 </section>
-<section id="references" class="level2">
+<section id="references" class="level2" data-number="7.7">
+<h2 data-number="7.7" class="anchored" data-anchor-id="references"><span class="header-section-number">7.7</span> References</h2>
 
 
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-choo2005" class="csl-entry" role="listitem">
 Choo, C. W. (2005). <em>The knowing organization</em>. Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780195176780.001.0001">https://doi.org/10.1093/acprof:oso/9780195176780.001.0001</a>
 </div>
@@ -354,7 +606,7 @@ Choo, C. W. (2005). <em>The knowing organization</em>. Oxford University Press. 
 Choo, C. W. (2006). The knowing organization. In <em>The knowing organization: How organizations use information to construct meaning, create knowledge, and make decisions</em> (2nd ed, pp. 1–30). Oxford University Press.
 </div>
 <div id="ref-muir2010" class="csl-entry" role="listitem">
-Muir, G., &amp; Heller-Ross, H. (2010). Is Embedded Librarianship Right for Your Institution? <em>Public Services Quarterly</em>, <em>6</em>(2-3), 92–109. <a href="https://doi.org/10.1080/15228959.2010.497464">https://doi.org/10.1080/15228959.2010.497464</a>
+Muir, G., &amp; Heller-Ross, H. (2010). Is embedded librarianship right for your institution? <em>Public Services Quarterly</em>, <em>6</em>(2-3), 92–109. <a href="https://doi.org/10.1080/15228959.2010.497464">https://doi.org/10.1080/15228959.2010.497464</a>
 </div>
 <div id="ref-senge2006" class="csl-entry" role="listitem">
 Senge, P. M. (2006). <em>The fifth discipline: The art and practice of the learning organization</em> (Rev. and updated). Doubleday/Currency.
@@ -371,9 +623,25 @@ Somphanpae, S., &amp; Boonsiri, S. (2016). Business process improvement using ad
 <div id="ref-weichoo2001" class="csl-entry" role="listitem">
 Wei Choo, C. (2001). The knowing organization as learning organization. <em>Education + Training</em>, <em>43</em>(4/5), 197–205. <a href="https://doi.org/10.1108/eum0000000005482">https://doi.org/10.1108/eum0000000005482</a>
 </div>
-</div></section></div></main> <!-- /main -->
+</div>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -423,13 +691,14 @@ Wei Choo, C. (2001). The knowing organization as learning organization. <em>Educ
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -771,6 +1040,18 @@ Wei Choo, C. (2001). The knowing organization as learning organization. <em>Educ
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/ch5.html" class="pagination-link" aria-label="Work in the Information Society">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Work in the Information Society</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/ch7.html" class="pagination-link" aria-label="The Information Economy">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

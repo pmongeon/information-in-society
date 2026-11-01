@@ -1,5 +1,5 @@
 ---
-title: Chapter 5. Work in the Information Society
+title: Work in the Information Society
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -20,23 +20,23 @@ Working tends to involve producing some outcome, which implies (ideally) having 
 
 Workplaces are as varied as the types of work that people do. Different work environments may function differently from each other as information settings. People may encounter information in bulletin boards, training manuals, emails, websites, Teams, policies, Brightspace, or other information systems, and in meetings or informal encounters with colleagues in the elevator or at the coffee machine. People will need, seek, use, and produce information differently. Think about different types of work and the settings where that work is done. How is information encountered, recorded, shared, used, stored, and disposed of in these different settings? What kinds of tools (digital or otherwise) are used to help workers manage this information? Consider the following settings:
 
--   A hospital
+- A hospital
 
--   The Information Management program (as a student)
+- The Information Management program (as a student)
 
--   The Information Management program (as an instructor)
+- The Information Management program (as an instructor)
 
--   The Information Management program (as the program director)
+- The Information Management program (as the program director)
 
 ::: callout-tip
 ## Pause and reflect
 
 As you consider some of these workplaces, consider the **information needs** of the individuals.
 
--   What types of information needs do people have in these settings?
--   What barriers might prevent the fulfillment of these needs?
--   What are the possible consequences of not having these information needs fully met?
--   What could you, an information specialist, do to ensure that the needs of the individuals in these settings are met?
+- What types of information needs do people have in these settings?
+- What barriers might prevent the fulfillment of these needs?
+- What are the possible consequences of not having these information needs fully met?
+- What could you, an information specialist, do to ensure that the needs of the individuals in these settings are met?
 :::
 
 ## **Changing workplaces**
@@ -46,9 +46,9 @@ Workplace settings have always been in flux, but recent history has drastically 
 ::: callout-tip
 ## Pause and reflect
 
--   How does the development of new information technologies create information needs in the workplace?
+- How does the development of new information technologies create information needs in the workplace?
 
--   How has the COVID-19 pandemic created information needs in the workplace?
+- How has the COVID-19 pandemic created information needs in the workplace?
 :::
 
 Read the below excerpt from *Information at Work: Information Management in the Workplace*:
@@ -62,9 +62,9 @@ As working from home, remotely, on-call, or as part of the "gig economy" becomes
 ::: callout-tip
 ## Pause and reflect
 
--   How do you think work-life conflicts can be understood as an information issue?
--   Have you experienced challenges with work-life balance?
--   What information factors have created positive experiences in the workplace, and what situations have led to negative ones?
+- How do you think work-life conflicts can be understood as an information issue?
+- Have you experienced challenges with work-life balance?
+- What information factors have created positive experiences in the workplace, and what situations have led to negative ones?
 :::
 
 ## Information issues
@@ -78,9 +78,9 @@ As discussed in Chapter 3, information overload occurs when the amount of inform
 
 Think about your current role as a student at Dalhousie or another work setting you have experienced.
 
--   What factors do you believe contribute to information overload in these settings?
+- What factors do you believe contribute to information overload in these settings?
 
--   What strategies did you or others use to reduce or cope with the information overload?
+- What strategies did you or others use to reduce or cope with the information overload?
 :::
 
 As you reflected on information overload at work or in the university, you might have considered the role of technology. Perhaps you have thought about the ways that information technologies and instant messaging have made sending and receiving information more (and perhaps too) easy. You might have thought of mass emails with news, training, best practices, or other information sent by the organization.
@@ -100,7 +100,7 @@ Problems of information overload at work may lead us to mistakenly assume that w
 
 Think about a time you felt you did not have all the information you needed to perform a task at work or school.
 
--   What barriers prevented you from getting the information you needed in that context?
+- What barriers prevented you from getting the information you needed in that context?
 :::
 
 **Transparency** and **information asymmetry** are two concepts that, I would argue, fall into the category of information access issues. Here is a TED talk highlighting some problems with the lack of information sharing within organizations. Consider this TED talk on pay transparency in the workplace and information asymmetry.
@@ -118,9 +118,9 @@ Think about a time you felt you did not have all the information you needed to p
 
 Burkus defines information asymmetry as "a situation where, in a negotiation, one party has loads more information than the other" and discusses its relevance to hiring and promotion practices.
 
--   Can you think of other examples of information asymmetry?
+- Can you think of other examples of information asymmetry?
 
--   Some information in the workplace is considered private. Where does openness meet privacy in the workplace?
+- Some information in the workplace is considered private. Where does openness meet privacy in the workplace?
 :::
 
 ### Behaviour issues?
@@ -128,9 +128,9 @@ Burkus defines information asymmetry as "a situation where, in a negotiation, on
 ::: callout-tip
 ## Pause and reflect
 
--   Are the information issues that people experience at work natural phenomena?
+- Are the information issues that people experience at work natural phenomena?
 
--   What are the implications of your answer to that question when seeking solutions to the information issues we experience?
+- What are the implications of your answer to that question when seeking solutions to the information issues we experience?
 :::
 
 ## Conclusion
@@ -187,14 +187,14 @@ As information professionals, we may have roles in organizations that can direct
 
 ### **Discussion Questions:**
 
--   What do you think Dante could have done to make the information flows at the library more efficient? Do you think he can elicit change as a new employee?
+- What do you think Dante could have done to make the information flows at the library more efficient? Do you think he can elicit change as a new employee?
 
--   Do you think it was fair of Tracy's employers to ask so much of her in a short-term position? What could she have done, or how could she have communicated that she sensed an overload of information?
+- Do you think it was fair of Tracy's employers to ask so much of her in a short-term position? What could she have done, or how could she have communicated that she sensed an overload of information?
 
--   Do you feel the information flow at your last job or school was efficient? How do you feel it was compared to Dalhousie?
+- Do you feel the information flow at your last job or school was efficient? How do you feel it was compared to Dalhousie?
 
--   What would you do to improve that flow and increase efficiency?
+- What would you do to improve that flow and increase efficiency?
 
--   Do you sometimes feel like you have too much information in your professional life? If so, how do you cope with this information overload?
+- Do you sometimes feel like you have too much information in your professional life? If so, how do you cope with this information overload?
 
 ## References

@@ -2,19 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Toni Beaton">
 <meta name="author" content="Catherine Gracey">
 
-<title>Chapter 8. The Attention Economy – Information in Society</title>
+<title>9&nbsp; The Attention Economy – Information in Society</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -52,22 +58,28 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/ch9.html" rel="next">
+<link href="../content/ch7.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-9f30c2c2d2429ed22c1cf9f617479b3b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b62bfd5236959114d0e6374d52c994e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a64f2b92d8b4b45ab5f5d9261e8b8c9d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -89,70 +101,313 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Information in Society</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/ch8.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Attention Economy</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Information in Society</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Overview</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Information Field</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Information?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Information issues</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Humans in an Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Work in the Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information in Organizations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch8.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Attention Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Misinformation, Disinformation, and Fake News</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and Democracy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ch11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Information Justice</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-objective" id="toc-learning-objective" class="nav-link active" data-scroll-target="#learning-objective">Learning objective</a></li>
-  <li><a href="#from-information-scarcity-to-attention-scarcity" id="toc-from-information-scarcity-to-attention-scarcity" class="nav-link" data-scroll-target="#from-information-scarcity-to-attention-scarcity">From information scarcity to attention scarcity</a></li>
-  <li><a href="#information-wants-to-be-free" id="toc-information-wants-to-be-free" class="nav-link" data-scroll-target="#information-wants-to-be-free">Information wants to be free</a></li>
-  <li><a href="#how-to-sell-the-free" id="toc-how-to-sell-the-free" class="nav-link" data-scroll-target="#how-to-sell-the-free">How to “sell” the free</a></li>
-  <li><a href="#selling-attention-or-selling-data" id="toc-selling-attention-or-selling-data" class="nav-link" data-scroll-target="#selling-attention-or-selling-data">Selling attention or selling data</a></li>
-  <li><a href="#privacy-and-consent" id="toc-privacy-and-consent" class="nav-link" data-scroll-target="#privacy-and-consent">Privacy and consent</a></li>
-  <li><a href="#trust-in-the-machine" id="toc-trust-in-the-machine" class="nav-link" data-scroll-target="#trust-in-the-machine">Trust in the machine?</a></li>
-  <li><a href="#surveillance-and-organization" id="toc-surveillance-and-organization" class="nav-link" data-scroll-target="#surveillance-and-organization">Surveillance and organization</a></li>
-  <li><a href="#heightened-reflexivity" id="toc-heightened-reflexivity" class="nav-link" data-scroll-target="#heightened-reflexivity">Heightened reflexivity</a></li>
-  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study">Case study</a></li>
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions">Discussion Questions</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#learning-objective" id="toc-learning-objective" class="nav-link active" data-scroll-target="#learning-objective"><span class="header-section-number">9.1</span> Learning objective</a></li>
+  <li><a href="#from-information-scarcity-to-attention-scarcity" id="toc-from-information-scarcity-to-attention-scarcity" class="nav-link" data-scroll-target="#from-information-scarcity-to-attention-scarcity"><span class="header-section-number">9.2</span> From information scarcity to attention scarcity</a></li>
+  <li><a href="#information-wants-to-be-free" id="toc-information-wants-to-be-free" class="nav-link" data-scroll-target="#information-wants-to-be-free"><span class="header-section-number">9.3</span> Information wants to be free</a></li>
+  <li><a href="#how-to-sell-the-free" id="toc-how-to-sell-the-free" class="nav-link" data-scroll-target="#how-to-sell-the-free"><span class="header-section-number">9.4</span> How to “sell” the free</a></li>
+  <li><a href="#selling-attention-or-selling-data" id="toc-selling-attention-or-selling-data" class="nav-link" data-scroll-target="#selling-attention-or-selling-data"><span class="header-section-number">9.5</span> Selling attention or selling data</a></li>
+  <li><a href="#privacy-and-consent" id="toc-privacy-and-consent" class="nav-link" data-scroll-target="#privacy-and-consent"><span class="header-section-number">9.6</span> Privacy and consent</a></li>
+  <li><a href="#trust-in-the-machine" id="toc-trust-in-the-machine" class="nav-link" data-scroll-target="#trust-in-the-machine"><span class="header-section-number">9.7</span> Trust in the machine?</a></li>
+  <li><a href="#surveillance-and-organization" id="toc-surveillance-and-organization" class="nav-link" data-scroll-target="#surveillance-and-organization"><span class="header-section-number">9.8</span> Surveillance and organization</a></li>
+  <li><a href="#heightened-reflexivity" id="toc-heightened-reflexivity" class="nav-link" data-scroll-target="#heightened-reflexivity"><span class="header-section-number">9.9</span> Heightened reflexivity</a></li>
+  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study"><span class="header-section-number">9.10</span> Case study</a></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">9.11</span> Discussion Questions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">9.12</span> References</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Chapter 8. The Attention Economy</h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Attention Economy</span></h1>
 </div>
 
 
@@ -176,8 +431,8 @@ div.csl-indent {
 </header>
 
 
-<section id="learning-objective" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objective">Learning objective</h2>
+<section id="learning-objective" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="learning-objective"><span class="header-section-number">9.1</span> Learning objective</h2>
 <p>This week’s discussion is around the concept of the attention economy, which is fundamentally distinct from the information economy (but not entirely separated from it) because it is an economy where information tends to be free.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -185,7 +440,7 @@ div.csl-indent {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -194,8 +449,8 @@ Pause and reflect
 </div>
 <p>We will also explore one of the corollaries of this new economy, which is a heightened capacity for the surveillance of individuals and the resulting threat to privacy.</p>
 </section>
-<section id="from-information-scarcity-to-attention-scarcity" class="level2">
-<h2 class="anchored" data-anchor-id="from-information-scarcity-to-attention-scarcity">From information scarcity to attention scarcity</h2>
+<section id="from-information-scarcity-to-attention-scarcity" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="from-information-scarcity-to-attention-scarcity"><span class="header-section-number">9.2</span> From information scarcity to attention scarcity</h2>
 <p>If we think about a market system, what is within this system that contains value? That which is valuable to consumers. And, how is the value of something calculated? By demand. A product which is in high demand is generally more difficult to keep “on the shelves” or in-stock. If a product is highly sought-after, it becomes purchased; if purchased often enough, the product becomes scarce; if something becomes scarce (or rare), the purchasing cost is likely to go up. Rare items within a market system are expensive; commonly found items, or items in overabundance, are cheaper.&nbsp;&nbsp;</p>
 <p>How does this relate to an information economy? Certainly, information is not scarce in this context. As <span class="citation" data-cites="simon1971">Simon (<a href="#ref-simon1971" role="doc-biblioref">1971</a>)</span> states:</p>
 <blockquote class="blockquote">
@@ -211,7 +466,7 @@ Pause and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -219,16 +474,16 @@ Pause and reflect
 </div>
 </div>
 </section>
-<section id="information-wants-to-be-free" class="level2">
-<h2 class="anchored" data-anchor-id="information-wants-to-be-free">Information wants to be free</h2>
+<section id="information-wants-to-be-free" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="information-wants-to-be-free"><span class="header-section-number">9.3</span> Information wants to be free</h2>
 <p>When <a href="https://www.britannica.com/">Encyclopedia Britannica</a> went online, its publisher decided to offer its content for free. “It’s the new business paradigm,” says an executive at the company, “information wants to be free”:&nbsp;</p>
 <blockquote class="blockquote">
 <p>“Basically we are a content company and we believe we should deliver in whatever form users need it. We made it free because we felt it was the only way to get the critical mass of people visiting the site that we need to make money from sponsorship and e-commerce.” <span class="citation" data-cites="fischer2008">(<a href="#ref-fischer2008" role="doc-biblioref">Fischer, 2008</a>)</span></p>
 </blockquote>
 <p>When a user consumes information for free, the way in which a company makes money is from advertisements. However, users often do not enjoy being bombarded with advertisements when browsing an information resource. Advertisements may even deflect or deter a user from continuing to invest/spend their attention resources within a certain context. This may lead users to “purchase” the “free” (I.e., paying for a premium YouTube account with no advertisements, versus using YouTube for free with advertisements). What strategies can be used by companies to “sell” what is otherwise freely available?</p>
 </section>
-<section id="how-to-sell-the-free" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-sell-the-free">How to “sell” the free</h2>
+<section id="how-to-sell-the-free" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="how-to-sell-the-free"><span class="header-section-number">9.4</span> How to “sell” the free</h2>
 <p>According to <span class="citation" data-cites="kelly2008">Kelly (<a href="#ref-kelly2008" role="doc-biblioref">2008</a>)</span>, there are several strategies that we or a company can employ to “sell” free information in an attention economy:&nbsp;&nbsp;</p>
 <ul>
 <li><p><strong>Immediacy</strong> – getting the information you want, when you want it; having no need to wait around to access the freely available information (I.e., paying a bit extra to see a movie in theatres versus waiting for it to be freely accessible on a streaming media provider, like Kanopy or Hoopla provided by Halifax Public Libraries). &nbsp;</p></li>
@@ -249,7 +504,7 @@ Pause and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -257,8 +512,8 @@ Pause and reflect
 </div>
 </div>
 </section>
-<section id="selling-attention-or-selling-data" class="level2">
-<h2 class="anchored" data-anchor-id="selling-attention-or-selling-data">Selling attention or selling data</h2>
+<section id="selling-attention-or-selling-data" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="selling-attention-or-selling-data"><span class="header-section-number">9.5</span> Selling attention or selling data</h2>
 <blockquote class="blockquote">
 <p>“Today, information II [information generated by users of the Web 2.0] is completely commodified, it is virtually inaccessible to anyone except new media companies, who have the legal and technological means to render massive quantities of information II into commodities.” <span class="citation" data-cites="fischer2008">(<a href="#ref-fischer2008" role="doc-biblioref">Fischer, 2008</a>)</span></p>
 </blockquote>
@@ -267,8 +522,8 @@ Pause and reflect
 <iframe width="604" height="340" src="https://www.youtube.com/embed/C74amJRp730" title="How a handful of tech companies control billions of minds every day | Tristan Harris" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 </iframe>
 </section>
-<section id="privacy-and-consent" class="level2">
-<h2 class="anchored" data-anchor-id="privacy-and-consent">Privacy and consent</h2>
+<section id="privacy-and-consent" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="privacy-and-consent"><span class="header-section-number">9.6</span> Privacy and consent</h2>
 <p>Organizations need our consent to collect data about us. How do they get us to consent? Through strategies of digital resignation <span class="citation" data-cites="draper_corporate_2019">(<a href="#ref-draper_corporate_2019" role="doc-biblioref">Draper &amp; Turow, 2019</a>)</span>. Digital resignation refers to the phenomenon in which individuals feel that attempts to control the amount and type of information collected about them digitally are futile. There is a discrepancy between people’s attitudes and behavior around privacy, namely, people say that privacy is important to them, but act in a way that is contrary to that belief <span class="citation" data-cites="kokolakis2017">(<a href="#ref-kokolakis2017" role="doc-biblioref">Kokolakis, 2017</a>)</span>. This sense of futility has been cultivated, specifically in corporate spaces, to make individuals see “corporate power as an inevitable and immovable feature of contemporary life.” <span class="citation" data-cites="draper_corporate_2019">(<a href="#ref-draper_corporate_2019" role="doc-biblioref">Draper &amp; Turow, 2019</a>)</span>&nbsp;</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -282,7 +537,7 @@ Pause and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -291,8 +546,8 @@ Pause and reflect
 </div>
 </div>
 </section>
-<section id="trust-in-the-machine" class="level2">
-<h2 class="anchored" data-anchor-id="trust-in-the-machine">Trust in the machine?</h2>
+<section id="trust-in-the-machine" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="trust-in-the-machine"><span class="header-section-number">9.7</span> Trust in the machine?</h2>
 <p>Over time, platforms can collect thousands of data points for a single user and compile this information into a kind of profile that can be used in recommendation algorithms that push content to users. The goal of platforms is to get users to remain online, viewing content (and ads) for as long as possible. Therefore, the recommendation algorithms are key in accurately predicting what a person might like to see, and therefore, keeping them engaged on the platform. TikTok, which is increasingly popular, specifically with young people, has employed an unprecedented centring of algorithmically driven feeds in the For You page <span class="citation" data-cites="bhandari2022">(<a href="#ref-bhandari2022" role="doc-biblioref">Bhandari &amp; Bimo, 2022</a>)</span>.</p>
 <p>While these algorithms do succeed in predicting the content a user would like to see, and keep them engaged on the platform, this can lead to untruthful and unreliable content being boosted, if the algorithm predicts that it has a large enough audience. AI has been shown to display a lack of fairness, and reinforce stereotypes of specific gender, racial, and cultural groups <span class="citation" data-cites="panch2019">(<a href="#ref-panch2019" role="doc-biblioref">Panch et al., 2019</a>)</span>. In the United States, politicians have identified social media algorithms as a major contributor to the spread of misinformation that culminated in the January 6th insurrection <span class="citation" data-cites="morrison2021">(<a href="#ref-morrison2021" role="doc-biblioref">Morrison, 2021</a>)</span>.</p>
 <p>Watch the following Crash Course video on “Algorithmic Bias and Fairness” here:&nbsp;</p>
@@ -304,7 +559,7 @@ Pause and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -312,16 +567,16 @@ Pause and reflect
 </div>
 </div>
 </section>
-<section id="surveillance-and-organization" class="level2">
-<h2 class="anchored" data-anchor-id="surveillance-and-organization">Surveillance and organization</h2>
+<section id="surveillance-and-organization" class="level2" data-number="9.8">
+<h2 data-number="9.8" class="anchored" data-anchor-id="surveillance-and-organization"><span class="header-section-number">9.8</span> Surveillance and organization</h2>
 <p>Routine surveillance is required for effective organization:&nbsp;</p>
 <blockquote class="blockquote">
 <p>“To organize life information must be systematically gathered on people and their activities. We must know about people if we are to arrange social life: what they buy, and when and where; how much energy they require, where and at what times; how many people there are in a given area, of what gender, age and state of health; what tastes, lifestyles and spending capacities given sectors of the populations enjoy.” <span class="citation" data-cites="webster_information_2014-2">(<a href="#ref-webster_information_2014-2" role="doc-biblioref">Webster, 2014</a>)</span></p>
 </blockquote>
 <p>Government organizations, like Statistics Canada collect data that can help decision makers in evidence-based practice. Companies also collect data to improve customer experiences and address negative experiences. Without data collection, we would be unable to make decisions based on empirical information and would only be relying on opinions and preferences. All this is to say, data collection results in enhancements in our daily life, productivity and happiness. We can make more informed decisions if we have access to data.</p>
 </section>
-<section id="heightened-reflexivity" class="level2">
-<h2 class="anchored" data-anchor-id="heightened-reflexivity">Heightened reflexivity</h2>
+<section id="heightened-reflexivity" class="level2" data-number="9.9">
+<h2 data-number="9.9" class="anchored" data-anchor-id="heightened-reflexivity"><span class="header-section-number">9.9</span> Heightened reflexivity</h2>
 <blockquote class="blockquote">
 <p>“Modernity being a matter of increased choices made at every level necessitates <strong>heightened reflexivity</strong>, [which requires] <strong>increased surveillance</strong> so that we may develop knowledge upon which may be made choices about <strong>ourselves</strong> and the sort of <strong>society</strong> we want.” <span class="citation" data-cites="webster_information_2014-2">(<a href="#ref-webster_information_2014-2" role="doc-biblioref">Webster, 2014</a>)</span></p>
 </blockquote>
@@ -332,7 +587,7 @@ Pause and reflect
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pause and reflect
+<span class="screen-reader-only">Tip</span>Pause and reflect
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -340,8 +595,8 @@ Pause and reflect
 </div>
 </div>
 </section>
-<section id="case-study" class="level2">
-<h2 class="anchored" data-anchor-id="case-study">Case study</h2>
+<section id="case-study" class="level2" data-number="9.10">
+<h2 data-number="9.10" class="anchored" data-anchor-id="case-study"><span class="header-section-number">9.10</span> Case study</h2>
 <p><em>An outbreak has sent countries across the globe into lockdown. Jude works at the Nova Scotia Archives, and they have directed their employees to work from home in accordance with provincial regulations. Jude initially finds a stable routine helpful; he wakes up in the morning, takes his dog Kevin on a walk, and then begins his workday. As the months go by, Jude finds himself consuming more and more online content instead of doing the things he regularly enjoys. Jude begins to immerse himself heavily in the perspectives of certain online forums and media. The gang grows concerned with Jude’s online behaviours and collectively check in with him in their group chat.</em></p>
 <p><strong>Info Masters: Group Chat</strong></p>
 <p><em>3:07am</em></p>
@@ -371,8 +626,8 @@ Pause and reflect
 <p><em>Chat ended.</em></p>
 <p>Consider the themes discussed in the group chat. The gang observes that Jude’s attention has been monopolized by online groups sharing distinct points of view. They raise concerns over Jude’s level of awareness regarding the commodification of user attention and urge him to be mindful of this fact as he navigates online landscapes.</p>
 </section>
-<section id="discussion-questions" class="level2">
-<h2 class="anchored" data-anchor-id="discussion-questions">Discussion Questions</h2>
+<section id="discussion-questions" class="level2" data-number="9.11">
+<h2 data-number="9.11" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">9.11</span> Discussion Questions</h2>
 <ul>
 <li><p>Would you consider Jude’s online behaviours healthy?</p></li>
 <li><p>Consider how Jude exists as a user in online settings: do you think he feels/is in control? Do you feel as though he possesses a level of awareness regarding the time he is spending online and the ways in which he is interacting with content?</p></li>
@@ -384,16 +639,13 @@ Pause and reflect
 <li><p>How do the phenomena discussed in this chapter apply to individuals or collectives that are not necessarily or directly generating revenues out of the attention and information about others?</p></li>
 </ul>
 </section>
-<section id="references" class="level2">
+<section id="references" class="level2" data-number="9.12">
+<h2 data-number="9.12" class="anchored" data-anchor-id="references"><span class="header-section-number">9.12</span> References</h2>
 
 
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-bhandari2022" class="csl-entry" role="listitem">
-Bhandari, A., &amp; Bimo, S. (2022). Why<span>’</span>s Everyone on TikTok Now? The Algorithmized Self and the Future of Self-Making on Social Media. <em>Social Media + Society</em>, <em>8</em>(1), 205630512210862. <a href="https://doi.org/10.1177/20563051221086241">https://doi.org/10.1177/20563051221086241</a>
+Bhandari, A., &amp; Bimo, S. (2022). Why<span>’</span>s everyone on TikTok now? The algorithmized self and the future of self-making on social media. <em>Social Media + Society</em>, <em>8</em>(1), 205630512210862. <a href="https://doi.org/10.1177/20563051221086241">https://doi.org/10.1177/20563051221086241</a>
 </div>
 <div id="ref-draper_corporate_2019" class="csl-entry" role="listitem">
 Draper, N. A., &amp; Turow, J. (2019). The corporate cultivation of digital resignation. <em>New Media &amp; Society</em>, <em>21</em>(8), 1824–1839. <a href="https://doi.org/10.1177/1461444819833331">https://doi.org/10.1177/1461444819833331</a>
@@ -411,7 +663,7 @@ Kokolakis, S. (2017). Privacy attitudes and privacy behaviour: A review of curre
 Morrison, S. (2021). <em>Think you have nothing to hide? Why you should care about data privacy anyway.</em> <a href="https://www.vox.com/recode/22250897/facebook-data-privacy-collection-algorithms-extremism">https://www.vox.com/recode/22250897/facebook-data-privacy-collection-algorithms-extremism</a>
 </div>
 <div id="ref-panch2019" class="csl-entry" role="listitem">
-Panch, T., Mattie, H., &amp; Atun, R. (2019). Artificial intelligence and algorithmic bias: implications for health systems. <em>Journal of Global Health</em>, <em>9</em>(2), 010318. <a href="https://doi.org/10.7189/jogh.09.020318">https://doi.org/10.7189/jogh.09.020318</a>
+Panch, T., Mattie, H., &amp; Atun, R. (2019). Artificial intelligence and algorithmic bias: Implications for health systems. <em>Journal of Global Health</em>, <em>9</em>(2), 010318. <a href="https://doi.org/10.7189/jogh.09.020318">https://doi.org/10.7189/jogh.09.020318</a>
 </div>
 <div id="ref-simon1971" class="csl-entry" role="listitem">
 Simon, H. A. (1971). Designing organizations for an information-rich world. <em>Computers, Communications, and the Public Interest</em>, <em>72</em>, 37.
@@ -419,9 +671,25 @@ Simon, H. A. (1971). Designing organizations for an information-rich world. <em>
 <div id="ref-webster_information_2014-2" class="csl-entry" role="listitem">
 Webster, F. (2014). Information, reﬂexivity and surveillance: <span>Anthony</span> <span>Giddens</span>. In <em>Theories of the information society</em> (Fourth edition, pp. 277–305). Routledge.
 </div>
-</div></section></div></main> <!-- /main -->
+</div>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -471,13 +739,14 @@ Webster, F. (2014). Information, reﬂexivity and surveillance: <span>Anthony</s
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -819,6 +1088,18 @@ Webster, F. (2014). Information, reﬂexivity and surveillance: <span>Anthony</s
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/ch7.html" class="pagination-link" aria-label="The Information Economy">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/ch9.html" class="pagination-link" aria-label="Misinformation, Disinformation, and Fake News">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Misinformation, Disinformation, and Fake News</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

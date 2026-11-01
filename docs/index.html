@@ -2,17 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Philippe Mongeon">
+<meta name="dcterms.date" content="2022-08-26">
 
-<title>Course Overview – Information in Society</title>
+<title>Information in Society</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -30,23 +38,27 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./content/ch1.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-9e15f8fb9e1f2f288bfbe28f6ca11029.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8c538f48b60fafe19613180f1479b39f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a64f2b92d8b4b45ab5f5d9261e8b8c9d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-c574c73dd0d0ff61020859ffc61752ee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -68,70 +80,325 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Information in Society</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Overview</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Information in Society</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Overview</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Information Field</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Information?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Information issues</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Humans in an Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Work in the Information Society</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Information in Organizations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Information Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Attention Economy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Misinformation, Disinformation, and Fake News</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Information and Democracy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/ch11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Information Justice</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link active" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
-  <li><a href="#course-schedule" id="toc-course-schedule" class="nav-link" data-scroll-target="#course-schedule">Course Schedule</a></li>
-  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
-  <li><a href="#other-important-information-and-resources" id="toc-other-important-information-and-resources" class="nav-link" data-scroll-target="#other-important-information-and-resources">Other Important Information and Resources</a></li>
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link active" data-scroll-target="#learning-outcomes"><span class="header-section-number">1</span> Learning Outcomes</a></li>
+  <li><a href="#course-schedule" id="toc-course-schedule" class="nav-link" data-scroll-target="#course-schedule"><span class="header-section-number">2</span> Course Schedule</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments"><span class="header-section-number">3</span> Assignments</a></li>
+  <li><a href="#other-important-information-and-resources" id="toc-other-important-information-and-resources" class="nav-link" data-scroll-target="#other-important-information-and-resources"><span class="header-section-number">4</span> Other Important Information and Resources</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements"><span class="header-section-number">5</span> Acknowledgements</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Course Overview</h1>
+<h1 class="title">Information in Society</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Philippe Mongeon </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 26, 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -141,8 +408,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="learning-outcomes" class="level1">
-<h1>Learning Outcomes</h1>
+<section id="learning-outcomes" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Learning Outcomes</h1>
 <p>Upon completion of this course, students should be able to:</p>
 <ul>
 <li>Explain the general significance of information in contemporary society.</li>
@@ -151,8 +418,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Identify contemporary issues and their relationship with information and the information field.</li>
 </ul>
 </section>
-<section id="course-schedule" class="level1">
-<h1>Course Schedule</h1>
+<section id="course-schedule" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Course Schedule</h1>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -164,51 +431,50 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Sep 14</td>
-<td><a href="./content/ch1.html">Chapter 1. The Information Field</a></td>
+<td>Chapter 1. The Information Field</td>
 <td>Introduction<br>
 Course overview</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Sep 21</td>
-<td><a href="./content/ch2.html">Chapter 2. What is Information?</a></td>
+<td>Chapter 2. What is Information?</td>
 <td>Short lecture<br>
 group exercise</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Sep 28</td>
-<td><a href="./content/ch3.html">Chapter 3. Information Issues</a></td>
+<td>Chapter 3. Information Issues</td>
 <td>Guest lecture by Dr.&nbsp;Jennifer Grek-Martin</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Oct 5</td>
-<td><a href="./content/ch10.html">Chapter 10. Information and Democracy</a></td>
+<td>Chapter 10. Information and Democracy</td>
 <td>Guest lecture by Dr.&nbsp;Jason Hannan</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Oct 19<br>
 <a href="https://teams.microsoft.com/meet/2552696644987515?p=AvGabNhUaWWAirpCh6">Teams link</a></td>
-<td><a href="./content/ch5.html">Chapter 5. Work in the Information Society</a><br>
-<a href="./content/ch6.html">Chapter 6. Information in Organizations</a></td>
-<td><p>Guest lecture by Kellie Dalton</p>
-<p><a href="https://pmongeon.github.io/information-in-society/slides/week5.html">slides</a></p></td>
+<td>Chapter 5. Work in the Information Society<br>
+Chapter 6. Information in Organizations</td>
+<td>Guest lecture by Kellie Dalton</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Oct 26<br>
 <a href="https://teams.microsoft.com/meet/225771196342159?p=mYWVwqquIataLxPT7Z">Teams link</a></td>
-<td><a href="./content/ch7.html">Chapter 7. The Information Economy</a></td>
+<td>Chapter 7. The Information Economy</td>
 <td>Guest lecture by Dan Philips</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Nov 2<br>
 <a href="https://teams.microsoft.com/meet/2493505198739147?p=8nOzjwqIeaxzQRxuIC">Teams link</a></td>
-<td><a href="./content/ch4.html">Chapter 4. Humans in an Information Society</a><br>
-<a href="./content/ch8.html">Chapter 8. The Attention Economy</a></td>
+<td>Chapter 4. Humans in an Information Society<br>
+Chapter 8. The Attention Economy</td>
 <td>Short lecture + group discussions</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Nov 16<br>
 <a href="https://teams.microsoft.com/meet/210546465672495?p=IpMSVpp2llEfK80C1l">Teams link</a></td>
-<td><a href="./content/ch11.html">Chapter 11. Information Justice</a></td>
+<td>Chapter 11. Information Justice</td>
 <td>Guest lecture by Alison Brown</td>
 </tr>
 <tr class="odd">
@@ -220,7 +486,7 @@ group exercise</td>
 <tr class="even">
 <td style="text-align: center;">Nov 30<br>
 <a href="https://teams.microsoft.com/meet/2857907700956468?p=NGq7QGL8UuYBB7hidg">Teams link</a></td>
-<td><a href="./content/ch9.html">Chapter 9. Misinformation, Disinformation, and Fake News</a></td>
+<td>Chapter 9. Misinformation, Disinformation, and Fake News</td>
 <td>Short lecture<br>
 group exercise</td>
 </tr>
@@ -239,10 +505,15 @@ group exercise</td>
 </tbody>
 </table>
 </section>
-<section id="assignments" class="level1">
-<h1>Assignments</h1>
-<p><strong>IMPORTANT NOTE:</strong> The assignments will be updated in the next few days, the current ones reflect essentially what the assignments will be for this course, but be aware that they will slightly change.</p>
+<section id="assignments" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Assignments</h1>
+<p><strong>All assignment information has been moved to Brightspace</strong></p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 47%">
+<col style="width: 33%">
+<col style="width: 17%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Assignment</th>
@@ -252,43 +523,41 @@ group exercise</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="./assignments/0-participation.html">Participation self-assessment - Part 1</a></td>
+<td>Participation self-assessment - Part 1</td>
 <td>Friday, September 25, 2026</td>
 <td>7.5%</td>
 </tr>
 <tr class="even">
-<td><a href="./assignments/1-information-setting.html">Analysis of an information setting</a></td>
+<td>Analysis of an information setting</td>
 <td>Friday, October 16, 2026</td>
 <td>30%</td>
 </tr>
 <tr class="odd">
-<td><a href="./assignments/0-participation.html">Participation self-assessment - Part 2</a></td>
+<td>Participation self-assessment - Part 2</td>
 <td>Friday, October 30, 2026</td>
 <td>5%</td>
 </tr>
 <tr class="even">
-<td><a href="./assignments/2-essay-plan.html">Essay plan</a></td>
+<td>Essay plan</td>
 <td>Friday, October 30, 2026</td>
 <td>10%</td>
 </tr>
 <tr class="odd">
-<td><a href="./assignments/3-essay.html">Essay</a></td>
+<td>Essay</td>
 <td>Friday, December 11, 2026</td>
 <td>40%</td>
 </tr>
 <tr class="even">
-<td><a href="./assignments/0-participation.html">Participation self-assessment - Part 3</a></td>
+<td>Participation self-assessment - Part 3</td>
 <td>Friday, December 11, 2026</td>
 <td>7.5%</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="other-important-information-and-resources" class="level1">
-<h1>Other Important Information and Resources</h1>
+<section id="other-important-information-and-resources" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Other Important Information and Resources</h1>
 <ul>
-<li>You can access this course website without going through Brightspace with the following URL: <a href="https://pmongeon.github.io/information-in-society/" class="uri">https://pmongeon.github.io/information-in-society/</a>.</li>
-<li>The official <a href="files/INFO5500-Syllabus.pdf">course syllabus</a>.</li>
 <li>A <a href="https://www.zotero.org/groups/2536626/info5500_-_information_in_society/library">Zotero library</a> with all the references in the course website, organized by chapter.</li>
 <li>Use <a href="https://www.zotero.org">Zotero</a> (or another reference manager of your choice) to store your references and cite them in your work. (not mandatory, but highly recommended).</li>
 <li>Use <strong>APA style</strong> for your references in all assignments.</li>
@@ -296,8 +565,8 @@ group exercise</td>
 <li>Have fun.</li>
 </ul>
 </section>
-<section id="acknowledgements" class="level1">
-<h1>Acknowledgements</h1>
+<section id="acknowledgements" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Acknowledgements</h1>
 <p>The textbook would not have been possible without the financial support, through an OER grant, of the <a href="https://www.dal.ca/dept/clt.html">Dalhousie Center for Learning and Teaching</a> and the <a href="https://libraries.dal.ca/">Dalhousie Libraries</a>. It also would not have been possible without the help and support of Dr.&nbsp;Samantha Taylor, senior instructor and co-lead on the project, who orchestrated the writing of the case studies included throughout the book. It also would not have been possible without the hard work of Janine McGregor, Maddie Hare, Poppy Riddle, and Tessa Biesterfeld, alumni from Dalhousie’s Master of Information program, who wrote the case studies and helped draft some of the chapters. Special thanks to Janine McGregor, who played a leading role in the planning and writing of the textbook.</p>
 
 
@@ -306,6 +575,19 @@ group exercise</td>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -704,6 +986,15 @@ group exercise</td>
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./content/ch1.html" class="pagination-link" aria-label="The Information Field">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Information Field</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

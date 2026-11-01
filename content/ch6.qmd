@@ -1,5 +1,5 @@
 ---
-title: Chapter 6. Information in Organizations
+title: Information in Organizations
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -14,18 +14,18 @@ Organizations are entities that are made up of people working for a common purpo
 
 There are a variety of types of organizations, which may have different needs and structures, including:
 
--   Government
+- Government
 
--   NGOs (Non-Government organizations, generally non-profits or charities)
+- NGOs (Non-Government organizations, generally non-profits or charities)
 
--   Corporations
+- Corporations
 
 ::: callout-tip
 ## Pause and reflect
 
--   How do these organizations differ? Consider their goals and their composition.
+- How do these organizations differ? Consider their goals and their composition.
 
--   How might their information needs be similar or different?
+- How might their information needs be similar or different?
 :::
 
 ## The Learning Organization
@@ -109,13 +109,13 @@ Embedded librarians can anticipate their patrons' needs; they don't wait to be a
 
 It is not only embedded librarians that move outside of traditional library spaces. You may find a few different kinds of librarians outside the library. [@shumaker_defining_2012]
 
--   **Virtual librarians**. Virtual librarians are available remotely (sometimes 24/7 due to time zones) through phone, email, instant messaging or texting. These librarians are similar to traditional librarians in that they passively wait to be asked for help.
+- **Virtual librarians**. Virtual librarians are available remotely (sometimes 24/7 due to time zones) through phone, email, instant messaging or texting. These librarians are similar to traditional librarians in that they passively wait to be asked for help.
 
--   **Roving librarian**. A librarian who sets up in different locations such as the classroom or cafeteria. This librarian differs from embedded as they are still disconnected from the organization's work but are there to answer questions.
+- **Roving librarian**. A librarian who sets up in different locations such as the classroom or cafeteria. This librarian differs from embedded as they are still disconnected from the organization's work but are there to answer questions.
 
--   **Personal librarian**. First-year undergraduate students are each assigned their own personal librarian to go to for research help throughout their degree. This doesn't work well with how many group projects are assigned in universities today, as each student would have a different librarian.
+- **Personal librarian**. First-year undergraduate students are each assigned their own personal librarian to go to for research help throughout their degree. This doesn't work well with how many group projects are assigned in universities today, as each student would have a different librarian.
 
--   **Consulting librarian**. Consulting librarians work with either a team or an individual client. They establish long-term relationships and are always planning for the next project. The only drawback is that they aren't always considered part of the team.
+- **Consulting librarian**. Consulting librarians work with either a team or an individual client. They establish long-term relationships and are always planning for the next project. The only drawback is that they aren't always considered part of the team.
 
 ## Case study
 
@@ -169,16 +169,16 @@ Consider the exchange of information and knowledge in the workplaces you have wo
 
 ### Discussion Questions
 
--   What should Wren's company do to ensure a smooth transition with the merger? How can they ensure that the information flow stays efficient?
+- What should Wren's company do to ensure a smooth transition with the merger? How can they ensure that the information flow stays efficient?
 
--   Consider your current or past places of work- how does information flow internally? How does it flow externally?
+- Consider your current or past places of work- how does information flow internally? How does it flow externally?
 
--   Do you find communicating easier in smaller team environments than in larger ones? How do communication processes change based on the size of the group? How are our environments influenced based on information processes?
+- Do you find communicating easier in smaller team environments than in larger ones? How do communication processes change based on the size of the group? How are our environments influenced based on information processes?
 
--   Think about how these organizations fit into society in a larger context; what role do they play in facilitating communication and information flow on a societal level?
+- Think about how these organizations fit into society in a larger context; what role do they play in facilitating communication and information flow on a societal level?
 
--   Consider the Data-Information-Knowledge-Wisdom pyramid. Does it seem relevant to the organizations you have worked in? How could you reimagine it based on the flow of information and knowledge exchange in the organizations you have been a part of?
+- Consider the Data-Information-Knowledge-Wisdom pyramid. Does it seem relevant to the organizations you have worked in? How could you reimagine it based on the flow of information and knowledge exchange in the organizations you have been a part of?
 
--   Do you think there is a difference in how non-profit or government-funded organizations share knowledge internally compared with for-profit?
+- Do you think there is a difference in how non-profit or government-funded organizations share knowledge internally compared with for-profit?
 
 ## References
