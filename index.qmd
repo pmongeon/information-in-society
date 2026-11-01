@@ -1,8 +1,6 @@
----
-title: "Course Overview"
----
+# Course overview {.unnumbered}
 
-# Learning Outcomes
+## Learning Outcomes {.unnumbered}
 
 Upon completion of this course, students should be able to:
 
@@ -11,7 +9,7 @@ Upon completion of this course, students should be able to:
 - Understand the nature and social roles of the information professions.
 - Identify contemporary issues and their relationship with information and the information field.
 
-# Course Schedule
+## Course Schedule {.unnumbered}
 
 +--------------------------------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------+
 | Date                                                                                 | Theme/reading to complete before class                   | Class activities                             |
@@ -51,7 +49,7 @@ Upon completion of this course, students should be able to:
 | [Teams link](https://teams.microsoft.com/meet/2144650994710788?p=gFnPwpCcDWSU92Tj0l) |                                                          |                                              |
 +--------------------------------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------+
 
-# Assignments
+## Assignments {.unnumbered}
 
 **All assignment information has been moved to Brightspace**
 
@@ -71,7 +69,7 @@ Upon completion of this course, students should be able to:
 | Participation self-assessment - Part 3 | Friday, December 11, 2026  | 7.5%         |
 +----------------------------------------+----------------------------+--------------+
 
-# Other Important Information and Resources
+## Other Important Information and Resources{.unnumbered}
 
 - A [Zotero library](https://www.zotero.org/groups/2536626/info5500_-_information_in_society/library) with all the references in the course website, organized by chapter.
 - Use [Zotero](https://www.zotero.org) (or another reference manager of your choice) to store your references and cite them in your work. (not mandatory, but highly recommended).
@@ -79,6 +77,6 @@ Upon completion of this course, students should be able to:
 - You can use this [Word template](files/assignment-template.dotx) to write your assignments (not mandatory). Whether you use this template or not, I strongly recommend using Word styles to format and structure your document.
 - Have fun.
 
-# Acknowledgements
+## Acknowledgements {.unnumbered}
 
 The textbook would not have been possible without the financial support, through an OER grant, of the [Dalhousie Center for Learning and Teaching](https://www.dal.ca/dept/clt.html) and the [Dalhousie Libraries](https://libraries.dal.ca/). It also would not have been possible without the help and support of Dr. Samantha Taylor, senior instructor and co-lead on the project, who orchestrated the writing of the case studies included throughout the book. It also would not have been possible without the hard work of Janine McGregor, Maddie Hare, Poppy Riddle, and Tessa Biesterfeld, alumni from Dalhousie’s Master of Information program, who wrote the case studies and helped draft some of the chapters. Special thanks to Janine McGregor, who played a leading role in the planning and writing of the textbook.
